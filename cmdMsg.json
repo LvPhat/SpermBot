@@ -14237,5 +14237,171 @@
 		"mentions": {},
 		"timestamp": "1630341007611",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOByTWK6V7l_BCKeKTE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630341710569",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio https://youtu.be/jfLop_g8Olg",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOByTgx017l_LpN1LSp",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630341884371",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOByTlOiV7l_QFna4Nr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630341957257",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/fuck @Bạch Văn Gấu",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KByTmjzF7l_ReUCBSB",
+		"attachments": [],
+		"mentions": {
+			"100065232245489": "@Bạch Văn Gấu"
+		},
+		"timestamp": "1630341979084",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByTtKkV7l_YB7dXHf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342087313",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/video https://youtu.be/ZrMG_BgoBkY",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOByTuLI17l_ZCdGSDx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342103843",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByTvbkl7l_aS8q_a4",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342124434",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio https://youtu.be/ZrMG_BgoBkY",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOByTxkKV7l_cbiNgWw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342159401",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByT0nr17l_ffHjYjJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342209455",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByT1DyF7l_f7E6SVh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342216648",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOByT9v_17l_onbPdch",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342359039",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KByT_GF17l_p9KZufa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342381079",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUAg917l_rR1qpPF",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short rách",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630342404343,
+		"messageReply": {
+			"threadID": "3996669537122639",
+			"messageID": "mid.$gAA4y8yQLeU-ByT96Ll7l_oyIHj8r",
+			"senderID": "100069875322569",
+			"attachments": [],
+			"body": "Bồn chứa tinh ??",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630342361646
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans sprem",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUE8KF7l_vs-j5V9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342476840",
+		"isGroup": true
 	}
 ]
