@@ -14403,5 +14403,214 @@
 		"mentions": {},
 		"timestamp": "1630342476840",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByUXvpl7mACnEO-xj",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342784934",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100064537270739",
+		"body": "/ping vanh sinh nhật vui vẻ ,tuổi mới mạnh khoẻ ,vui tươi hạnh phúc bên gia đình người thân🎉\nđạt kết quả cao trong học tập,.....chỗ bạn bè nói ít hiểu nhiều, chúc mày tất cả🎂\nHappy New year:3🎀 \nà nhầm happy birthday ❤️🎂\n@Vanh Trần Mlem",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUc0gF7mAHrqcQiR",
+		"attachments": [],
+		"mentions": {
+			"100013069603711": "@Vanh Trần Mlem"
+		},
+		"timestamp": "1630342868096",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByUdVDl7mAIMeORsL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342876430",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByUe12V7mAJtWJNyY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342901209",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByUiNCV7mANEPq4Zm",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342956297",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "678378583",
+		"body": "/help",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByUi9l17mAN0lNkmz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342968727",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUjQTF7mAOBOEuD5",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short sn của rr",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630342973516,
+		"messageReply": {
+			"threadID": "3996669537122639",
+			"messageID": "mid.$gAA4y8yQLeU-ByUfxt17mAKiv-Ze6",
+			"senderID": "100013069603711",
+			"attachments": [],
+			"body": "nhưng vanh 1/9",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630342916535
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100066696593942",
+		"body": "/sing đan nguyên nhạc lính",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUk3n17mAPqzONGC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630342999967",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100025536690946",
+		"body": "/menu",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByUmQ-F7mARLAcssg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343022840",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100066696593942",
+		"body": "/sing đan nguyên nhạc lính",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUnOL17mASBaIVal",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343038511",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUnWnl7mASHmH5UR",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short snvv",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630343040670,
+		"messageReply": {
+			"threadID": "3996669537122639",
+			"messageID": "mid.$gAA4y8yQLeU-ByUmfKl7mARW6MNES",
+			"senderID": "100069875322569",
+			"attachments": [],
+			"body": "Vanh năm mới vui vẻ , tt vs gt nhiều vào , ditme cày rank cho t , ngoan hơn.  Học giỏi hơn để chỉ vài cho t , gầy hơn , đẹp hơn , bớt láo hơn :)))) . Ns chung là vào năm học t còn nhờ m nhiều lắm nên cố là học giỏi đi . Vì vội quá éo kịp sợt gg nên t chúc hơi nhảm",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630343026474
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiByUn2A17mAStbKLUO",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343048707",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100066696593942",
+		"body": "/sing",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUoD317mAS3AEX6y",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343052255",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100066696593942",
+		"body": "/sing đếm thời gian",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUpiR17mAUVg4hc8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343076423",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/audio đếm thời gian",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUqgal7mAVRW8R4-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343092330",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100066696593942",
+		"body": "/sing người tình mùa đông",
+		"threadID": "3996669537122639",
+		"messageID": "mid.$gAA4y8yQLeU-ByUvTFF7mAaGMpvCJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343170836",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByU0NKF7mAfEgyXJE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630343251240",
+		"isGroup": true
 	}
 ]
