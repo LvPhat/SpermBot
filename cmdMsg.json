@@ -15604,5 +15604,16 @@
 		"mentions": {},
 		"timestamp": "1630352045882",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio một nhà",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBydox4V7mJTpGBy8G",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630352501217",
+		"isGroup": false
 	}
 ]
