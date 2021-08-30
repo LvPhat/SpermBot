@@ -15043,5 +15043,38 @@
 		"mentions": {},
 		"timestamp": "1630344507569",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByWh_DV7mCM1-q2vW",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630345049869",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.removeUserFromGroup(botID, event.threadID)",
+		"threadID": "6722995657726478",
+		"messageID": "mid.$gABfih2gBWg6ByWjI_l7mCOAA0cu8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630345068798",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KByWk1q17mCPscgD4b",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630345096619",
+		"isGroup": true
 	}
 ]
