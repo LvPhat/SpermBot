@@ -28,8 +28,7 @@ async function default_1({ event, api, audioData }) {
          var { videoId, lengthSeconds } = videoInfo.videoDetails;
          if (lengthSeconds > 1200) return out("Độ dài video vượt quá mức cho phép, tối đa là 20 phút!");
          try {
-         api.sendMessage("Đang tải xuống audio.", event.threadID, event.messageID)
-           await api.sendTypingIndicator(event.threadID, () => ytdl(videoId,  { filter: format => format.itag == '140' }).pipe(createWriteStream(`./${videoId}.m4a`)).on("close", () => out({ body: videoInfo.videoDetails.title, attachment: createReadStream(`./${videoId}.m4a`) }, () => unlinkSync(`./${videoId}.m4a`))).on("error", (e) => out(e)));
+         api.sendTypingIndicator(event.threadID, () => ytdl(videoId,  { filter: format => format.itag == '140' }).pipe(createWriteStream(`./${videoId}.m4a`)).on("close", () => out({ body: videoInfo.videoDetails.title, attachment: createReadStream(`./${videoId}.m4a`) }, () => unlinkSync(`./${videoId}.m4a`))).on("error", (e) => out(e)));
         
            }
          catch (e){

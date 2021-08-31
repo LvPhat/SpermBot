@@ -28,7 +28,6 @@ async function default_1({ event, api, videoData }) {
          var { videoId, lengthSeconds } = videoInfo.videoDetails;
          if (lengthSeconds > 250) return out("Độ dài video vượt quá mức cho phép, tối đa là 4 phút!");
          try {
-         api.sendMessage("Đang tải xuống video.", event.threadID, event.messageID)
          return api.sendTypingIndicator(event.threadID, () => ytdl(videoId).pipe(createWriteStream(`./${videoId}.mp4`)).on("close", () => out({ body: videoInfo.videoDetails.title, attachment: createReadStream(`./${videoId}.mp4`) }, () => unlinkSync(`./${videoId}.mp4`))).on("error", (e) => out(e)));
            }
          catch (e){

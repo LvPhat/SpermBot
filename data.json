@@ -4,7 +4,7 @@
 		100070727704402,
 		100069279893724
 	],
-	"rq": 2109,
+	"rq": 2226,
 	"uptime": [
 		"https://hungchodev.glitch.me",
 		"https://hungdv99.glitch.me",
@@ -2746,6 +2746,13 @@
 		},
 		{
 			"id": 100072410523659,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100071953975080,
 			"ban": {
 				"use": false,
 				"cmds": []

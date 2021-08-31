@@ -82,7 +82,7 @@ botData.uptime.forEach(i => {
         catch(e){ };
         botData.rq++
         fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-        }, 60000);
+        }, 15000);
      
     })
 };
