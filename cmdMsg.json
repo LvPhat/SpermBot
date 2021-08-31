@@ -16980,5 +16980,27 @@
 		"mentions": {},
 		"timestamp": "1630397807466",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rule",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzJ1oMl7m1gf4SWQC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630398849074",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzJ501V7m1ksPuAFy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630398917845",
+		"isGroup": true
 	}
 ]
