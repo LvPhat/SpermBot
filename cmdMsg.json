@@ -18017,5 +18017,16 @@
 		"mentions": {},
 		"timestamp": "1630430488605",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/all địt mẹ all",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzqyNeV7nWdE03F61",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630433396089",
+		"isGroup": true
 	}
 ]
