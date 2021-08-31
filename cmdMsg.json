@@ -16422,5 +16422,49 @@
 		"mentions": {},
 		"timestamp": "1630388182973",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-By_y6917mrdxlgJMH",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630388318967",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/help",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-By_zULl7mreK23ODZ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630388325422",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/xinloivk",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-By_1Mv17mrgDRsVOe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630388356287",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/say Yêu ems",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-By_4yGF7mrjoYwoa3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630388415000",
+		"isGroup": true
 	}
 ]
