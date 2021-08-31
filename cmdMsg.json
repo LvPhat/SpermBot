@@ -16969,5 +16969,16 @@
 		"mentions": {},
 		"timestamp": "1630397403700",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/short list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzI2Dal7m0g3J06Ul",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630397807466",
+		"isGroup": true
 	}
 ]
