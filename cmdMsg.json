@@ -18028,5 +18028,38 @@
 		"mentions": {},
 		"timestamp": "1630433396089",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(process.arch)",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBztXA9F7nZB3pkgXk",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630436096244",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(process. memoryUsage())",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBztbSGV7nZGJOpiPT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630436166169",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBztbo_17nZGgM64V6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630436172031",
+		"isGroup": true
 	}
 ]
