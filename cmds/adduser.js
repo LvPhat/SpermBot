@@ -20,12 +20,20 @@ async function default_1({ event, api, botID, getThread, getUserByLink }) {
   if (getThread.ban.users.some(e => e.id == id)) return api.sendMessage("Không thể thêm người dùng này vì đã bị cấm.", threadID, messageID);
   if (threadInfo.participantIDs.includes(id)) return api.sendMessage("Người dùng đã ở trong nhóm.", threadID, messageID);
  
-  if (threadInfo.adminIDs.some(item => item.id == api.getCurrentUserID())) return api.addUserToGroup(id, threadID);
+  if (threadInfo.adminIDs.some(item => item.id == api.getCurrentUserID())) return api.addUserToGroup(id, threadID, (err) => { if(err) return api.sendMessage("Không thể thêm người dùng vào nhóm.", threadID, messageID) });
        
   if (!threadInfo.adminIDs.some(item => item.id == api.getCurrentUserID())) {
-   if (threadInfo.approvalMode == true) api.addUserToGroup(id, threadID, () => api.sendMessage("Đã thêm " + id + " vào danh sách phê duyệt !", threadID, messageID));
-    else api.addUserToGroup(id, threadID);
-      }
+   if (threadInfo.approvalMode == true){
+     api.addUserToGroup(id, threadID, (err) => {
+     	if (err) return api.sendMessage("Không thể thêm người dùng vào nhóm.", threadID, messageID);
+     	api.sendMessage("Đã thêm " + id + " vào danh sách phê duyệt !", threadID, messageID);
+     });
+    }
+   else {
+      api.addUserToGroup(id, threadID, (err) => { if(err) return api.sendMessage("Không thể thêm người dùng vào nhóm.", threadID, messageID); })
+        };
+    };
+
    }
   
 exports.default = default_1;
