@@ -17551,5 +17551,104 @@
 		"mentions": {},
 		"timestamp": "1630423814894",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBziVt2l7nOAkzq5QB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424540634",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBziWHk17nOA-l8PWo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424547219",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBziXq7F7nOCiO8vIl",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424572652",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBziZs-F7nOEkS0Is7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424605944",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBziaAdF7nOE3zv7Hw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424610932",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBziaNJ17nOFEpWJ21",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424614183",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100018806512683",
+		"body": "/help",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBziaPyl7nOFHpvm9O",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424614858",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/ms",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBzidk-F7nOIcWH0eD",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424669432",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBzidzF17nOIqfYfhX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630424673047",
+		"isGroup": false
 	}
 ]
