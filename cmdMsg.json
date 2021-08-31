@@ -15746,5 +15746,16 @@
 		"mentions": {},
 		"timestamp": "1630375400608",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/adduser https://www.facebook.com/giaahann0702",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBy0ia6F7mgNR4_fta",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630376514280",
+		"isGroup": true
 	}
 ]
