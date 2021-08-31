@@ -17189,5 +17189,16 @@
 		"mentions": {},
 		"timestamp": "1630404593593",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio em có nghe",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBzR1PcF7m9gGgnFJP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630407231344",
+		"isGroup": true
 	}
 ]
