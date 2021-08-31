@@ -16936,5 +16936,38 @@
 			"mentions": {},
 			"timestamp": 1630393961170
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100062752306355",
+		"body": "/rule",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzIYiOF7m0Dcoev_G",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630397323832",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/rule del 5",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzIaIdl7m0E8SdbZZ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630397350006",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/admin list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzIdaNF7m0IRx49mM",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630397403700",
+		"isGroup": true
 	}
 ]
