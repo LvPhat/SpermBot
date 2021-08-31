@@ -17002,5 +17002,126 @@
 		"mentions": {},
 		"timestamp": "1630398917845",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKHPel7m1yHKyXCz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399137658",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/nsfw",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKHkKl7m1yb33sDn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399142954",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rule",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKH3T17m1yu9nIzb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399147855",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/setperfix _",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKItfF7m1zlIZHJn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399161724",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKLGlF7m11-QEYfr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399200916",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rank",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKMCBF7m125sEDAL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399216132",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rule add không lạm dụng bot send ảnh 18+",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKOzXF7m15q_0yPt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399261532",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rule add không spam bot chống die",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKQR717m17JoRlzy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399285743",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rule add Admin đéo có ny cần tìm gấp",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKR5RF7m18w8GDBf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399312196",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rule",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKSnj17m19fLlLZF",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399324047",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/box info",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzKTxN17m1-o6QSWL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630399342903",
+		"isGroup": true
 	}
 ]
