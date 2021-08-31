@@ -75,14 +75,20 @@ if (!fs_extra_1.existsSync('./data.json')) {
 var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
 if (botData.uptime.length > 1){
 botData.uptime.forEach(i => {
-
-	setInterval(async () => {
+  setInterval(async () => {
         await new Promise(resolve => setTimeout(resolve, 5000));
         try { await axios.get(i) }
         catch(e){ };
         botData.rq++
         fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
         }, 15000);
+    setInterval(async () => {
+        await new Promise(resolve => setTimeout(resolve, 5000));
+        try { await axios.get(i) }
+        catch(e){ };
+        botData.rq++
+        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
+        }, 35000);
      
     })
 };
