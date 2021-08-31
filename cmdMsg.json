@@ -17683,5 +17683,82 @@
 		"mentions": {},
 		"timestamp": "1630425042102",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.removeUserFromGroup(botID, event.threadID)",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBzjOSG17nO5Ja6wMq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630425467419",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/rule",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzjkl1V7nPPc93Qz3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630425832917",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/adduser https://www.facebook.com/Binky.Congchua",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzjoyjF7nPTpvWu_1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630425901708",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/adduser https://www.facebook.com/hlinhnehyhy",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzjtrWF7nPYiVjVtQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630425981784",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/adduser https://www.facebook.com/CHIP2502",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzjx7UV7nPcyhIXk_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630426051409",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/adduser https://www.facebook.com/Admin.NaBbi0408",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzj0F6F7nPe8-64g3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630426086888",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/adduser https://www.facebook.com/profile.php?id=100067833962525",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOBzj0-D17nPf1NePxY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630426101263",
+		"isGroup": true
 	}
 ]
