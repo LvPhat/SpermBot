@@ -15757,5 +15757,176 @@
 		"mentions": {},
 		"timestamp": "1630376514280",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/mid",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy1dc5F7mhIUCdqAw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377481444",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy1dkNF7mhIbY4xYS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377483316",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/ms",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy1d18V7mhItKvAHX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377487857",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/mid",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy1mZ-17mhRRSJD21",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377628155",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/mid",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1m2nl7mhRtHlhU-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377635486",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/user",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1pE8l7mhT8ENl8n",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377671922",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uid",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1pQKV7mhUHQ-Q_7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377674793",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/user 100069279893724",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1qEnF7mhU7zsEkq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377688220",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/user @Hùng",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1sLtF7mhXCxpB0x",
+		"attachments": [],
+		"mentions": {
+			"100069279893724": "@Hùng"
+		},
+		"timestamp": "1630377722804",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/uptime",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1s24F7mhXt8WKWN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377733856",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1t_-17mhY3H_wVz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377752571",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/user @Hùng",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1vdsV7mhaUsVIwO",
+		"attachments": [],
+		"mentions": {
+			"100069279893724": "@Hùng"
+		},
+		"timestamp": "1630377776561",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/user @Hùng",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1wYxF7mhbPyIgAv",
+		"attachments": [],
+		"mentions": {
+			"100069279893724": "@Hùng"
+		},
+		"timestamp": "1630377791684",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy1xsDV7mhcjKNNX3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377813005",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGBy14bt17mhjS32GSE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630377923511",
+		"isGroup": true
 	}
 ]
