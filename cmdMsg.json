@@ -16235,5 +16235,115 @@
 		"mentions": {},
 		"timestamp": "1630386177435",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-AZFV7mprQbm9K8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386442517",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-A8SV7mprzp4-U2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386451529",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/mid",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBy-CWWl7mptNw4zDg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386474586",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio thức giấc",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-C9u17mpt1IQX5L",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386484667",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/mid",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-EWY17mpvN0AMn1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386507363",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/sing em hát ai nghe",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-FX7l7mpwOuDBPq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386524142",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/rank",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-GJaF7mpxALr0Nv",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386536808",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/mid",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-HrK17mpyiccTjT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386561835",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/lyric Chạy ngay đi",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-Ssbl7mp9jEVugh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386742382",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/uptime",
+		"threadID": "5962724940466419",
+		"messageID": "mid.$gABUvERX4SPOBy-VCul7mp_5cAU2e",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630386780858",
+		"isGroup": true
 	}
 ]
