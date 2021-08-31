@@ -16070,5 +16070,27 @@
 		"mentions": {},
 		"timestamp": "1630380736239",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBy6TzNl7ml-qXcSzp",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630382566198",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/reset",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KBy6nPuF7mmSIXcf7s",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630382884792",
+		"isGroup": true
 	}
 ]
