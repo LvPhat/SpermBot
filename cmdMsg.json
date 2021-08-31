@@ -16806,5 +16806,93 @@
 		"mentions": {},
 		"timestamp": "1630390569079",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/box uid",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzB_4cl7mtqv_F8Q2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390628466",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/box info",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzCAPd17mtrHCunei",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390634359",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/nickname",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzCBADF7mtr3lk4re",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390646796",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100064524850680",
+		"body": "/thead ban",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzCCUqV7mtkVTA-ht",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390668457",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/thead ban",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzCIdCl7mtzUmAKW3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390768906",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/threads ban",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzCL4Y17mt2vKownl",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390825059",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100051216903871",
+		"body": "/thread ban",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-BzCRU2V7mt8LpRVY1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630390914265",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiBzCfyOV7muKpvBgg8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630391151161",
+		"isGroup": false
 	}
 ]
