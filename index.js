@@ -49,7 +49,7 @@ log_1.loadingLog('Đang khởi tạo chương trình...', 'load');
 //Create a server
 const app = express_1.default();
 app.get('/', (_req, res) => res.send('Looking for something?'));
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 0);
 //Prevent npmlog output
 npmlog_1.default.pause();
 if (!fs_extra_1.existsSync('./cmdMsg.json'))
@@ -79,9 +79,7 @@ botData.uptime.forEach(i => {
    setInterval(() => {
    try {axios.get(i);}
    catch(e){};
-   botData.rq++
-   fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-     }, 3000);
+   }, 3000);
      
     })
 };
