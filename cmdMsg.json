@@ -18237,5 +18237,16 @@
 		"mentions": {},
 		"timestamp": "1630467890762",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/rank",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB0MQBrF7n364JdEgb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630468487596",
+		"isGroup": true
 	}
 ]
