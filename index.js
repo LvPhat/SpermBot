@@ -78,7 +78,9 @@ if (botData.uptime.length > 1){
 botData.uptime.forEach(i => {
    setInterval(() => {
    http.get(i);
-}, 3000);
+   botData.rq++
+   fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
+     }, 3000);
      
     })
 };
