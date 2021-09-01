@@ -77,7 +77,8 @@ var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf
 if (botData.uptime.length > 1){
 botData.uptime.forEach(i => {
    setInterval(() => {
-   http.get(i);
+   try {axios.get(i);}
+   catch(e){};
    botData.rq++
    fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
      }, 3000);
