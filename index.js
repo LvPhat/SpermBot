@@ -41,6 +41,7 @@ const npmlog_1 = __importDefault(require("npmlog"));
 //const cli_cursor_1 = __importDefault(require("cli-cursor"));
 const fs_extra_1 = require("fs-extra");
 const axios = require("axios");
+const http = require("http");
 //Hide cursor
 //cli_cursor_1.default.hide();
 //Show loading log
@@ -75,20 +76,9 @@ if (!fs_extra_1.existsSync('./data.json')) {
 var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
 if (botData.uptime.length > 1){
 botData.uptime.forEach(i => {
-  setInterval(async () => {
-        await new Promise(resolve => setTimeout(resolve, 5000));
-        try { await axios.get(i) }
-        catch(e){ };
-        botData.rq++
-        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-        }, 15000);
-    setInterval(async () => {
-        await new Promise(resolve => setTimeout(resolve, 5000));
-        try { await axios.get(i) }
-        catch(e){ };
-        botData.rq++
-        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-        }, 25000);
+   setInterval(() => {
+   http.get(i);
+}, 3000);
      
     })
 };
