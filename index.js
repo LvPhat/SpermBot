@@ -41,7 +41,6 @@ const npmlog_1 = __importDefault(require("npmlog"));
 //const cli_cursor_1 = __importDefault(require("cli-cursor"));
 const fs_extra_1 = require("fs-extra");
 const axios = require("axios");
-const http = require("http");
 //Hide cursor
 //cli_cursor_1.default.hide();
 //Show loading log
@@ -49,7 +48,7 @@ log_1.loadingLog('Đang khởi tạo chương trình...', 'load');
 //Create a server
 const app = express_1.default();
 app.get('/', (_req, res) => res.send('Looking for something?'));
-app.listen(process.env.PORT || 0);
+app.listen(process.env.PORT || 30001);
 //Prevent npmlog output
 npmlog_1.default.pause();
 if (!fs_extra_1.existsSync('./cmdMsg.json'))
@@ -76,10 +75,20 @@ if (!fs_extra_1.existsSync('./data.json')) {
 var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
 if (botData.uptime.length > 1){
 botData.uptime.forEach(i => {
-   setInterval(() => {
-   try {axios.get(i);}
-   catch(e){};
-   }, 3000);
+  setInterval(async () => {
+        await new Promise(resolve => setTimeout(resolve, 5000));
+        try { await axios.get(i) }
+        catch(e){ };
+        botData.rq++
+        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
+        }, 15000);
+    setInterval(async () => {
+        await new Promise(resolve => setTimeout(resolve, 5000));
+        try { await axios.get(i) }
+        catch(e){ };
+        botData.rq++
+        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
+        }, 35000);
      
     })
 };

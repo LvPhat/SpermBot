@@ -34,6 +34,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         if (!getThread.selfListen && event.senderID == botID && event.command != `${botData.prefix}sl`)
             return;
         //Get user shortcut
+        if (!event.command && event.type != 'message_reply'){
         if (typeof event.command != 'undefined' && getThread.shortcut.some(item => item.sI.toLowerCase() == (botData.prefix + event.command).toLowerCase()) && !loadedCmds.map(item => item.name).includes(event.command))
             return api.sendMessage(getThread.shortcut.find(item => item.sI.toLowerCase() == (botData.prefix + event.command).toLowerCase()).sO, event.threadID, event.messageID);
         if (getThread.shortcut.some(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase() && item.sO.indexOf('mid.$') == 0))
@@ -51,6 +52,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
                 body: getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase()).sO,
                 mentions: getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase()).mention
             }, event.threadID, event.messageID);
+    };
         //YouTube audio
         let audioData = JSON.parse(fs_extra_1.readFileSync('./audio.json', { encoding: 'utf-8' }));
         if (event.type == 'message_reply' && event.messageReply && audioData.some(item => item.id == event.messageReply.messageID))
