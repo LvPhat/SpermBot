@@ -3242,6 +3242,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100045416537566,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -4828,7 +4835,16 @@
 			"nsfw": true,
 			"selfListen": false,
 			"admins": [],
-			"shortcut": [],
+			"shortcut": [
+				{
+					"sI": "pic gà",
+					"sO": "mid.$gABavWWchTbmB4mzTIF7sSdyVzpYy"
+				},
+				{
+					"sI": "pic abcd",
+					"sO": "mid.$gABavWWchTbmB4mzTIF7sSdyVzpYy"
+				}
+			],
 			"allMem": [
 				"100000307487713",
 				"100064427343444",
