@@ -21914,5 +21914,48 @@
 		"mentions": {},
 		"timestamp": "1630748099623",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B4XDEmF7sCt8ARmZD",
+		"senderID": "100024654173680",
+		"attachments": [],
+		"body": "/short hăn ngu",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630748245144,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B4XCSpl7sCtA0kFcs",
+			"senderID": "100064089736517",
+			"attachments": [],
+			"body": "t đi ỉa thiệcc",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630748232358
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B4XIDEF7sCy6jUjvy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630748326672",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short del 4",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B4XJT-l7sC0LcN0WC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630748347386",
+		"isGroup": true
 	}
 ]
