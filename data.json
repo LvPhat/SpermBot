@@ -3076,6 +3076,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100055356411506,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100016172919908,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
