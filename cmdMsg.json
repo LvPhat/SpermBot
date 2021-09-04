@@ -22511,5 +22511,16 @@
 			"mentions": {},
 			"timestamp": 1630764763936
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B4pE52F7sUvxTuYZ3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630767149528",
+		"isGroup": true
 	}
 ]
