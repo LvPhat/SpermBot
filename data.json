@@ -3902,6 +3902,10 @@
 				{
 					"sI": "dbrr",
 					"sO": "https://scontent.xx.fbcdn.net/v/t1.15752-9/240711062_1218570411942321_8660546969603990643_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=tXJe0Bb6hQEAX9M0fU7&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=4c79b19903eebec49c8e0309aa30a4cc&oe=6157D3EB"
+				},
+				{
+					"sI": "t",
+					"sO": "/run api.sendMessage(\"hi\", event.threadID)"
 				}
 			],
 			"allMem": [

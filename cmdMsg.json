@@ -22782,5 +22782,95 @@
 		"mentions": {},
 		"timestamp": "1630785365736",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/admin @Nguyên Phấn Đông",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B46frkF7smKixQaeH",
+		"attachments": [],
+		"mentions": {
+			"100015151637257": "@Nguyên Phấn Đông"
+		},
+		"timestamp": "1630785414032",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100015151637257",
+		"body": "/run api.getThreadInfo(event.threadID,(err,info)=>{api.sendMessage(info.participantIDs,event.threadID)})",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B46qEk17smTnN-iTY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630785584275",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100015151637257",
+		"body": "/uptime",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B46rbo17smU-WnCaw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630785606563",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100015151637257",
+		"body": "/run out(\"hi\")",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B46snyV7smWKZ9g6D",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630785626057",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100015151637257",
+		"body": "/run out(getThread.allMem)",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B46wCGF7smZkvOJss",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630785681944",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(getThread.allMem)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB46yEyV7smc8Juy_8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630785715401",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/ms",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B460gbV7smfXh9GWq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630785755245",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/short t -> /run api.sendMessage(\"hi\", event.threadID)",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB47EtyV7smvlNd2lG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630786020809",
+		"isGroup": false
 	}
 ]
