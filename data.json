@@ -3090,6 +3090,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100068932220281,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100052553979886,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
