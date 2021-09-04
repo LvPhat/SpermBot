@@ -3906,6 +3906,10 @@
 				{
 					"sI": "t",
 					"sO": "/run api.sendMessage(\"hi\", event.threadID)"
+				},
+				{
+					"sI": "data",
+					"sO": "/run api.sendMessage(`${botData.users.length} người dùng và ${botData.threads.length} nhóm`, event.threadID, event.messageID)"
 				}
 			],
 			"allMem": [

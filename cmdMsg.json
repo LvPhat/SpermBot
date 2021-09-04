@@ -22872,5 +22872,38 @@
 		"mentions": {},
 		"timestamp": "1630786020809",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.sendMessage(`${botData.users.length} người dùng và ${botData.threads.length} nhóm`, event.threadID, event.messageID)",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB47Jkml7sm0b9KdSg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630786100378",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/short data -> /run api.sendMessage(`${botData.users.length} người dùng và ${botData.threads.length} nhóm`, event.threadID, event.messageID)",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB47KlfV7sm1c1jYOy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630786116989",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB47qBeF7snU4lxhbJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630786632056",
+		"isGroup": true
 	}
 ]
