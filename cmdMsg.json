@@ -22916,5 +22916,16 @@
 		"mentions": {},
 		"timestamp": "1630797836542",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "/all dậy đê",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5GgagF7syLR_TyPX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630798008960",
+		"isGroup": true
 	}
 ]
