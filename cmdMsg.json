@@ -21957,5 +21957,38 @@
 		"mentions": {},
 		"timestamp": "1630748347386",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans wait",
+		"threadID": "6385248004820409",
+		"messageID": "mid.$gABavWWchTbmB4YEjhF7sDvaDAHDQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630749318020",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "6385248004820409",
+		"messageID": "mid.$gABavWWchTbmB4YLM5l7sD1ZHTWhK",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630749426918",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "6385248004820409",
+		"messageID": "mid.$gABavWWchTbmB4YLNGl7sD1u7Usnw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630749426970",
+		"isGroup": true
 	}
 ]
