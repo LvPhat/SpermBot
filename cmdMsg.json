@@ -22034,5 +22034,82 @@
 		"mentions": {},
 		"timestamp": "1630750192062",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/nickname",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4ZGmaF7sExcyPjBl",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630750400104",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4ZMqDV7sE3kAkYXl",
+		"senderID": "100018806512683",
+		"attachments": [],
+		"body": "/gỡ",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630750499341,
+		"messageReply": {
+			"threadID": "3613441495423970",
+			"messageID": "mid.$gAAzWZ-jAW-KB4ZMEm17sE2oyXF7t",
+			"senderID": "100002062641112",
+			"attachments": [],
+			"body": "‎Tuyến Tuyến đã gỡ 1 tin nhắn nhưng tuổi lồn nhá nhóc:\nchị linh của bot nè !",
+			"isGroup": true,
+			"mentions": {
+				"100014432175811": "Tuyến Tuyến"
+			},
+			"timestamp": 1630750489755
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/resend",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4ZP0-17sE6rfb7Q1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630750551291",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/help lắc mông",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4ZdWTl7sFIMzazpb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630750772814",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4Zeeel7sFJU3RqII",
+		"senderID": "100047460369459",
+		"attachments": [],
+		"body": "/gỡ",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630750791290,
+		"messageReply": {
+			"threadID": "3613441495423970",
+			"messageID": "mid.$gAAzWZ-jAW-KB4ZdYE17sFH7-AL7i",
+			"senderID": "100002062641112",
+			"attachments": [],
+			"body": "「 Group 」\nadduser, box, fbuser, filter, resend, taglientuc\n\n「 Config 」\nadmin, command, event, setjoin, setleave, setprefix, setrankup\n\n「 Other 」\nafk, callad, choose, covid, getlink, kick, osu, qr, rname, roll, setname, thayboi, thpt, uid, weather\n\n「 Nsfw 」\nalime, hentaivn, img, nhentai\n\n「 Random-img 」\nanime, ghep, meme, roleplay\n\n「 System 」\nantiout, banned, checktt, fast, globalshortcut, gỡ, help, nickname, nsfw, pending, ping, rnamebox, rule, run, sendnoti, setmoney, shortcut, system, thread, top, unsend, uptime, user, warn\n\n「 Không cần dấu lệnh 」\naothatday, Bot lồn, Lắc mông\n\n「 Game-mp 」\nbaicao, fishing\n\n「 Economy 」\nbalance, daily, pay, work\n\n「 General 」\nbatgiam, findtext, hitbutt, info, sim, slap, teach, xsmb\n\n「 Không xài lệnh 」\ngoibot\n\n「 Hình ảnh 」\ngai\n\n「 Game 」\nlinkword\n\n「 Study 」\nmath, wiki\n\n「 Admin 」\nmeewmeew, reset\n\n「 News 」\nnews\n\n「 Random-text 」\npenis\n\n「 Media 」\nsauce, say, sing, trans, video\n\n「 Health 」\nsleep, wake\n\n「 Game-sp 」\nslot, sortword, ttt\n\n「 Try it 」\nsurprise\n\n[ Hiện tại đang có 97 lệnh có thể sử dụng trên bot này, Sử dụng: \"/help tên lệnh\" để xem chi tiết cách sử dụng!\nBot được điều hành bởi Phạm Hồng Thu\nMọi thắc mắc xin liên hệ: \nFacebook: https://www.facebook.com/PhamHongThu.User\nZalo: 0943961459\nChúc mọi người sử dụng vui vẻ ❤UwU❤ ]\nHelp sẽ tự động gỡ sau 60s 🥳\"",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630750773267
+		}
 	}
 ]
