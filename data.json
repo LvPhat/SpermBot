@@ -4,7 +4,9 @@
 		100070727704402,
 		100069279893724
 	],
-	"uptime": [],
+	"uptime": [
+		"https://maize-traih-l-partridgegchos.glitch.me"
+	],
 	"eventLog": false,
 	"todolist": [],
 	"disabled": [],
@@ -3181,27 +3183,6 @@
 			}
 		},
 		{
-			"id": 100046129862655,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100028241401830,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100035498123048,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
 			"id": 100032875839799,
 			"ban": {
 				"use": false,
@@ -3216,49 +3197,7 @@
 			}
 		},
 		{
-			"id": 100040129290754,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100048599013373,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100048844151574,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100051938589820,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100045416537566,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
 			"id": 100064791765775,
-			"ban": {
-				"use": false,
-				"cmds": []
-			}
-		},
-		{
-			"id": 100048979507628,
 			"ban": {
 				"use": false,
 				"cmds": []
@@ -3310,10 +3249,6 @@
 				{
 					"sI": "hăn ngu",
 					"sO": "mid.$gABX4IF9A_r-B4XCSpl7sCtA0kFcs"
-				},
-				{
-					"sI": "nguu",
-					"sO": "mid.$gABX4IF9A_r-B4kmYyF7sQRQOvEd8"
 				}
 			],
 			"allMem": [
@@ -3950,16 +3885,12 @@
 			"admins": [],
 			"shortcut": [
 				{
-					"sI": "a",
-					"sO": "lolihelp"
+					"sI": "q",
+					"sO": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p480x480/240950112_3929388273831918_1868801497199357843_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=rfSXbTlHkxMAX8n3qjH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=ca39cc188d244692fa005c9aae589c5e&oe=615931A0"
 				},
 				{
-					"sI": "pic hi",
-					"sO": "mid.$cAAAAASFE9oiB0uS2c17oZ9mgtiNM"
-				},
-				{
-					"sI": "pic tet",
-					"sO": "mid.$cAAAAASFE9oiB0uS2c17oZ9mgtiNM"
+					"sI": "ư",
+					"sO": "mid.$cAAAAASFE9oiB4v0g6V7sbfSlNFOs"
 				}
 			],
 			"allMem": [
@@ -4724,7 +4655,6 @@
 				"100016172919908",
 				"100023890812033",
 				"100024532454421",
-				"100024648156152",
 				"100025355595445",
 				"100025551189969",
 				"100026429178639",
@@ -4743,13 +4673,10 @@
 				"100041388037791",
 				"100041770637986",
 				"100043923751766",
-				"100045416537566",
 				"100046037505877",
 				"100046129862655",
 				"100046280342310",
-				"100048599013373",
 				"100048844151574",
-				"100048979507628",
 				"100049542031526",
 				"100050302239398",
 				"100050839547560",
@@ -4762,8 +4689,9 @@
 				"100059235637579",
 				"100064427343444",
 				"100064556118823",
-				"100064791765775",
+				"100066047997036",
 				"100066817505674",
+				"100066872070033",
 				"100067702680460",
 				"100069745842881",
 				"100070521372072",
@@ -4852,16 +4780,7 @@
 			"nsfw": true,
 			"selfListen": false,
 			"admins": [],
-			"shortcut": [
-				{
-					"sI": "pic gà",
-					"sO": "mid.$gABavWWchTbmB4mzTIF7sSdyVzpYy"
-				},
-				{
-					"sI": "pic abcd",
-					"sO": "mid.$gABavWWchTbmB4mzTIF7sSdyVzpYy"
-				}
-			],
+			"shortcut": [],
 			"allMem": [
 				"100000307487713",
 				"100064427343444",

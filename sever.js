@@ -36,67 +36,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const log_1 = __importStar(require("./declare/modules/log"));
 //Import required modules
 const express_1 = __importDefault(require("express"));
-const fca_unofficial_1 = __importDefault(require("fca-unofficial"));
-const npmlog_1 = __importDefault(require("npmlog"));
 //const cli_cursor_1 = __importDefault(require("cli-cursor"));
 const fs_extra_1 = require("fs-extra");
 const axios = require("axios");
+const index = require("./index")
 //Hide cursor
 //cli_cursor_1.default.hide();
 //Show loading log
-log_1.loadingLog('Đang khởi tạo chương trình...', 'load');
-
 //Create a server
 const app = express_1.default();
 app.get('/', (_req, res) => res.send('Looking for something?'));
 app.listen(process.env.PORT || 2000);
 
-//Prevent npmlog output
-npmlog_1.default.pause();
-if (!fs_extra_1.existsSync('./cmdMsg.json'))
-    fs_extra_1.writeFileSync('./cmdMsg.json', JSON.stringify([]));
-if (!fs_extra_1.existsSync('./audio.json'))
-    fs_extra_1.writeFileSync('./audio.json', JSON.stringify([]));
-if (!fs_extra_1.existsSync('./data.json')) {
-    let botData = {
-        prefix: '/',
-        admins: [
-           100070727704402
-        ],
-        uptime: [],
-        eventLog: false,
-        todolist: [],
-        disabled: [],
-        users: [],
-        threads: [],
-        
-    };
-    fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-}
-//Import event listener
-const listenHandler_1 = __importDefault(require("./declare/listenHandler"));
-//Login to Facebook
-fca_unofficial_1.default({ appState: JSON.parse(fs_extra_1.readFileSync('./account.json', { encoding: 'utf-8' })) }, function (error, api) {
-    if (error) {
-        log_1.loadingLog('Không thể khởi tạo chương trình.', 'fail');
-        log_1.default(`Đăng nhập thất bại: ${JSON.stringify(error)}`, -1);
-        return process.exit(0);
-    }
-    api.setOptions({listenEvents: true});
-    log_1.loadingLog('Khởi tạo chương trình thành công.', 'done');
-    fs_extra_1.writeFileSync('./account.json', JSON.stringify(api.getAppState(), null, '\t'));
-    log_1.default('Đăng nhập thành công.', 0);
-    var handleL = api.listenMqtt(listenHandler_1.default(api));
-    setInterval(async () => {
-        await handleL.stopListening();
-        await new Promise(resolve => setTimeout(resolve, 5000));
-        handleL = api.listenMqtt(listenHandler_1.default(api));
-    }, 800000);
-});
+//start bot
+index.startBot()
 
-//Uptime
+//Uptime for project
 var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
-if (botData.uptime.length > 1){
+if (botData.uptime.length > 0){
 botData.uptime.forEach(i => {
 setInterval(async () => {
         await new Promise(resolve => setTimeout(resolve, 5000));

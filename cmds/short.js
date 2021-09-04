@@ -7,6 +7,18 @@ exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 function default_1({ event, botData, api, getThread, threadAdmins }) {
+     if (event.args[0] == 'pic') {
+        let content = event.contentMsg.slice(4, event.args.length);
+        if (event.type !== "message_reply") return api.sendMessage("Sai format", event.threadID, event.messageID);
+        if (!event.messageReply.attachments || event.messageReply.attachments.length == 0) return api.sendMessage("Sai format", event.threadID, event.messageID);
+        if (event.messageReply.attachments.length > 1) return api.sendMessage(`Sai format`, event.threadID, event.messageID);
+        
+        let sI = content, sO = event.messageReply.attachments[0].url;
+        if (getThread.shortcut.some(item => item.sI == sI))
+            return api.sendMessage('Shortcut này đã tồn tại.', event.threadID, event.messageID);
+        getThread.shortcut.push({ sI, sO });
+        api.sendMessage(`Đã thêm: ${sI}.`, event.threadID, event.messageID);
+    };
     if (event.args[0] == 'del') {
         event.args = event.args.slice(1);
         if (event.args[0] == 'all') {
@@ -52,6 +64,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
         getThread.shortcut[index].sO = sO;
         api.sendMessage(`Đã đổi thành: ${sO}.`, event.threadID, event.messageID);
     }
+  
     else if (event.type == 'message_reply') {
         if (!event.contentMsg)
             return api.sendMessage('Chưa nhập input.', event.threadID, event.messageID);

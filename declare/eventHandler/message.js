@@ -7,7 +7,9 @@ const ytAudio_1 = __importDefault(require("../modules/ytAudio"));
 const ytVideo_1 = __importDefault(require("../modules/ytVideo"));
 const secondsToHms_1 = __importDefault(require("../modules/secondsToHms"));
 const fs_extra_1 = require("fs-extra");
-const cmd = require("node-cmd")
+const cmd = require("node-cmd");
+const axios = require("axios");
+const fs = require("fs");
 function default_1({ api, loadedCmds, loadedEvents }) {
     const botID = api.getCurrentUserID();
     return async function (event, botData) {
@@ -45,8 +47,30 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         if (!event.command && event.type != 'message_reply'){
         if (typeof event.command != 'undefined' && getThread.shortcut.some(item => item.sI.toLowerCase() == (botData.prefix + event.command).toLowerCase()) && !loadedCmds.map(item => item.name).includes(event.command))
             return api.sendMessage(getThread.shortcut.find(item => item.sI.toLowerCase() == (botData.prefix + event.command).toLowerCase()).sO, event.threadID, event.messageID);
-        if (getThread.shortcut.some(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase() && item.sO.indexOf('mid.$') == 0))
-            return api.sendMessage(event.contentMsg, event.threadID, getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase()).sO);
+       
+        if (getThread.shortcut.some(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase() && item.sO.includes('https'))){
+           const getUrl = getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase());
+           var end = '';
+           if (getUrl.sO.includes("mp4")) var end = "mp4"
+           else var end = "jpg";
+           if (getUrl.sO.includes("audio")) var end = "m4a"
+           let content = (await axios.get( `${getUrl.sO}`, { responseType: "arraybuffer" } )).data;
+           fs.writeFileSync( __dirname + `/img.${end}`, Buffer.from(content, "utf-8") );
+           var img = [];
+           img.push(fs.createReadStream(__dirname + `/img.${end}`));
+           var msg = {body: '', attachment:img}
+           return api.sendMessage(msg, event.threadID, event.messageID)
+      
+          };
+
+        if (getThread.shortcut.some(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase() && item.sO.indexOf('mid.$') == 0)){
+           return api.sendMessage(event.contentMsg, event.threadID, getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase()).sO);
+        }
+       
+        
+        
+       
+
         if (getThread.shortcut.some(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase() && item.sO.indexOf(botData.prefix) == 0)) {
             let body = getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase()).sO;
             event.command = body.slice(botData.prefix.length, body.length).split(' ')[0];
