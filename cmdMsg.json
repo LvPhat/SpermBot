@@ -21662,5 +21662,27 @@
 		"mentions": {},
 		"timestamp": "1630735944942",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB4NMMbV7r43D2UgOd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630737908845",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB4NMxBV7r43obcFEI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630737918213",
+		"isGroup": false
 	}
 ]
