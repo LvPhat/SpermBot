@@ -21486,5 +21486,82 @@
 		"mentions": {},
 		"timestamp": "1630720940007",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!trans slavd",
+		"threadID": "4735603246514873",
+		"messageID": "mid.$gABDTAY1OQrmB4JsbPl7r1XSN-fKJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734242622",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!uptime",
+		"threadID": "4735603246514873",
+		"messageID": "mid.$gABDTAY1OQrmB4Jw0617r1br4-oZa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734314731",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!run cmd.run(\"refresh\")",
+		"threadID": "4735603246514873",
+		"messageID": "mid.$gABDTAY1OQrmB4JxNi17r1cEo_-gB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734321035",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!uptime",
+		"threadID": "4735603246514873",
+		"messageID": "mid.$gABDTAY1OQrmB4JymPF7r1dbJqPi6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734343740",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "!up",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB4J1GUl7r1f7OcNCu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734384722",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "!uptine",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB4J2LW17r1hAKmBZu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734402395",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "!uptime",
+		"threadID": "4735603246514873",
+		"messageID": "mid.$gABDTAY1OQrmB4J8Ip17r1m_myx6c",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630734500007",
+		"isGroup": true
 	}
 ]
