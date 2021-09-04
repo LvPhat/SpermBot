@@ -3128,10 +3128,6 @@
 			"admins": [],
 			"shortcut": [
 				{
-					"sI": "ráck",
-					"sO": "mid.$gABX4IF9A_r-B13oetF7pjTR2W_Gb"
-				},
-				{
 					"sI": "rác",
 					"sO": "@Nguyễn Dung",
 					"mention": [
@@ -3142,12 +3138,26 @@
 					]
 				},
 				{
-					"sI": "kay",
-					"sO": "mid.$gABX4IF9A_r-B3VuUpF7rBZI-DdPB"
-				},
-				{
 					"sI": "nghiasaid",
 					"sO": "mid.$gABX4IF9A_r-B4UPO3V7r_5_h7Fwj"
+				},
+				{
+					"sI": "rácc",
+					"sO": "@Kiên",
+					"mention": [
+						{
+							"tag": "@Kiên",
+							"id": "100024785402633"
+						}
+					]
+				},
+				{
+					"sI": "cay",
+					"sO": "mid.$gABX4IF9A_r-B4WvfGV7sCaS3nee6"
+				},
+				{
+					"sI": "ngu",
+					"sO": "mid.$gABX4IF9A_r-B4W2RpF7sChJHKMqn"
 				}
 			],
 			"allMem": [
