@@ -45,10 +45,7 @@ const axios = require("axios");
 //cli_cursor_1.default.hide();
 //Show loading log
 log_1.loadingLog('Đang khởi tạo chương trình...', 'load');
-//Create a server
-const app = express_1.default();
-app.get('/', (_req, res) => res.send('Looking for something?'));
-app.listen(process.env.PORT || 30001);
+
 //Prevent npmlog output
 npmlog_1.default.pause();
 if (!fs_extra_1.existsSync('./cmdMsg.json'))
@@ -71,38 +68,17 @@ if (!fs_extra_1.existsSync('./data.json')) {
     };
     fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
 }
-//Uptime for project
-var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
-if (botData.uptime.length > 1){
-botData.uptime.forEach(i => {
-  setInterval(async () => {
-        await new Promise(resolve => setTimeout(resolve, 5000));
-        try { await axios.get(i) }
-        catch(e){ };
-        botData.rq++
-        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-        }, 15000);
-    setInterval(async () => {
-        await new Promise(resolve => setTimeout(resolve, 5000));
-        try { await axios.get(i) }
-        catch(e){ };
-        botData.rq++
-        fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
-        }, 35000);
-     
-    })
-};
-
 //Import event listener
 const listenHandler_1 = __importDefault(require("./declare/listenHandler"));
 //Login to Facebook
+async function start(){
 fca_unofficial_1.default({ appState: JSON.parse(fs_extra_1.readFileSync('./account.json', { encoding: 'utf-8' })) }, function (error, api) {
-    api.setOptions({listenEvents: true})
     if (error) {
         log_1.loadingLog('Không thể khởi tạo chương trình.', 'fail');
         log_1.default(`Đăng nhập thất bại: ${JSON.stringify(error)}`, -1);
         return process.exit(0);
     }
+    api.setOptions({listenEvents: true});
     log_1.loadingLog('Khởi tạo chương trình thành công.', 'done');
     fs_extra_1.writeFileSync('./account.json', JSON.stringify(api.getAppState(), null, '\t'));
     log_1.default('Đăng nhập thành công.', 0);
@@ -113,3 +89,5 @@ fca_unofficial_1.default({ appState: JSON.parse(fs_extra_1.readFileSync('./accou
         handleL = api.listenMqtt(listenHandler_1.default(api));
     }, 800000);
 });
+};
+exports.startBot = start;

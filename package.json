@@ -7,9 +7,9 @@
     "node": "12.x"
   },
   "scripts": {
-    "start": "node sever.js && node index.js",
+    "start": "node sever.js",
     "login": "node login.js"
-    },
+  },
   "license": "NDA",
   "author": "SpermLord",
   "dependencies": {
