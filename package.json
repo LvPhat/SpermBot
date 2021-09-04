@@ -2,7 +2,7 @@
   "name": "spermbot",
   "version": "1.1.14-Obfuscated-Edition",
   "description": "SpermLord's Messenger bot",
-  "main": "index.js",
+  "main": "sever.js",
   "engines": {
     "node": "12.x"
   },
