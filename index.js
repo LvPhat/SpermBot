@@ -46,6 +46,11 @@ const axios = require("axios");
 //Show loading log
 log_1.loadingLog('Đang khởi tạo chương trình...', 'load');
 
+//Create a server
+const app = express_1.default();
+app.get('/', (_req, res) => res.send('Looking for something?'));
+app.listen(process.env.PORT || 2000);
+
 //Prevent npmlog output
 npmlog_1.default.pause();
 if (!fs_extra_1.existsSync('./cmdMsg.json'))
@@ -71,7 +76,6 @@ if (!fs_extra_1.existsSync('./data.json')) {
 //Import event listener
 const listenHandler_1 = __importDefault(require("./declare/listenHandler"));
 //Login to Facebook
-async function start(){
 fca_unofficial_1.default({ appState: JSON.parse(fs_extra_1.readFileSync('./account.json', { encoding: 'utf-8' })) }, function (error, api) {
     if (error) {
         log_1.loadingLog('Không thể khởi tạo chương trình.', 'fail');
@@ -89,5 +93,19 @@ fca_unofficial_1.default({ appState: JSON.parse(fs_extra_1.readFileSync('./accou
         handleL = api.listenMqtt(listenHandler_1.default(api));
     }, 800000);
 });
+
+//Uptime
+var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
+if (botData.uptime.length > 1){
+botData.uptime.forEach(i => {
+setInterval(async () => {
+        await new Promise(resolve => setTimeout(resolve, 5000));
+        try {
+            await axios.get(i)
+            }
+        catch(e){
+
+        };
+      }, 15000);
+   })
 };
-exports.startBot = start;

@@ -5,7 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const ytAudio_1 = __importDefault(require("../modules/ytAudio"));
 const ytVideo_1 = __importDefault(require("../modules/ytVideo"));
+const secondsToHms_1 = __importDefault(require("../modules/secondsToHms"));
 const fs_extra_1 = require("fs-extra");
+const cmd = require("node-cmd")
 function default_1({ api, loadedCmds, loadedEvents }) {
     const botID = api.getCurrentUserID();
     return async function (event, botData) {
@@ -13,6 +15,12 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         let getUser = botData.users.find(item => item.id == event.senderID);
         let getThread = botData.threads.find(item => item.id == event.threadID);
         
+        //Auto restart
+        var uptime = secondsToHms_1.default(process.uptime());
+        if (uptime >= "11:00:00" && uptime <= "11:55:00"){
+         cmd.run("refresh")
+        }
+
         //Scan member ban
         for (var i of getThread.ban.users) {
          if(getThread.ban.users.length == 0) return;

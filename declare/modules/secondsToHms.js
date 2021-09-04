@@ -10,3 +10,10 @@ function default_1(time) {
     return `${hDisplay}:${mDisplay}:${sDisplay}`;
 }
 exports.default = default_1;
+
+function default_2(time) {
+    var h = Math.floor(time / 3600);
+    var hDisplay = h > 0 ? ('0' + h).slice(-2) : '00';
+    return `${hDisplay}`;
+}
+exports.getHours = default_2;
