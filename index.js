@@ -96,7 +96,7 @@ fca_unofficial_1.default({ appState: JSON.parse(fs_extra_1.readFileSync('./accou
 
 //Uptime
 var botData = JSON.parse(fs_extra_1.readFileSync('./data.json', { encoding: 'utf-8' }));
-if (botData.uptime.length > 1){
+if (botData.uptime.length > 0){
 botData.uptime.forEach(i => {
 setInterval(async () => {
         await new Promise(resolve => setTimeout(resolve, 5000));
