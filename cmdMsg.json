@@ -22111,5 +22111,64 @@
 			"mentions": {},
 			"timestamp": 1630750773267
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/help setmoney",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4aCheV7sFtXvz4pR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630751381881",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/setmoney set 10000000000 @Chinh Chinh",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4aFkL17sFwamb5DV",
+		"attachments": [],
+		"mentions": {
+			"100071678810266": "@Chinh Chinh"
+		},
+		"timestamp": "1630751431727",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/balance @Chinh Chinh",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4aGSGl7sFxIRCwiI",
+		"attachments": [],
+		"mentions": {
+			"100071678810266": "@Chinh Chinh"
+		},
+		"timestamp": "1630751443482",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/topmoney",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4aTC4F7sF948XxML",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630751652576",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/help topmoney",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB4aTtrV7sF-kE7KxN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630751663533",
+		"isGroup": true
 	}
 ]
