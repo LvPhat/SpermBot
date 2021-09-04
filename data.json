@@ -3214,6 +3214,27 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100040129290754,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100048599013373,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100048844151574,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -3261,6 +3282,10 @@
 				{
 					"sI": "hăn ngu",
 					"sO": "mid.$gABX4IF9A_r-B4XCSpl7sCtA0kFcs"
+				},
+				{
+					"sI": "nguu",
+					"sO": "mid.$gABX4IF9A_r-B4kmYyF7sQRQOvEd8"
 				}
 			],
 			"allMem": [
