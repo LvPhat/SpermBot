@@ -22247,5 +22247,69 @@
 		"mentions": {},
 		"timestamp": "1630758125158",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "/all tương tác box dùm",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB4gkrNF7sMPizFYC4",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630758232884",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB4goaVl7sMTQG5gzC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630758294102",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6385248004820409",
+		"messageID": "mid.$gABavWWchTbmB4gyLYF7sMdCyIlVc",
+		"senderID": "100069279893724",
+		"attachments": [],
+		"body": "/url",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630758454112,
+		"messageReply": {
+			"threadID": "6385248004820409",
+			"messageID": "mid.$gABavWWchTbmB4gyFK17sMc349d96",
+			"senderID": "100069279893724",
+			"attachments": [
+				{
+					"type": "audio",
+					"filename": "audioclip-1630758451000-1533.mp4",
+					"ID": "AT185u5hwzG4yZyYoNNez2yI8ctNW17CUzNTJczbWUs__tPLRU5BMhfPyw7hWXqHLgQ9G0AoOIJifKKH_XruHqCAj6kVUSLSgXETJdgQ9gZ8pzL5AByx_IMfBRrw8QEsiLaeqLtXbZW6VKfvDL5_imJ13h8",
+					"audioType": "VOICE_MESSAGE",
+					"duration": 1533,
+					"url": "https://cdn.fbsbx.com/v/t59.3654-21/241274504_4278196548939516_5905439512602710478_n.mp4/audioclip-1630758451000-1533.mp4?_nc_cat=102&ccb=1-5&_nc_sid=7272a8&_nc_ohc=O3N-mvE1AQUAX-z5uOx&_nc_ht=cdn.fbsbx.com&oh=1da49e18841c1ce1dfccf604599083fa&oe=6135272B&dl=1",
+					"isVoiceMail": false
+				}
+			],
+			"body": "",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630758452523
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "6385248004820409",
+		"messageID": "mid.$gABavWWchTbmB4g52417sMkuVk1gL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630758579939",
+		"isGroup": true
 	}
 ]
