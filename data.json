@@ -4388,7 +4388,15 @@
 		{
 			"id": 4735603246514873,
 			"name": "S H O P B O T G À [2077]",
-			"warns": [],
+			"warns": [
+				{
+					"id": 100007557936964,
+					"count": 1,
+					"reasons": [
+						"dảk"
+					]
+				}
+			],
 			"ban": {
 				"use": false,
 				"cmds": [],
@@ -4445,6 +4453,10 @@
 				{
 					"sI": "hii",
 					"sO": "https://video.xx.fbcdn.net/v/t42.3356-2/241064387_4534369883288058_1441823968295434231_n.mp4/video-1630775915.mp4?_nc_cat=109&ccb=1-5&_nc_sid=060d78&_nc_ohc=xtfQsUS1t5EAX_NQkOA&vabr=315623&_nc_ht=video.xx&oh=5528990521bf6b183745507ca7b30a56&oe=6134C99D&dl=1"
+				},
+				{
+					"sI": "hiii",
+					"sO": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p480x480/240881690_285662932911482_1221807781605179035_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=c2S9fnca4xIAX-avJzl&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1d10ff886a456bc92e6cca01b3901c54&oe=6157FA01"
 				}
 			],
 			"allMem": [
