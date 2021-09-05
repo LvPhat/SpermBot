@@ -23026,5 +23026,27 @@
 		"mentions": {},
 		"timestamp": "1630805815825",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "/all TƯƠNG TÁC ĐI T CHO KẸO NỀ",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5OoQVF7s6TGDBC9n",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630806526036",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB5OoYi17s6TP6evs6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630806528139",
+		"isGroup": true
 	}
 ]
