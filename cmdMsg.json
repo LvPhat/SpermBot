@@ -24801,5 +24801,27 @@
 		"mentions": {},
 		"timestamp": "1630856765222",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all tt",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5_B3Yl7tqstQ4lFT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630857277282",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all hông gáy kick",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5_C-OF7tqt0EO4B2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630857295416",
+		"isGroup": true
 	}
 ]
