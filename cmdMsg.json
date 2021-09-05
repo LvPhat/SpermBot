@@ -24124,5 +24124,16 @@
 		"mentions": {},
 		"timestamp": "1630846418630",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/setmoney 10000000000000",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB50xxb17tgclhOlFc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630846527855",
+		"isGroup": true
 	}
 ]
