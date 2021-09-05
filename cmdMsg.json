@@ -23713,5 +23713,48 @@
 		"mentions": {},
 		"timestamp": "1630828593200",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5lGLz17tQxDGWMoK",
+		"senderID": "100032916014856",
+		"attachments": [],
+		"body": "/al SEND ẢNH LÀM AVT BOX",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630830085071,
+		"messageReply": {
+			"threadID": "4180515895402920",
+			"messageID": "mid.$gAA7aKDTsYaiB5lEuDF7tQvlgQ0Nu",
+			"senderID": "100040469060712",
+			"attachments": [],
+			"body": "Làm avt box đi",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630830061068
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB5lbWxF7tRGON-q7i",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630830431940",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB5lcCb17tRG59rzc_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630830443119",
+		"isGroup": true
 	}
 ]
