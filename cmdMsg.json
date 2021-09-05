@@ -24283,5 +24283,84 @@
 			"mentions": {},
 			"timestamp": 1630850294621
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/user @Nguyễn Thu Phương",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB548WMF7tknMabB9l",
+		"attachments": [],
+		"mentions": {
+			"100052301360170": "@Nguyễn Thu Phương"
+		},
+		"timestamp": "1630850895408",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptim",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB55AeaV7tkrVpU8dy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630850963049",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB55D4FV7tkuvWMKwx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630851018773",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB55UQu17tk_IIzJuS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630851287227",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB55Vu6F7tk_IIzJuS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630851311336",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB55V9c17tk_IIzJuS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630851315059",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB55XDZl7tlB6rNPf1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630851332966",
+		"isGroup": true
 	}
 ]
