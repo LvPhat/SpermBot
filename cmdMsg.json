@@ -24362,5 +24362,103 @@
 		"mentions": {},
 		"timestamp": "1630851332966",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al tương tác đi mấu con đĩ",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB56F1Jl7tlwsIz5Bo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852099366",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB56Kqfl7tl1hqa8DS",
+		"senderID": "100032916014856",
+		"attachments": [],
+		"body": "/al TƯƠNG TÁC ĐỂ ĐƯOC QUỲNH CHO TIỀN",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630852178558,
+		"messageReply": {
+			"threadID": "4180515895402920",
+			"messageID": "mid.$gAA7aKDTsYaiB56HH9F7tlx-gBM1d",
+			"senderID": "100067702680460",
+			"attachments": [],
+			"body": "tương tác để đc cho 1k",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630852120564
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al TUYỂN NGƯỜI DỀ ĐẤM BÓP CHO TAO",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB56Mcxl7tl3Tz8G4j",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852207814",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB56WcN17tmBFwlUTY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852371511",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al KHÔNG OUT CHÙA!",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB56fLK17tmKCdGR1O",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852514603",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio https://youtu.be/Pb3OEY9XqPA",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB56jUKV7tmOLegMVb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852582441",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio https://youtu.be/uz1JxyFVMf4",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB56mG7V7tmQ-Nv1yv",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852628205",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al OUT THÌ CÓ MỒM DÙM NHA MẤY BA MẤY MẸ :))",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB56s8Al7tmXzDous9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630852740098",
+		"isGroup": true
 	}
 ]
