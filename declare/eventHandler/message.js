@@ -14,9 +14,9 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     const botID = api.getCurrentUserID();
     //Auto restart
         var uptime = secondsToHms_1.default(process.uptime());
-        if (uptime >= "11:00:00"){
-        cmd.run("refresh")
-     }
+        if (uptime >= "11:00:00" && uptime <= "11:55:00"){
+         cmd.run("refresh")
+    };
     return async function (event, botData) {
         //Declare important variables
         let getUser = botData.users.find(item => item.id == event.senderID);
