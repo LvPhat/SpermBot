@@ -23866,5 +23866,49 @@
 		"mentions": {},
 		"timestamp": "1630837627748",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/uid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB5vksEV7tbPjgqLg6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630841070609",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al DẬY ĐEIIIII",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5vmGX17tbQv0ktTP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630841093727",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "/all biết tt kh",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5vvcRl7tbaTKLi3d",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630841246790",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B5vy9i17tbdyr2SLj",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630841304459",
+		"isGroup": true
 	}
 ]
