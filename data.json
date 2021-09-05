@@ -3468,6 +3468,27 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100028021636025,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100027395225705,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100051938589820,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -5138,6 +5159,10 @@
 				{
 					"sI": "hí",
 					"sO": "https://video.xx.fbcdn.net/v/t42.3356-2/223455215_5823483781054909_7054243604386663042_n.mp4/video-1630819534.mp4?_nc_cat=103&ccb=1-5&_nc_sid=060d78&_nc_ohc=-Kt7aiwvQVkAX9pwAGv&vabr=605260&_nc_ht=video.xx&oh=f00f4b2903ba108c2326cd271486be12&oe=613546F5&dl=1"
+				},
+				{
+					"sI": "+upt",
+					"sO": "/run api.sendMessage(`${botData.users.length} người dùng và ${botData.threads.length} nhóm`, event.threadID, event.messageID)"
 				}
 			],
 			"allMem": [

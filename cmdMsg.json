@@ -23800,5 +23800,27 @@
 		"mentions": {},
 		"timestamp": "1630834915602",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/short /data -> /run api.sendMessage(`${botData.users.length} người dùng và ${botData.threads.length} nhóm`, event.threadID, event.messageID)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB5p8T2F7tVnLJ0KXv",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630835166168",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/short +upt -> /run api.sendMessage(`${botData.users.length} người dùng và ${botData.threads.length} nhóm`, event.threadID, event.messageID)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB5p9evF7tVoWJjUDG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630835185340",
+		"isGroup": true
 	}
 ]
