@@ -24168,5 +24168,40 @@
 		"mentions": {},
 		"timestamp": "1630847448963",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/short list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B52MCiV7th22FMYIn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630848006793",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/short del 1",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B52M5yF7th3xUrjN2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630848020936",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/short rác -> @Anh Pham",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B52OP4V7th5DwU4JZ",
+		"attachments": [],
+		"mentions": {
+			"100024654173680": "@Anh Pham"
+		},
+		"timestamp": "1630848042977",
+		"isGroup": true
 	}
 ]

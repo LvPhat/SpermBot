@@ -3590,16 +3590,6 @@
 			"admins": [],
 			"shortcut": [
 				{
-					"sI": "rác",
-					"sO": "@Nguyễn Dung",
-					"mention": [
-						{
-							"tag": "@Nguyễn Dung",
-							"id": "100066515220201"
-						}
-					]
-				},
-				{
 					"sI": "nghiasaid",
 					"sO": "mid.$gABX4IF9A_r-B4UPO3V7r_5_h7Fwj"
 				},
@@ -3628,6 +3618,16 @@
 				{
 					"sI": "cường",
 					"sO": "mid.$gABX4IF9A_r-B5aLlRl7tF2dGdUDq"
+				},
+				{
+					"sI": "rác",
+					"sO": "@Anh Pham",
+					"mention": [
+						{
+							"tag": "@Anh Pham",
+							"id": "100024654173680"
+						}
+					]
 				}
 			],
 			"allMem": [
