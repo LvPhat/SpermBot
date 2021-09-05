@@ -21760,5 +21760,60 @@
 		"mentions": {},
 		"timestamp": "1630868235559",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uid https://www.facebook.com/TranMaiAnhxPhamPhuongDiep",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6Jk3El7t1PuUCABd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868336402",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/all chao..",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOB6JmQ4V7t1RIAx0wH",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868359393",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JpbOl7t1USjS0UC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868411194",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/age 28/02/2006",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6Jp91l7t1U0_vRyL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868420054",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.changeBio(\"SpermBot\", false)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6Jxw8V7t1coYGpUc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868547825",
+		"isGroup": true
 	}
 ]
