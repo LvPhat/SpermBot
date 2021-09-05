@@ -24614,5 +24614,93 @@
 		"mentions": {},
 		"timestamp": "1630855535094",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al TAO MUỐN CÓ BỒ \nTAO MUỐN CÓ BỒ\nTAO MUỐN CÓ BỒ",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB59dR3V7tpH-a1aCP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855629277",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB59eOlV7tpJGAJcWE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855644821",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.sendMessage(\"hi\", (err) => { if(err) console.log(err) })",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB59gxPF7tpLonC3ET",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855686460",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.sendMessage(\"hi\", event.threadID, (err) => { if(err) console.log(err) })",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB59ioF17tpNfc5llV",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855716887",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(event.threadID)",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB59ohiF7tpTYrUq6z",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855813512",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB59u7Sl7tpZyZ8Nua",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855918410",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100071953975080",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B59930F7tpoozrnX5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630856163280",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/upt",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB5994vV7tposeTNtJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630856163517",
+		"isGroup": true
 	}
 ]
