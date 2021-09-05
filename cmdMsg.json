@@ -24570,5 +24570,49 @@
 		"mentions": {},
 		"timestamp": "1630854758019",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all mấy con chim gáy coi",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB580Oj17tofEhvNjW",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630854956687",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al chim trong quần chim bay ra",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB583Lal7toiCZkmqw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855005034",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B5851d17toktSC-aE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855048567",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(event.threadID)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB59Xh9l7tpCZaGHHn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630855535094",
+		"isGroup": true
 	}
 ]
