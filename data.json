@@ -3363,6 +3363,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100069827438381,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
