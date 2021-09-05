@@ -24069,5 +24069,16 @@
 		"mentions": {},
 		"timestamp": "1630844204084",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al TƯƠNG TÁC ĐI MẤY CONDI ƠI :)",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5yxJCV7tecAYvYln",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630844420361",
+		"isGroup": true
 	}
 ]
