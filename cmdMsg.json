@@ -21815,5 +21815,27 @@
 		"mentions": {},
 		"timestamp": "1630868547825",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6K_KdV7t2qB7dod3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630869815925",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6LBAg17t2r3_p6qq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630869846147",
+		"isGroup": false
 	}
 ]
