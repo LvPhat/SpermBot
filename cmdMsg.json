@@ -24537,5 +24537,38 @@
 		"mentions": {},
 		"timestamp": "1630854084194",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al mấy anh trai ơi cho em mlem xíu",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB58fd-17toKU-IRU4",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630854616571",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al I LOVE YOU",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB58maNl7toRRkR1SZ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630854730294",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al TRAI THÌ VÔ GÁY ĐI ALO",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB58oGg17toS9kX4wI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630854758019",
+		"isGroup": true
 	}
 ]
