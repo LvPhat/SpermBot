@@ -24460,5 +24460,71 @@
 		"mentions": {},
 		"timestamp": "1630852740098",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB57L5XV7tm2wu_-G7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630853247325",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB57MoAl7tm3fTSqUJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630853259266",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB57M0_V7tm3sLDVXc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630853262589",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB57NaOF7tm4Rh1WhX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630853272120",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB57Vh717tnAZRYged",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630853405167",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB57WpDl7tnBgZiGeD",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630853423374",
+		"isGroup": false
 	}
 ]
