@@ -21672,5 +21672,93 @@
 		"mentions": {},
 		"timestamp": "1630867538361",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": ".help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JUUN17t0_Lmv5sb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868065335",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JWF7l7t1A9aREhr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868094446",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JWiXF7t1BZyX-UD",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868101724",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JYXml7t1DO-Os1F",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868131738",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JbZdF7t1GQyklBe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868181364",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6Jbkwl7t1GcOlQEx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868184258",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6JcbZ17t1HSOtf9w",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868198247",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/short list",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B6JetJ17t1JkUQr87",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630868235559",
+		"isGroup": true
 	}
 ]
