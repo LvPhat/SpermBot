@@ -23362,5 +23362,48 @@
 		"mentions": {},
 		"timestamp": "1630817509016",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5Znu0l7tFSluMEnq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630818051794",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100050839547560",
+		"body": "/al BIẾT TƯƠNG TÁC KHÔNG??",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5ZpDRl7tFT6W2Vqj",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630818073414",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B5Z5Lm17tFkDJ9J29",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short yêu",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630818337691,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B5Z3vr17tFimiMJyy",
+			"senderID": "100061175143206",
+			"attachments": [],
+			"body": "Yêu nhi",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630818314159
+		}
 	}
 ]
