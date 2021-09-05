@@ -23004,5 +23004,27 @@
 		"mentions": {},
 		"timestamp": "1630800678060",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5N73fF7s5mt6ppvS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630805798780",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/help",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5N86EV7s5nwiKfxw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630805815825",
+		"isGroup": true
 	}
 ]
