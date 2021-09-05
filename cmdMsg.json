@@ -23636,5 +23636,27 @@
 			"mentions": {},
 			"timestamp": 1630819535185
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al cả box vào nghe LAN ANH hát",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB5bKQr17tG1Gkl-Ys",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630819666095",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100047460369459",
+		"body": "/upt",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB5bkyU17tHPlRl6dv",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630820100691",
+		"isGroup": true
 	}
 ]
