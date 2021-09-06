@@ -22177,5 +22177,16 @@
 		"mentions": {},
 		"timestamp": "1630891527697",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6h7EeF7uNl7oo9ik",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630893866104",
+		"isGroup": true
 	}
 ]
