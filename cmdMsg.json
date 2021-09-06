@@ -23462,5 +23462,49 @@
 		"mentions": {},
 		"timestamp": "1630949936732",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uid https://www.facebook.com/Binky.Congchua",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7X1KbV7vDgB7xLqP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630950392429",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/fast",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7X1jbl7vDga8Chw1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630950398830",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7X1tg17vDgk-DM0J",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630950401411",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd list 2",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7X2pnF7vDhhHmkEq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630950416796",
+		"isGroup": true
 	}
 ]
