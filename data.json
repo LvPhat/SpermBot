@@ -3398,6 +3398,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100042144526707,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -3437,10 +3444,6 @@
 							"id": "100024785402633"
 						}
 					]
-				},
-				{
-					"sI": "ngu",
-					"sO": "mid.$gABX4IF9A_r-B4W2RpF7sChJHKMqn"
 				},
 				{
 					"sI": "hăn ngu",
