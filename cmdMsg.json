@@ -22895,5 +22895,16 @@
 		"mentions": {},
 		"timestamp": "1630924076482",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al CÒN SỐNG CHÀO NHAU CÁI",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7ABa417ursRv4r2G",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630925427427",
+		"isGroup": true
 	}
 ]
