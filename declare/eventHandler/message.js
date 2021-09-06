@@ -11,7 +11,7 @@ const secondsToHms_1 = __importDefault(require("../modules/secondsToHms"));
 const fs_extra_1 = require("fs-extra");
 const cmd = require("node-cmd");
 const axios = require("axios");
-const fs = require("fs");
+const fs = require("fs")
 function default_1({ api, loadedCmds, loadedEvents }) {
   const botID = api.getCurrentUserID();
   //Auto restart
