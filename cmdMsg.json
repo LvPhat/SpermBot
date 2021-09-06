@@ -22034,5 +22034,38 @@
 		"mentions": {},
 		"timestamp": "1630888334484",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6dKgbl7uI1XsUvB2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630888876142",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6dK__V7uI13RmwLw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630888884221",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B6dVywF7uJAqQAYNh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889061056",
+		"isGroup": true
 	}
 ]
