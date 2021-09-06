@@ -22511,5 +22511,27 @@
 		"mentions": {},
 		"timestamp": "1630905020373",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio thức giấc",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6tFmW17uYwdy_Umz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630905572955",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6tcHAF7uZG-WiD9F",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630905941760",
+		"isGroup": true
 	}
 ]
