@@ -40,7 +40,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
             return api.sendMessage('Không có shortcut.', event.threadID, event.messageID);
         let msg = '', num = 0;
         for (let i in getThread.shortcut)
-            msg += `\n${num += 1}. ${getThread.shortcut[i].sI} -> ${(getThread.shortcut[i].sO.indexOf('mid.$') == 0) ? 'Phản hồi một tin nhắn' : (getThread.shortcut[i].sO.length > 20) ? 'Một đoạn tin nhắn' : getThread.shortcut[i].sO}.`;
+            msg += `\n${num += 1}. ${getThread.shortcut[i].sI} -> ${(getThread.shortcut[i].sO.indexOf('mid.$') == 0) ? 'Phản hồi một tin nhắn' : (getThread.shortcut[i].sO.length > 20) ? 'Một đoạn tin nhắn' : (getThread.shortcut[i].sO.indexOf('https:')==0) ? 'Một tệp đính kèm' : getThread.shortcut[i].sO}.`;
         return api.sendMessage(`Shortcut của nhóm là:${msg}`, event.threadID, event.messageID);
     }
     else if (event.args[0] == 'edit') {
