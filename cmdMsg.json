@@ -22687,5 +22687,16 @@
 		"mentions": {},
 		"timestamp": "1630912923685",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all MỞ MỎ RA NÓI",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB60pM3F7ugUDJFvpn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630913496284",
+		"isGroup": true
 	}
 ]
