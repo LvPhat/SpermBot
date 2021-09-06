@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const subscribe_1 = __importDefault(require("../../events/subscribe"));
 const unsubscribe_1 = __importDefault(require("../../events/unsubscribe"));
 const fs_extra_1 = require("fs-extra");
-function default_1({ api, botData }) {
+function default_1({ api, botData, event }) {
   async function refresh(id) {
     var threadID = "";
     !id ? (threadID = event.threadID) : (threadID = id);
