@@ -22533,5 +22533,16 @@
 		"mentions": {},
 		"timestamp": "1630905941760",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al LỌC MEM KHÔNG TƯƠNG TÁC",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB6xf9PF7udK0VMmMG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630910199100",
+		"isGroup": true
 	}
 ]
