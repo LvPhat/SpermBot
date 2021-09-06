@@ -3643,6 +3643,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100025355595445,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [

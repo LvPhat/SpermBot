@@ -23121,5 +23121,38 @@
 		"mentions": {},
 		"timestamp": "1630939411862",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7OnsCV7u6SjRmQ1-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630940734473",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al TAO BẮT ĐẦU KICK NHA",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7OsY_l7u6XQTSMgF",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630940811518",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al LÁT TAO KICK TIẾP HEHE",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7Ov6IV7u6axXO-e2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630940869153",
+		"isGroup": true
 	}
 ]
