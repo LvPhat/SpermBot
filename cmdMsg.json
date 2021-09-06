@@ -22067,5 +22067,71 @@
 		"mentions": {},
 		"timestamp": "1630889061056",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6dhxnV7uJMo_vuRG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889257373",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all dậy đê",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB6d50AV7uJkp_DcMT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889651201",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptim",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6d8yC17uJnpYYKia",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889699851",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6d9WsV7uJoOJfvYG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889709233",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiB6eC-lV7uJt2D_CSu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889801365",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio thức giấc",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6eEkTl7uJvbs_iEr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630889827406",
+		"isGroup": true
 	}
 ]
