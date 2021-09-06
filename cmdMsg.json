@@ -22544,5 +22544,38 @@
 		"mentions": {},
 		"timestamp": "1630910199100",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/help",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B6y9LsV7ueoDQ3vbN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630911726513",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100043770634107",
+		"body": "/help",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B6zIwfV7uezo6T0i_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630911916157",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100066515220201",
+		"body": "/12 cung hoang dao",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B6zMqJl7ue3c_2obb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630911980070",
+		"isGroup": true
 	}
 ]
