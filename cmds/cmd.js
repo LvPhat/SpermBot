@@ -66,7 +66,7 @@ function default_1({ event, botData, api, getThread, loadedCmds }) {
           : cmdThreadAdmin.push(a.name);
       }
     });
-    async function table(args, array) {
+     function table(args, array) {
       var msg = "Danh sách lệnh:\n";
       var page = 1;
       var numPage = Math.ceil(array.length / limit);
@@ -79,10 +79,9 @@ function default_1({ event, botData, api, getThread, loadedCmds }) {
       array.length > 10 ? (msg += `Trang ${page}/${numPage}`) : "";
       return msg;
     }
-   
-    console.log(table(1, cmd))
-   
-    //api.sendMessage(await table(1, cmd), event.threadID, event.messageID);
+    
+    var helpTab =  table(1, cmd);
+    api.sendMessage(helpTab, event.threadID, event.messageID);
   } else if (event.args[0] == "load") {
     if (event.args[1] == "all") {
       const cmdFiles = fs_extra_1
