@@ -51,14 +51,15 @@ function default_1({ api, loadedCmds, loadedEvents }) {
        
         if (getThread.shortcut.some(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase() && item.sO.includes('https'))){
            const getUrl = getThread.shortcut.find(item => item.sI.toLowerCase() == event.contentMsg.toLowerCase());
+           
            var end = '';
            if (getUrl.sO.includes("mp4")) var end = "mp4"
            else var end = "jpg";
            if (getUrl.sO.includes("audio")) var end = "m4a"
            let content = (await axios.get( `${getUrl.sO}`, { responseType: "arraybuffer" } )).data;
-           fs.writeFileSync( __dirname + `/img.${end}`, Buffer.from(content, "utf-8") );
+           fs.writeFileSync( __dirname + `/img${}.${end}`, Buffer.from(content, "utf-8") );
            var img = [];
-           img.push(fs.createReadStream(__dirname + `/img.${end}`));
+           img.push(fs.createReadStream(__dirname + `/img${}.${end}`));
            var msg = {body: '', attachment:img}
            return api.sendMessage(msg, event.threadID, event.messageID)
       
