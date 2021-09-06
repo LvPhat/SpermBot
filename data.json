@@ -3405,6 +3405,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100056472656011,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100051910490361,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
