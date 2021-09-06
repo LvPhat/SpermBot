@@ -23176,5 +23176,27 @@
 		"mentions": {},
 		"timestamp": "1630944109455",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/help",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7VE4HV7vAvuFyN9F",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630947504157",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/all TT ĐI MẤY CON ĐĨ",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7VFtjl7vAwjmXiPN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630947517838",
+		"isGroup": true
 	}
 ]

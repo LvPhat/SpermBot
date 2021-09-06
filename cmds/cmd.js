@@ -27,6 +27,13 @@ function default_1({ event, botData, api, getThread, loadedCmds }) {
     }
     else if (event.args[0] == 'count')
         return api.sendMessage(`Đang có ${loadedCmds.length} lệnh được khởi chạy.`, event.threadID, event.messageID);
+    else if (event.args[0] == 'list'){
+      var limit = 10;
+      var cmdAdmin = [];
+      var cmdThreadAdmin = [];
+      var cmd = [];
+      loadedCmds.forEach(a => )
+    }
     else if (event.args[0] == 'load') {
         if (event.args[1] == 'all') {
             const cmdFiles = fs_extra_1.readdirSync(__dirname).filter(item => item.endsWith('.js') && !item.includes('test'));
