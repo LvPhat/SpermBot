@@ -7,19 +7,7 @@ exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 function default_1({ event, botData, api, getThread, threadAdmins }) {
-     if (event.args[0] == 'pic') {
-        let content = event.contentMsg.slice(4, event.args.length);
-        if (event.type !== "message_reply") return api.sendMessage("Sai format", event.threadID, event.messageID);
-        if (!event.messageReply.attachments || event.messageReply.attachments.length == 0) return api.sendMessage("Sai format", event.threadID, event.messageID);
-        if (event.messageReply.attachments.length > 1) return api.sendMessage(`Sai format`, event.threadID, event.messageID);
-        
-        let sI = content, sO = event.messageReply.attachments[0].url;
-        if (getThread.shortcut.some(item => item.sI == sI))
-            return api.sendMessage('Shortcut này đã tồn tại.', event.threadID, event.messageID);
-        getThread.shortcut.push({ sI, sO });
-        api.sendMessage(`Đã thêm: ${sI}.`, event.threadID, event.messageID);
-    };
-    if (event.args[0] == 'del') {
+      if (event.args[0] == 'del') {
         event.args = event.args.slice(1);
         if (event.args[0] == 'all') {
             getThread.shortcut = [];
@@ -40,7 +28,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
             return api.sendMessage('Không có shortcut.', event.threadID, event.messageID);
         let msg = '', num = 0;
         for (let i in getThread.shortcut)
-            msg += `\n${num += 1}. ${getThread.shortcut[i].sI} -> ${(getThread.shortcut[i].sO.indexOf('mid.$') == 0) ? 'Phản hồi một tin nhắn' : (getThread.shortcut[i].sO.length > 20) ? 'Một đoạn tin nhắn' : (getThread.shortcut[i].sO.indexOf('https:')==0) ? 'Một tệp đính kèm' : getThread.shortcut[i].sO}.`;
+            msg += `\n${num += 1}. ${getThread.shortcut[i].sI} -> ${(getThread.shortcut[i].sO.indexOf('https') == 0) ? 'Một tệp đính kèm' : (getThread.shortcut[i].sO.indexOf('mid.$') == 0) ? 'Phản hồi một tin nhắn' : (getThread.shortcut[i].sO.length > 20) ? 'Một đoạn tin nhắn' : getThread.shortcut[i].sO}.`;
         return api.sendMessage(`Shortcut của nhóm là:${msg}`, event.threadID, event.messageID);
     }
     else if (event.args[0] == 'edit') {
