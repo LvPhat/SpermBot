@@ -23088,5 +23088,27 @@
 			"mentions": {},
 			"timestamp": 1630938233610
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/ MỌI NGƯỜI ƠII",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7M4Y617u4jQL9Rdu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630938910955",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al MỌI NGƯỜI ƠI",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7M45OF7u4jwZPSnp",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630938919224",
+		"isGroup": true
 	}
 ]

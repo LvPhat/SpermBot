@@ -3629,6 +3629,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100044997840433,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100036093231843,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
