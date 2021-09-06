@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;
 const fs_extra_1 = require("fs-extra");
-const cmd = require("node-cmd")
+const cmd = require("node-cmd");
 exports.name = "project";
 exports.adminRequired = true;
 exports.threadAdminRequired = false;
@@ -30,11 +30,7 @@ async function default_1({
         "*"
       )}`;
     }
-    return api.sendMessage(
-      `${list}`,
-      event.threadID,
-      event.messageID
-    );
+    return api.sendMessage(`${list}`, event.threadID, event.messageID);
   }
 
   if (event.args[0] == "add") {
@@ -53,11 +49,11 @@ async function default_1({
       );
     botData.uptime.push(project.trim());
     api.sendMessage("Done.", event.threadID, event.messageID);
-     fs_extra_1.writeFileSync(
+    fs_extra_1.writeFileSync(
       "./data.json",
       JSON.stringify(botData, null, "\t")
     );
-    cmd.run("refresh")
+    cmd.run("refresh");
   }
 
   if (event.args[0] == "del") {
@@ -82,12 +78,11 @@ async function default_1({
       event.threadID,
       event.messageID
     );
-     fs_extra_1.writeFileSync(
+    fs_extra_1.writeFileSync(
       "./data.json",
       JSON.stringify(botData, null, "\t")
     );
-     cmd.run("refresh")
-
+    cmd.run("refresh");
   }
 }
 
