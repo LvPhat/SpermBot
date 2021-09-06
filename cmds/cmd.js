@@ -32,7 +32,26 @@ function default_1({ event, botData, api, getThread, loadedCmds }) {
       var cmdAdmin = [];
       var cmdThreadAdmin = [];
       var cmd = [];
-      loadedCmds.forEach(a => )
+      loadedCmds.forEach(a => {
+        if (a.name != 'help'){
+          a.adminRequired ? cmdAdmin.push(a.name) : !a.threadAdminRequired ? cmd.push(a.name) : cmdThreadAdmin.push(a.name);
+        }
+      });
+      async function table(args, array){
+        var msg = 'Danh sách lệnh:\n';
+        var page = 1;
+        var numPage = Math.ceil(array.length / limit);
+        page = parseInt(event.args[args]) || 1;
+        page < -1 ? page = 1 : '';
+        for(var i = limit * (page - 1); i < limit * (page - 1) + limit; i++){
+          if (i >= array.length) break;
+          msg += `${i + 1}. ${array[i]}\n`
+        }
+       array.length > 10 ? msg += `Trang ${page}/${numPage}` : "";
+       return msg;
+      }
+      return api.sendMessage(table(0, cmd), event.threadID, event.messageID);
+      
     }
     else if (event.args[0] == 'load') {
         if (event.args[1] == 'all') {
