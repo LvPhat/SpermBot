@@ -22434,5 +22434,49 @@
 		"mentions": {},
 		"timestamp": "1630903283680",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6rLn8l7uW2fQvUO-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630903574514",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/hentai 228922",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6rOg6l7uW5YUkhYD",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630903621866",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/hentai",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6rQdVF7uW7UlWXQo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630903653716",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/nhentai",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB6rQyXV7uW7pxSJrd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630903659101",
+		"isGroup": true
 	}
 ]
