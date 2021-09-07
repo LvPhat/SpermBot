@@ -24473,5 +24473,27 @@
 		"mentions": {},
 		"timestamp": "1631005914635",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000383461156",
+		"body": "/uptime",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB8QLlJF7v72ZzFhpj",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631009479972",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000383461156",
+		"body": "/weather Hà Nội",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB8QMMF17v73A8HJr4",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631009489943",
+		"isGroup": true
 	}
 ]
