@@ -45,12 +45,12 @@ async function default_1({ event, api, botID, getThread }) {
     var data = await axios.get(url);
     if (data.data.data.startsWith("Sai"))
       return api.sendMessage(
-        "Nhập theo format ngày/tháng/năm !",
+        "Sai format.",
         threadID,
         messageID
       );
     api.sendMessage(
-      "Thời gian từ " + event.args[0] + " đến hiện tại:\n" + data.data.data,
+      "Thời gian từ " + event.args[0] + " đến hiện tại\n______________\" + data.data.data,
       threadID,
       messageID
     );
