@@ -5039,26 +5039,7 @@
 			"nsfw": true,
 			"selfListen": false,
 			"admins": [],
-			"shortcut": [
-				{
-					"sI": "@nguyên phấn đông",
-					"sO": "mid.$gABBAGsTPzS6B2IkT1l7p0PLCGW2A"
-				},
-				{
-					"sI": "robin rách",
-					"sO": "@Nguyên Phấn Đông",
-					"mention": [
-						{
-							"tag": "@Nguyên Phấn Đông",
-							"id": "100015151637257"
-						}
-					]
-				},
-				{
-					"sI": "hi",
-					"sO": "https://scontent.xx.fbcdn.net/v/t1.15752-9/241047976_226044172805050_1610471289044660094_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=wqB_eieB8_AAX8kRJZ6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=81624e526bdf3654d88e684e5c690bdb&oe=615932EF"
-				}
-			],
+			"shortcut": [],
 			"allMem": [
 				"100001673971853",
 				"100002912331985",
