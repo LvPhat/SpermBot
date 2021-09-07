@@ -24,7 +24,7 @@ async function default_1({ event, api, botID, getThread, getUserByLink }) {
   else id = msg;
   if (getThread.ban.users.some(e => e.id == id))
     return api.sendMessage(
-      "Không thể thêm người dùng này vì đã bị cấm.",
+      "Người dùng đã bị cấm vào nhóm.",
       threadID,
       messageID
     );
@@ -51,7 +51,7 @@ async function default_1({ event, api, botID, getThread, getUserByLink }) {
             messageID
           );
         api.sendMessage(
-          `Đã thêm người dùng có ${id} `,
+          `Đã thêm người dùng có ${id} vào danh sách phê duyệt.`,
           threadID,
           messageID
         );

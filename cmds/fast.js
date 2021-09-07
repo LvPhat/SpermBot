@@ -24,12 +24,11 @@ async function default_1({ event, api, botID }) {
     });
     const resault = await speedTest.getSpeed();
     return api.sendMessage(
-      Math.floor(resault * 0.125) + " MB/s",
+      `${resault} mbps.`,
       event.threadID,
       event.messageID
     );
   } catch (ex) {
-    console.log(ex);
     return api.sendMessage("?", event.threadID, event.messageID);
   }
 }

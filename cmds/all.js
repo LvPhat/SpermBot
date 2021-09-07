@@ -20,7 +20,7 @@ async function default_1({ event, api, botID, getThread }) {
     });
   }
   return api.sendMessage(
-    { body: `‎${tags}${event.contentMsg || "@everyone"}`, mentions },
+    { body: `‎${tags}${event.contentMsg || "@all"}`, mentions },
     event.threadID,
     event.messageID
   );

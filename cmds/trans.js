@@ -26,7 +26,7 @@ async function default_1({ event, api }) {
     }
     let res = await translate_1.default(translateThis, lang);
     if (!res.error)
-        return api.sendMessage(`Bản dịch: ${res.text}\n${res.fromLang} -> ${res.toLang}`, event.threadID, event.messageID);
+        return api.sendMessage(`${res.text}\n`, event.threadID, event.messageID);
     else
         return api.sendMessage(res.text, event.threadID, event.messageID);
 }
