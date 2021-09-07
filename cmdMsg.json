@@ -24429,5 +24429,38 @@
 		"mentions": {},
 		"timestamp": "1631003886343",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100015151637257",
+		"body": "/all ae vào cho ý kiến đi",
+		"threadID": "4574083342650670",
+		"messageID": "mid.$gABBAGsTPzS6B8MOiMV7v33-wj3Z-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631005334065",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8MlZIV7v4QQmPMnP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631005708577",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8MlmxF7v4QeSf3qi",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631005712068",
+		"isGroup": true
 	}
 ]
