@@ -24002,5 +24002,16 @@
 		"mentions": {},
 		"timestamp": "1630977729828",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/al MỞ MÕM RA NÓI CHUYỆN DÙM",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB70zn5l7vgee28XTs",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630980775910",
+		"isGroup": true
 	}
 ]
