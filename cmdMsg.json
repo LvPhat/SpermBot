@@ -24791,5 +24791,16 @@
 		"mentions": {},
 		"timestamp": "1631027025333",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/al game khôngggg",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8hTI217wM-BC0t99",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631027429595",
+		"isGroup": true
 	}
 ]
