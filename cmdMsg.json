@@ -24122,5 +24122,37 @@
 			"mentions": {},
 			"timestamp": 1630994601825
 		}
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8EFVNF7vvwMhbGmI",
+		"senderID": "100032916014856",
+		"attachments": [],
+		"body": "/al",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630996794676,
+		"messageReply": {
+			"threadID": "4180515895402920",
+			"messageID": "mid.$gAA7aKDTsYaiB8EAuhV7vvrmC9k2L",
+			"senderID": "100026587118711",
+			"attachments": [],
+			"body": "Ăn thanh long",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630996719237
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100050768053318",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B8EYjoV7vwDW_rG8B",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630997109665",
+		"isGroup": true
 	}
 ]
