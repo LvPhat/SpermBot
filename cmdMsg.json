@@ -23805,5 +23805,38 @@
 		"mentions": {},
 		"timestamp": "1630975946420",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/say en My name is Son. \nI am 16 years old\nI'm in class 10A11\nI live with family in Cuong Trang village \nI have 1 brother\nI like favorite school subject is match\nIn my free time, i like watching tv",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7wdFs17vcH9BJZLv",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976212403",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(getThread.name)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7w7ym17vcmp4U2K4",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976715419",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run out(getThread.allMem)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7w8rmV7vcni3ypvo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976730009",
+		"isGroup": true
 	}
 ]
