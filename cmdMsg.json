@@ -24319,5 +24319,38 @@
 		"mentions": {},
 		"timestamp": "1631000647468",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al zô nói chuyện đi mọi người ơiii",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8IN5nF7vz4wq3ILB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631001129372",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8Ie2oF7v0Ju9i1mb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631001407136",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans rape",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8Ihs_F7v0MklqCv9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631001453820",
+		"isGroup": true
 	}
 ]
