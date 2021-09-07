@@ -24462,5 +24462,16 @@
 		"mentions": {},
 		"timestamp": "1631005712068",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8Mx-C17v4c1doDfY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631005914635",
+		"isGroup": true
 	}
 ]
