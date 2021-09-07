@@ -25032,5 +25032,27 @@
 		"mentions": {},
 		"timestamp": "1631042365403",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/help",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB8wJ5W17wb0wyFFmL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631043006811",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/audio covid nhanh đi đi",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB8wK0aV7wb1r0oc2s",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631043021929",
+		"isGroup": false
 	}
 ]
