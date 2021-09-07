@@ -24715,5 +24715,16 @@
 		"mentions": {},
 		"timestamp": "1631021133644",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al TƯƠNG TÁC ĐI NÀO",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8cp8tV7wIUzuXNML",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631022560437",
+		"isGroup": true
 	}
 ]
