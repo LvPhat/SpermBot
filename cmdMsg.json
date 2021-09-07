@@ -24813,5 +24813,27 @@
 		"mentions": {},
 		"timestamp": "1631028561332",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/all kkk",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOB8ln-zF7wRS1u0D_O",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631031965388",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8loh9F7wRTZQWFJI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631031974388",
+		"isGroup": true
 	}
 ]
