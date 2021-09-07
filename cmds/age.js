@@ -28,12 +28,12 @@ async function default_1({ event, api, botID, getThread }) {
     var data = await axios.get(url);
     if (data.data.data.startsWith("Sai"))
       return api.sendMessage(
-        "Nhập theo format ngày/tháng/năm !",
+        "Nhập theo format ngày",
         threadID,
         messageID
       );
     api.sendMessage(
-      "====Máy tính tuổi====\n" + data.data.data,
+      "Máy tính tuổi.\n________________________\n" + data.data.data,
       threadID,
       messageID
     );
@@ -44,13 +44,12 @@ async function default_1({ event, api, botID, getThread }) {
     var url = `https://le31.glitch.me/age?q=${event.args[0]}%20=>%20${timer}`;
     var data = await axios.get(url);
     if (data.data.data.startsWith("Sai"))
-      return api.sendMessage(
-        "Sai format.",
-        threadID,
-        messageID
-      );
+      return api.sendMessage("Sai format.", threadID, messageID);
     api.sendMessage(
-      "Thời gian từ " + event.args[0] + " đến hiện tại\n______________\" + data.data.data,
+      "Thời gian từ " +
+        event.args[0] +
+        " đến hiện tại.\n__________________________\n" +
+        data.data.data,
       threadID,
       messageID
     );
