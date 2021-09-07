@@ -27,8 +27,12 @@ async function default_1({ event, api, videoData }) {
          var videoInfo = await ytdl.getInfo(event.contentMsg);
          var { videoId, lengthSeconds } = videoInfo.videoDetails;
          if (lengthSeconds > 250) return out("Độ dài video vượt quá mức cho phép, tối đa là 4 phút!");
+          var random = Math.floor(
+          Math.random() * 99999999999999999999999999999999
+        );
+      
          try {
-         return api.sendTypingIndicator(event.threadID, () => ytdl(videoId).pipe(createWriteStream(`./${videoId}.mp4`)).on("close", () => out({ body: videoInfo.videoDetails.title, attachment: createReadStream(`./${videoId}.mp4`) }, () => unlinkSync(`./${videoId}.mp4`))).on("error", (e) => out(e)));
+         return api.sendTypingIndicator(event.threadID, () => ytdl(videoId).pipe(createWriteStream(`./${random}.mp4`)).on("close", () => out({ body: videoInfo.videoDetails.title, attachment: createReadStream(`./${random}.mp4`) }, () => unlinkSync(`./${random}.mp4`))).on("error", (e) => out(e)));
            }
          catch (e){
          	out("Đã có lỗi xảy ra.")
