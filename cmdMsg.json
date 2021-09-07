@@ -24046,5 +24046,16 @@
 		"mentions": {},
 		"timestamp": "1630984081208",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100036692408545",
+		"body": "/ip 138.199.22.237",
+		"threadID": "4735603246514873",
+		"messageID": "mid.$gABDTAY1OQrmB75QYzV7vk7MVVSgV",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630985441485",
+		"isGroup": true
 	}
 ]
