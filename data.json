@@ -3657,6 +3657,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100035498123048,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
