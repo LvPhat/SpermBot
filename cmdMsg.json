@@ -24176,5 +24176,38 @@
 		"mentions": {},
 		"timestamp": "1630998565458",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8GIHoV7vxzAK7OFU",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630998937505",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8GIbjl7vxzUILKB7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630998942606",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd list",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8GJBFV7vxz5pu94s",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630998952213",
+		"isGroup": true
 	}
 ]
