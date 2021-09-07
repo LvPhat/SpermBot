@@ -3,8 +3,8 @@
 	"admins": [
 		100070727704402,
 		100069279893724,
-    100023326875133
-    ],
+		100023326875133
+	],
 	"uptime": [
 		"https://maize-traih-l-partridgegchos.glitch.me"
 	],
@@ -5455,6 +5455,25 @@
 			"allMem": [
 				"100011819462998",
 				"100064427343444"
+			],
+			"rule": []
+		},
+		{
+			"id": 100023326875133,
+			"name": null,
+			"warns": [],
+			"ban": {
+				"use": false,
+				"cmds": [],
+				"users": []
+			},
+			"nsfw": true,
+			"selfListen": false,
+			"admins": [],
+			"shortcut": [],
+			"allMem": [
+				"100023326875133",
+				"100069279893724"
 			],
 			"rule": []
 		}
