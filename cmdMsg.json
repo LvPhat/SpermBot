@@ -24726,5 +24726,26 @@
 		"mentions": {},
 		"timestamp": "1631022560437",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B8eoNKV7wKS-qYtii",
+		"senderID": "100026926011713",
+		"attachments": [],
+		"body": "/short đọc đi cho hiểu",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631024629033,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B8eldPV7wKQUyGEWs",
+			"senderID": "100000307487713",
+			"attachments": [],
+			"body": "Con dien có người thích còn nhưng đứa bth thì không?",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631024583997
+		}
 	}
 ]
