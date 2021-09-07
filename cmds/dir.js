@@ -14,7 +14,7 @@ exports.location = __filename;
 async function default_1({ event, api }) {
   let { threadID, messageID, senderID, args } = event;
   if (!args[0])
-    return api.sendMessage("Tải lên data/appstate ?", threadID, messageID);
+    return api.sendMessage("Sai format.", threadID, messageID);
 
   if (args[0] == "data") {
     fs.copySync("./data.json", "./newData.json");
@@ -22,7 +22,7 @@ async function default_1({ event, api }) {
     api.sendMessage(
       {
         attachment: fs.createReadStream(path),
-        body: "Hệ thống đã tạo thành công file data.json !"
+        body: ""
       },
       event.threadID,
       () => fs.unlinkSync(path),
@@ -36,7 +36,7 @@ async function default_1({ event, api }) {
     api.sendMessage(
       {
         attachment: fs.createReadStream(pathh),
-        body: "Hệ thống đã tạo thành công file appstate.json !"
+        body: ""
       },
       event.threadID,
       () => fs.unlinkSync(pathh),

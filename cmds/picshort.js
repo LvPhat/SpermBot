@@ -22,7 +22,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
     sO = event.messageReply.attachments[0].url;
   if (getThread.shortcut.some(item => item.sI == sI))
     return api.sendMessage(
-      "Shortcut này đã tồn tại.",
+      "Shortpic này đã tồn tại.",
       event.threadID,
       event.messageID
     );

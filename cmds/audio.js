@@ -42,17 +42,19 @@ async function default_1({ event, api, audioData }) {
     var { videoId, lengthSeconds } = videoInfo.videoDetails;
     if (lengthSeconds > 1200)
       return out("Độ dài video vượt quá mức cho phép, tối đa là 20 phút!");
+    var random = Math.floor(Math.random() * 99999999999999999999999999999999);
+
     try {
       api.sendTypingIndicator(event.threadID, () =>
         ytdl(videoId, { filter: format => format.itag == "140" })
-          .pipe(createWriteStream(`./${videoId}.m4a`))
+          .pipe(createWriteStream(`./${random}.m4a`))
           .on("close", () =>
             out(
               {
                 body: videoInfo.videoDetails.title,
-                attachment: createReadStream(`./${videoId}.m4a`)
+                attachment: createReadStream(`./${random}.m4a`)
               },
-              () => unlinkSync(`./${videoId}.m4a`)
+              () => unlinkSync(`./${random}.m4a`)
             )
           )
           .on("error", e => out(e))
