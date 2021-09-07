@@ -24671,5 +24671,16 @@
 		"mentions": {},
 		"timestamp": "1631015496165",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al Quản trị viên đã xoá bạn ra khỏi nhóm",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8YBm117wDsd2LsUV",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631017705175",
+		"isGroup": true
 	}
 ]
