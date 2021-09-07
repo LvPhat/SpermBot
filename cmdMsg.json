@@ -24101,5 +24101,26 @@
 		"mentions": {},
 		"timestamp": "1630990778462",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B8B_gdV7vtqXVT5VS",
+		"senderID": "100052301360170",
+		"attachments": [],
+		"body": "/top [user/money]",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630994602101,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B8B_fYV7vtqW9duYG",
+			"senderID": "100000307487713",
+			"attachments": [],
+			"body": "&topmoney",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630994601825
+		}
 	}
 ]
