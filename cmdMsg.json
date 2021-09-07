@@ -24923,5 +24923,38 @@
 		"mentions": {},
 		"timestamp": "1631035421469",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB8tyS8F7wZdKIoG3Q",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631040522992",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB8t_6d17wZqxr_cXc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631040746103",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/all hề",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB8uAKL17wZrBhFrGh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631040750127",
+		"isGroup": true
 	}
 ]
