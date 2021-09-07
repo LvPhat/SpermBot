@@ -51,7 +51,7 @@ async function default_1({ event, api, botID, getThread, getUserByLink }) {
             messageID
           );
         api.sendMessage(
-          "Đã thêm " + id + " vào danh sách phê duyệt !",
+          `Đã thêm người dùng có ${id} `,
           threadID,
           messageID
         );

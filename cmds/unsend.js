@@ -18,8 +18,8 @@ function default_1({ event, api, botID }) {
       event.threadID,
       event.messageID
     );
-  return api.unsendMessage(event.messageReply.messageID, err =>
-    err
+  return api.unsendMessage(event.messageReply.messageID, (err) =>
+    (err)
       ? api.sendMessage("Đã có lỗi xảy ra.", event.threadID, event.messageID)
       : ""
   );
