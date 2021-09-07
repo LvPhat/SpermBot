@@ -23838,5 +23838,60 @@
 		"mentions": {},
 		"timestamp": "1630976730009",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7xKIUV7vc0_sO34S",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976950353",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7xKful7vc1W-gN-5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976956346",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/fast",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7xMljl7vc3c5NLO_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976990606",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd list 2",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7xMxeV7vc3o4N2ST",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630976993657",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100034587616199",
+		"body": "/al dậy điiii",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7xQzjl7vc7qtSNUA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630977059726",
+		"isGroup": true
 	}
 ]
