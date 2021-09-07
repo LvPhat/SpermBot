@@ -24780,5 +24780,16 @@
 		"mentions": {},
 		"timestamp": "1631026423993",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al ĐỘC THÂN KHÔNG PHẢI LÀ Ế MÀ ĐANG TÌM NGƯỜI TỬ TẾ ĐỂ YÊU",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8g6dtV7wMlU1Vtq4",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631027025333",
+		"isGroup": true
 	}
 ]
