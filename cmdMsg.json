@@ -24747,5 +24747,16 @@
 			"mentions": {},
 			"timestamp": 1631024583997
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al Lê Thị Quỳnh Mai đã xoá bạn ra khỏi cuộc nhóm",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB8fewKl7wLJnCks0D",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631025522730",
+		"isGroup": true
 	}
 ]
