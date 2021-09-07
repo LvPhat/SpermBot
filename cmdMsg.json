@@ -24079,5 +24079,27 @@
 		"mentions": {},
 		"timestamp": "1630988986748",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al CƠM CHƯAAAA",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7-VxkV7vqAo3_eVK",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630990772625",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100032916014856",
+		"body": "/al GAME HÔNG",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiB7-WIXl7vqA_sw0bx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630990778462",
+		"isGroup": true
 	}
 ]
