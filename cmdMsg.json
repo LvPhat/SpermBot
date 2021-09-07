@@ -23572,5 +23572,136 @@
 		"mentions": {},
 		"timestamp": "1630972771098",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7tw-Cl7vZbzjnyMQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973392394",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7tyF5V7vZc9K1G-s",
+		"senderID": "100069279893724",
+		"attachments": [],
+		"body": "/trans",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1630973410789,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yB7tx3LF7vZcuh-4Po",
+			"senderID": "100069279893724",
+			"attachments": [],
+			"body": "Meet",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1630973407020
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uEWJl7vZvNXy0dP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973709862",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/trans chào -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uEnNV7vZvebem4E",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973714229",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/trans tên tôi là Hung. Năm nay tôi 16 tuổi -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uFuRV7vZwlaipL5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973732421",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans tên tôi là Son. Năm nay tôi 16 tuổi -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uHUqF7vZyJxyipG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973758632",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/trans tôi năm nay 16 tuổi -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uIhmV7vZzYsySpN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973778329",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/trans Tên tao là Hùng -> ja",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uOVPV7vZ5MQyQnI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973873469",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uPQeF7vZ6Hxln3p",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973888632",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uRCyF7vZ76FWys6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973917896",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB7uVGjl7vZ_9vrJhW",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1630973984398",
+		"isGroup": true
 	}
 ]
