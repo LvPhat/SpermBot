@@ -4029,6 +4029,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100008090314530,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100016029451185,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [

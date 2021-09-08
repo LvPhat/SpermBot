@@ -48,8 +48,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
       for(let i of arr){
         fs.unlinkSync(__dirname + "/" +i)
       }
-     
-   api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
+     api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
     }
     //Block thread use bot
     if (getThread.ban.use) return;
