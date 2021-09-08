@@ -4064,6 +4064,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100052315363977,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
