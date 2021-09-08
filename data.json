@@ -4043,6 +4043,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100004219392714,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
