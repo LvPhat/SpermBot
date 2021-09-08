@@ -25241,5 +25241,49 @@
 		"mentions": {},
 		"timestamp": "1631062350100",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load weather",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9C2-Gl7wuh1AthVs",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062619674",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Bac Ninh",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9C3Qx17wuiIB5Twh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062624455",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load weather",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9DKMTV7wu1Dn0Jwg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062934605",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Bac Ninh",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9DKjcF7wu1aq1f3H",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062940528",
+		"isGroup": false
 	}
 ]
