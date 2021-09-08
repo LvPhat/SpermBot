@@ -40,13 +40,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     if(event.command == 'clear'){
       const Files = fs_extra_1
         .readdirSync(__dirname)
-        .filter(item => item.endsWith(".mp4") && item.endsWith(".jpg") && !item.includes("test"));
-      for (let file of Files) {
-      fs.unlink(file, function (err) {
-  if (err) throw err;
-  console.log('File deleted!')
-      })
-      }
+        .filter(item => item.endsWith(".mp4"));
+       console.log(Files)
      api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
     }
     //Block thread use bot
