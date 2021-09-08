@@ -26207,5 +26207,104 @@
 		"mentions": {},
 		"timestamp": "1631077076348",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9R_-Al7w9q1O1WdY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078495746",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SAjI17w9raQc7TD",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078505251",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SFW-l7w9wOJOao8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078584058",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SJFfF7w9z8nxbWx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078645116",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SJSb17w90JkHqF1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078648431",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SJdv17w90U8oVJJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078651327",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SN_C17w941qzlv8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078725387",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SOERl7w947TZJbt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078726726",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9SPteV7w96kovM5c",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631078753657",
+		"isGroup": true
 	}
 ]
