@@ -26872,5 +26872,16 @@
 		"mentions": {},
 		"timestamp": "1631107592837",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9t9-4l7xZozXv7UJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631107823330",
+		"isGroup": true
 	}
 ]

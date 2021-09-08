@@ -4141,6 +4141,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100050540761542,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
