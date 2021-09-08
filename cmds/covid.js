@@ -1,33 +1,30 @@
-
+"use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;
 const axios_1 = __importDefault(require("axios"));
-const axios = require("axios")
 exports.name = 'covid';
 exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 async function default_1({ event, api }) {
-    var { data } = await axios.get("https://meewmeew.info/covid?apikey=" + "Meew_ZrqeAktMqdILbLDR8KLXnQDMUsZYX7");
-    if (data.success == false) return api.sendMessage(data.error, event.threadID);
-    var world = data.world;
-    var vn = data.vietnam;
-  console.log(vn)
-    //     return api.sendMessage(
-    //     '====== Thế Giới ======\n' +
-    //     `😷 Nhiễm: ${nhiemtg}\n` +
-    //     `💚 Hồi phục: ${hoiphuctg} (${pthoiphuctg}%)\n` +
-    //     `💀 Tử vong: ${chettg} (${ptchettg}%)\n` +
-    //     '====== Việt Nam ======\n' +
-    //     `😷 Nhiễm: ${nhiemvn}\n` +
-    //     `💉 Đang điều trị: ${dieutrivn} (${ptdieutrivn}%)\n` +
-    //     `💚 Hồi phục: ${hoiphucvn} (${pthoiphucvn}%)\n` +
-    //     `💀 Tử vong: ${chetvn} (${ptchetvn}%)\n\n` +
-    //     `Tin tức: ${news.vietnam}\n` +
-    //     `Cập nhật: ${data.time}`, event.threadID
-    // );
+    try {
+        let { data } = await axios_1.default.get('https://www.spermlord.ga/covid');
+        api.sendMessage('====== Thế Giới ======\n' +
+            `😷 Nhiễm: ${data.thegioi.nhiem}\n` +
+            `💚 Hồi phục: ${data.thegioi.hoiphuc}\n` +
+            `💀 Tử vong: ${data.thegioi.tuvong}\n` +
+            '====== Việt Nam ======\n' +
+            `😷 Nhiễm: ${data.vietnam.nhiem}\n` +
+            `💚 Hồi phục: ${data.vietnam.hoiphuc}\n` +
+            `💀 Tử vong: ${data.vietnam.tuvong}\n\n` +
+            `📰 Tin tức: ${data.tintuc}.\n` +
+            `⌚ Cập nhật: ${data.updatedAt}.`, event.threadID, event.messageID);
+    }
+    catch {
+        return api.sendMessage('Đã có lỗi xảy ra.', event.threadID, event.messageID);
+    }
 }
 exports.default = default_1;

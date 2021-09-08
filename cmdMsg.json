@@ -27069,5 +27069,18 @@
 		"mentions": {},
 		"timestamp": "1631115949255",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100018806512683",
+		"body": "/kiss @Trần Hữu Doanh Hào",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB94PXnF7xj6RoO10U",
+		"attachments": [],
+		"mentions": {
+			"100015243374136": "@Trần Hữu Doanh Hào"
+		},
+		"timestamp": "1631118593948",
+		"isGroup": true
 	}
 ]
