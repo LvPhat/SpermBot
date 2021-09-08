@@ -25098,5 +25098,93 @@
 		"mentions": {},
 		"timestamp": "1631058733469",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AMbnl7wr3S8lsmy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631059825566",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AXH5F7wsB_CiRSI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060000740",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AYGil7wsC9ybMOa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060016778",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AZ9U17wsEzwB6vc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060047187",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AaM6F7wsFD5YJeh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060051176",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AnBcl7wsR4v8yxg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060261234",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/audio https://youtu.be/wNh1vI6JGho",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9ApO0F7wsUFxk3ZI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060297424",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9AtDgl7wsX6uNbyu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631060360066",
+		"isGroup": true
 	}
 ]

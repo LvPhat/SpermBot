@@ -132,6 +132,6 @@ if (botData.uptime.length > 0) {
       try {
         await axios.get(i);
       } catch (e) {}
-    }, 15000);
+    }, 5000);
   });
 }
