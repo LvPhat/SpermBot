@@ -13,7 +13,7 @@ async function default_1({ event, api }) {
     if (!event.contentMsg)
         return api.sendMessage('Chưa nhập thành phố.', event.threadID, event.messageID);
     try {
-        let { data } = await axios_1.default.get(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(event.contentMsg)}&appid=081c82065cfee62cb7988ddf90914bdd&units=metric&lang=vi`);
+        let { data } = await axios_1.default.get(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(event.contentMsg)}&appid=d8e568802560fb8949936ec77cc9a136&units=metric&lang=vi`);
         if (data.cod == '200')
             return api.sendMessage(`» Địa điểm: ${data.name} (${data.sys.country})\n` +
                 `» Nhiệt độ: ${data.main.temp}℃\n` +

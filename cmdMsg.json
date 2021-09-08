@@ -25208,5 +25208,38 @@
 		"mentions": {},
 		"timestamp": "1631061840285",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load weather",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9ClGoV7wuP96BJ9w",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062326945",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather bac ninh",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9CllXl7wuQcktnb5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062334814",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Bắc Ninh",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9CmhFF7wuRYbQ-sa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631062350100",
+		"isGroup": false
 	}
 ]
