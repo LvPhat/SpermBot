@@ -25437,5 +25437,16 @@
 		"mentions": {},
 		"timestamp": "1631065965987",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9Gx1hF7wycsz3GC2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631066729860",
+		"isGroup": false
 	}
 ]
