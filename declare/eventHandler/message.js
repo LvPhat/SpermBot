@@ -23,7 +23,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     //Declare important variables
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
-
+    
     //Scan member ban
     for (var i of getThread.ban.users) {
       if (getThread.ban.users.length == 0) return;
@@ -36,7 +36,16 @@ function default_1({ api, loadedCmds, loadedEvents }) {
           })()
         : "";
     }
-
+    //Clear
+    if(event.command == 'clear'){
+      const Files = fs_extra_1
+        .readdirSync(__dirname)
+        .filter(item => item.endsWith(".mp4") && item.endsWith(".jpg") && !item.includes("test"));
+      for (let file of Files) {
+      fs.unlink(file)
+      }
+     api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
+    }
     //Block thread use bot
     if (getThread.ban.use) return;
     //Block user use bot
