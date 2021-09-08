@@ -25954,5 +25954,16 @@
 		"mentions": {},
 		"timestamp": "1631072753007",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/weather Bắc Ninh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9NORxl7w45FWdgOe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631073487302",
+		"isGroup": true
 	}
 ]
