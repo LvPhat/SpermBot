@@ -25965,5 +25965,38 @@
 		"mentions": {},
 		"timestamp": "1631073487302",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGB9Npv_17w5UnTh_YS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631073937407",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9NxNhl7w5cEpYAz9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631074059654",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9Nzz_V7w5erf2_N9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631074102269",
+		"isGroup": false
 	}
 ]

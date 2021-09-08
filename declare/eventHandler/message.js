@@ -42,7 +42,10 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         .readdirSync(__dirname)
         .filter(item => item.endsWith(".mp4") && item.endsWith(".jpg") && !item.includes("test"));
       for (let file of Files) {
-      fs.unlink(file)
+      fs.unlink(file, function (err) {
+  if (err) throw err;
+  console.log('File deleted!')
+      })
       }
      api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
     }
