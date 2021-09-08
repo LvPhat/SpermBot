@@ -25734,5 +25734,38 @@
 		"mentions": {},
 		"timestamp": "1631069568819",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans phi công -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9J18Xl7w1gz3mq80",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631069942878",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans anh ấy không phải phi công -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9KGZ9V7w1xNoJ46S",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631070212597",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans cô ấy không đi chơi bây giờ -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9KJHIl7w1z6yfOe1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631070256930",
+		"isGroup": true
 	}
 ]
