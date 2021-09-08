@@ -11,7 +11,7 @@ exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 async function default_1({ event, api }) {
-    var { data } = await axios.get("https://meewmeew.info/covid?apikey=" + "MEWc3VuOTQzO3RoaWVubGUwOTA0QGdtYWlsLmN");
+    var { data } = await axios.get("https://meewmeew.info/covid?apikey=" + "Meew_ZrqeAktMqdILbLDR8KLXnQDMUsZYX7");
     if (data.success == false) return api.sendMessage(data.error, event.threadID);
     var world = data.world,
         vn = data.vietnam,
