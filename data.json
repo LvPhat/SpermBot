@@ -3833,6 +3833,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100061847679174,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
