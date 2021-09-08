@@ -26949,5 +26949,16 @@
 		"mentions": {},
 		"timestamp": "1631111278779",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/all Ngủ r à cu",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9zvkw17xfaaqIg1N",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631113878723",
+		"isGroup": true
 	}
 ]
