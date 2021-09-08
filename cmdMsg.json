@@ -26586,5 +26586,49 @@
 		"mentions": {},
 		"timestamp": "1631102423401",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9px71F7xVcyqcrcQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103431636",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9py1j17xVdsnwCsx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103446415",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd count",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9p56E17xVkxUEuB0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103562259",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9p-ivl7xVpZ7FiUZ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103638206",
+		"isGroup": true
 	}
 ]
