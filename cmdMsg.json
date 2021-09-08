@@ -26960,5 +26960,27 @@
 		"mentions": {},
 		"timestamp": "1631113878723",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB90NlgV7xf4cmW1S6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631114370433",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB90NwIF7xf4lxR8qc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631114373152",
+		"isGroup": true
 	}
 ]
