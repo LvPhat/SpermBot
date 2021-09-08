@@ -4078,6 +4078,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100000191630572,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
