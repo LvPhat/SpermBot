@@ -26488,5 +26488,70 @@
 		"mentions": {},
 		"timestamp": "1631099657877",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9mRgsl7xR8YPC_1r",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short anh",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631099754674,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B9lQwUl7xQ7n-x_Ex",
+			"senderID": "100024654173680",
+			"attachments": [],
+			"body": "T đi tự tử",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631098693714
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9mTesF7xR-WJrXvE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631099786928",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9mlzsl7xSQquOo5X",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631100087218",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9ml4B17xSQvZ5wQ5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631100088327",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/project",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9my5tF7xSdxGZg7a",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631100301748",
+		"isGroup": true
 	}
 ]
