@@ -9,6 +9,7 @@ exports.location = __filename;
 async function default_1({ event, botData, api, getThread }) {
   const disk = require("diskusage");
   const { free } = await disk.check('/app');
-  console.log(free);
+  const diskF = free / 1024
+  api.sendMessage(diskF.toLocaleString('vi-VN') + "MB", event.threadID)
 }
 exports.default = default_1;
