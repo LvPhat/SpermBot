@@ -4050,6 +4050,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 1149751644,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
