@@ -26564,5 +26564,27 @@
 		"mentions": {},
 		"timestamp": "1631100444622",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9ovTd17xUaKYH0p8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631102339959",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9o0ZaV7xUfQr6qGb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631102423401",
+		"isGroup": true
 	}
 ]
