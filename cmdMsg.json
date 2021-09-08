@@ -27404,5 +27404,16 @@
 		"mentions": {},
 		"timestamp": "1631124120160",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9-i5B17xqNwR_ABu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631125205255",
+		"isGroup": false
 	}
 ]
