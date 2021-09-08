@@ -4008,6 +4008,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100016421263151,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100025277660832,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [

@@ -45,8 +45,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         .readdirSync(__dirname)
         .filter(item => item.endsWith(".jpg"));
       var arr = mp4.concat(jpg)
-      for(let i of arr){
-        fs.unlink(i)
+      for(let i of jpg){
+        fs.unlinkSync(__dirname + i)
       }
      
    api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
