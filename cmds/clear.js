@@ -6,10 +6,9 @@ exports.name = "clear";
 exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
-function default_1({ event, botData, api, getThread }) {
-  
-const disk = require('diskusage');
-  const { free } = await disk.check(path);
-   console.log(free)
+async function default_1({ event, botData, api, getThread }) {
+  const disk = require("diskusage");
+  const { free } = await disk.check('/app');
+  console.log(free);
 }
 exports.default = default_1;

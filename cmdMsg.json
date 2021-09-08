@@ -25459,5 +25459,137 @@
 		"mentions": {},
 		"timestamp": "1631067329403",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9Hr1117wzWtGsVZ6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631067680215",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9Hr-217wzW113cxd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631067682523",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load clear",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9HzBmV7wzd4-Wkav",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631067797913",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9HzQeV7wzeH4MzJz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631067801721",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9H3qCF7wzihKM8ZF",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631067873800",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9H7LMF7wzmCefSDm",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631067931440",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load clear",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9IDsCV7wzujcDyHU",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631068070921",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB9IDzlF7wzuqW-5e2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631068072852",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans anh ấy làm giám đốc -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9IIeG17wzzVsumWe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631068149275",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/trans anh ấy làm tình",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9IJac17wz0Ru-MZe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631068164723",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/trans anh ấy làm tình -> en",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9IJ-2V7wz02IQNjY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631068174041",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/trans badroom",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9IUQoF7wz_INmoIw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631068342432",
+		"isGroup": true
 	}
 ]

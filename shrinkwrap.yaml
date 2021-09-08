@@ -7,6 +7,7 @@ dependencies:
   chalk: 4.1.2
   cheerio: 1.0.0-rc.10
   cli-cursor: 4.0.0
+  diskusage: 1.1.3
   express: 4.17.1
   fast-speedtest-api: 0.3.2
   fca-unofficial: 1.3.10
@@ -495,6 +496,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+  /diskusage/1.1.3:
+    dependencies:
+      es6-promise: 4.2.8
+      nan: 2.15.0
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-EAyaxl8hy4Ph07kzlzGTfpbZMNAAAHXSZtNEMwdlnSd1noHzvA6HsgKt4fEMSvaEXQYLSphe5rPMxN4WOj0hcQ==
   /dom-serializer/0.1.1:
     dependencies:
       domelementtype: 1.3.1
@@ -628,6 +637,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-kTbgUD3MBqMBaQ8LsU/042TpSfA=
+  /es6-promise/4.2.8:
+    dev: false
+    resolution:
+      integrity: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
   /es6-set/0.1.5:
     dependencies:
       d: 1.0.1
@@ -1330,6 +1343,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+  /nan/2.15.0:
+    dev: false
+    resolution:
+      integrity: sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
   /nano/9.0.3:
     dependencies:
       '@types/tough-cookie': 4.0.1
@@ -1978,6 +1995,7 @@ specifiers:
   chalk: ''
   cheerio: ''
   cli-cursor: ''
+  diskusage: ^1.1.3
   express: ''
   fast-speedtest-api: ''
   fca-unofficial: ''
