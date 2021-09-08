@@ -4176,6 +4176,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 687053416,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
