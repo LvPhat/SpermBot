@@ -17,15 +17,28 @@ async function default_1({ event, botData, api, getThread }) {
   while (n >= 1024 && ++l) n = n / 1024;
   return `${n.toFixed(n < 10 && l > 0 ? 1 : 0)}`;
  }
+  
+  //Function
+  function byte2mmb(bytes) {
+  const units = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+  let l = 0, n = parseInt(bytes, 10) || 0;
+  while (n >= 1024 && ++l) n = n / 1024;
+  return `${n.toFixed(n < 10 && l > 0 ? 1 : 0)}${units[l]}`;
+ }
   const disk = require("diskusage");
   const { free } = await disk.check('/app');
   const { cpu, time, cpuTemperature, currentLoad, memLayout, diskLayout, mem, osInfo } = require('systeminformation');
   var { uptime } = await time();
   const pidusage = await require('pidusage')(process.pid)
-  
+  var hours = Math.floor(uptime / (60 * 60));
+    var minutes = Math.floor((uptime % (60 * 60)) / 60);
+    var seconds = Math.floor(uptime % 60);
+    if (hours < 10) hours = "0" + hours;
+    if (minutes < 10) minutes = "0" + minutes;
+    if (seconds < 10) seconds = "0" + seconds;
   const ramF = 512 - byte2mb(pidusage.memory) 
-  const diskF = free / 1024
-  var msg = `GLITCH\n_______________\n`
-  api.sendMessage( + "MB", event.threadID)
+  const diskF = byte2mmb(free)
+  var msg = `GLITCH\n_______________\nProject uptime: ${hours}:${minutes}:${second\nFree ram: ${ramF}MB\nFree disk: ${diskF}MB`
+  api.sendMessage(msg, event.threadID)
 }
 exports.default = default_1;

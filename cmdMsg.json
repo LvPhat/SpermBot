@@ -25767,5 +25767,38 @@
 		"mentions": {},
 		"timestamp": "1631070256930",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/trans cô ấy đóng phim bên Nhật Bản -> ja",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9KakRl7w2FbX-EpB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631070542918",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9KlJ9l7w2QBJlFom",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631070716406",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9KlSxF7w2QJ5gNAI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631070718660",
+		"isGroup": true
 	}
 ]
