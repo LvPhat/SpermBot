@@ -7,27 +7,9 @@ exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 function default_1({ event, botData, api, getThread }) {
-  const users = Object.keys(event.mentions);
-  users.forEach(id => {
-    let name = event.mentions[id];
-    id = parseInt(id);
-    getThread.admins.includes(id)
-      ? getThread.admins.splice(getThread.admins.indexOf(id), 1)
-      : getThread.admins.push(id);
-    api.sendMessage(
-      {
-        body: `Đã ${
-          getThread.admins.includes(id) ? "thêm" : "gỡ"
-        } admin: ${name}.`,
-        mentions: [{ tag: name, id }]
-      },
-      event.threadID,
-      event.messageID
-    );
-  });
-  return fs_extra_1.writeFileSync(
-    "./data.json",
-    JSON.stringify(botData, null, "\t")
-  );
+  
+const disk = require('diskusage');
+  const { free } = await disk.check(path);
+   console.log(free)
 }
 exports.default = default_1;
