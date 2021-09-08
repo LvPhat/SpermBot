@@ -6,7 +6,8 @@
 		100023326875133
 	],
 	"uptime": [
-		"https://maize-traih-l-partridgegchos.glitch.me"
+		"https://maize-traih-l-partridgegchos.glitch.me",
+		"https://remasale-scratchhsu-beeop.glitch.me"
 	],
 	"eventLog": false,
 	"todolist": [],
@@ -4183,6 +4184,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100072444338884,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -5860,7 +5868,8 @@
 				"100023326875133",
 				"100052301360170",
 				"100064427343444",
-				"100069279893724"
+				"100069279893724",
+				"100072444338884"
 			],
 			"rule": []
 		},
