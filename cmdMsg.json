@@ -26828,5 +26828,27 @@
 		"mentions": {},
 		"timestamp": "1631104312481",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Hà Nội",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qq3k17xWVut94fg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104364435",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Hà Nội",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qsNyF7xWVut94fg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104386504",
+		"isGroup": true
 	}
 ]
