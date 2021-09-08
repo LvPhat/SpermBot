@@ -38,7 +38,10 @@ async function default_1({ event, botData, api, getThread }) {
     if (seconds < 10) seconds = "0" + seconds;
   const ramF = 512 - byte2mb(pidusage.memory) 
   const diskF = byte2mmb(free)
-  var msg = `GLITCH\n_______________\nProject uptime: ${hours}:${minutes}:${second\nFree ram: ${ramF}MB\nFree disk: ${diskF}MB`
-  api.sendMessage(msg, event.threadID)
+  var msg = `</>GLITCH</>\n_______________\nProject uptime: ${hours}:${minutes}:${seconds}\nFree ram: ${ramF}MB\nFree disk: ${diskF}`
+  if (event.args.length == 0)
+  return api.sendMessage(msg, event.threadID, event.messageID);
+  
+ 
 }
 exports.default = default_1;
