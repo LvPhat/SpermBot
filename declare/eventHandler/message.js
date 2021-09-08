@@ -38,11 +38,18 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     }
     //Clear
     if(event.command == 'clear'){
-      const Files = fs_extra_1
+      const mp4 = fs_extra_1
         .readdirSync(__dirname)
         .filter(item => item.endsWith(".mp4"));
-       console.log(Files)
-     api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
+      const jpg = fs_extra_1
+        .readdirSync(__dirname)
+        .filter(item => item.endsWith(".jpg"));
+      var arr = mp4.concat(jpg)
+      for(let i of arr){
+        fs.unlink(i)
+      }
+     
+   api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
     }
     //Block thread use bot
     if (getThread.ban.use) return;
