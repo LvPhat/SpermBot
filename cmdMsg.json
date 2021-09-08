@@ -25186,5 +25186,27 @@
 		"mentions": {},
 		"timestamp": "1631060360066",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Bắc Ninh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9CGt0V7wtxk8hfZd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631061829073",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather bắc ninh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9CHZnV7wtyQ0kLmq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631061840285",
+		"isGroup": true
 	}
 ]
