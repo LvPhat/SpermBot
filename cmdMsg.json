@@ -25877,5 +25877,82 @@
 		"mentions": {},
 		"timestamp": "1631072254691",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9MRil17w38Zs9wgO",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072492183",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9MRvyF7w38nHT_PT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072495560",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9MR-N17w381UaN-X",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072499255",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9MWBt17w4A42pBHC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072565687",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9MewkF7w4JnxTv50",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072708752",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9Mf2EV7w4KtXnyNo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072726545",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9Mhdb17w4MUkIR_m",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631072753007",
+		"isGroup": true
 	}
 ]
