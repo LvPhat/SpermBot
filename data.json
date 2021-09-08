@@ -3791,6 +3791,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100062706066207,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [

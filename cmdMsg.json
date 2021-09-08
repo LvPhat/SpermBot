@@ -25285,5 +25285,59 @@
 		"mentions": {},
 		"timestamp": "1631062940528",
 		"isGroup": false
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9DQFSV7wu68dpraN",
+		"senderID": "100023326875133",
+		"attachments": [],
+		"body": "/rerub",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631063031113,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yB9CHZnV7wtyQ0kLmq",
+			"senderID": "100023326875133",
+			"attachments": [],
+			"body": "/weather bắc ninh",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631061840285
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9DTdj17wu-Uzg5tM",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631063086479",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd list",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9DWpd17wvBgvh5RH",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631063138679",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9DXDdl7wvB6n4zDf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631063145334",
+		"isGroup": true
 	}
 ]
