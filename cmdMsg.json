@@ -26630,5 +26630,203 @@
 		"mentions": {},
 		"timestamp": "1631103638206",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qLF417xV189eZMi",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103843811",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/audio covid nhanh đi đi",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qN7ol7xV4y0jmVn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103890338",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Bắc Ninh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qO9H17xV50QMhR6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103907103",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/weather Bắc Ninh",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qThB17xV-YfwxZQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103981831",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qUI2V7xV_AF06aK",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631103992025",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB9qVC5l7xV_6K4Rqr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104006886",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100061175143206",
+		"body": "/weather bắc kinh",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qV75l7xWAy5bo7M",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104021478",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/weather thanh hoad",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qXC-V7xWB6xPrvC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104039673",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/weather thanh hoá",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qXp4l7xWChrvUVI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104049634",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100048548776938",
+		"body": "/weather hà nội",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qXvj17xWCnDUqo6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104051087",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/weather thanh hoad",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qYR2V7xWDJp6WcP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104059865",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/weather thanh hoá",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qYwUV7xWDoFE5ek",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104067665",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024785402633",
+		"body": "/weather Quảng Bình",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qaCol7xWE3V4g3H",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104088738",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100066515220201",
+		"body": "/weather vung tau",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qanBl7xWFcX-6Yo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104098054",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100061175143206",
+		"body": "/weather thái nguyên",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qcm917xWHd2Jad3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104130807",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100061175143206",
+		"body": "/ghep",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qlNpF7xWQEqZB5H",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104271780",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100061175143206",
+		"body": "/short",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qmjbl7xWRaWTS7_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104293742",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100061175143206",
+		"body": "/help",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B9qnsoV7xWSieHVP0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631104312481",
+		"isGroup": true
 	}
 ]
