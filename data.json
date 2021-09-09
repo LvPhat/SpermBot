@@ -4198,6 +4198,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100051848841099,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
