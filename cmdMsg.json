@@ -28393,5 +28393,27 @@
 		"mentions": {},
 		"timestamp": "1631201260099",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_H8Zz17yznQgNhtt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202169295",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB_IBwwF7yzsoCGl5Q",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202257088",
+		"isGroup": false
 	}
 ]
