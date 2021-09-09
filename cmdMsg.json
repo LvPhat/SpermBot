@@ -27939,5 +27939,88 @@
 		"mentions": {},
 		"timestamp": "1631188485428",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uid https://www.facebook.com/NBNLOVENHMT.02",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB-7DEw17ymt7yAMbI",
+		"attachments": [
+			{
+				"type": "share",
+				"ID": "ee.mid.$cAAAB-08_lSGB-7DEw17ymt7yAMbI",
+				"url": "https://www.facebook.com/NBNLOVENHMT.02",
+				"title": "Nguyễn Bảo Ngọc",
+				"description": null,
+				"source": null,
+				"image": "https://scontent.xx.fbcdn.net/v/t1.6435-1/p960x960/164753784_10219570872926145_1293609067136427520_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=B4mNTfDep_EAX-3IjE1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=59e49c93bd395bab7d0e757e46cafb44&oe=615DED3E",
+				"width": 960,
+				"height": 960,
+				"playable": false,
+				"duration": 0,
+				"playableUrl": null,
+				"subattachments": [],
+				"properties": {},
+				"facebookUrl": "https://www.facebook.com/NBNLOVENHMT.02",
+				"target": {
+					"__typename": "User",
+					"id": "1344830985",
+					"name": "Nguyễn Bảo Ngọc",
+					"profile_picture": {
+						"uri": "https://scontent.xx.fbcdn.net/v/t1.6435-1/cp0/p50x50/164753784_10219570872926145_1293609067136427520_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=B4mNTfDep_EAX-3IjE1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=54e70b1280e3eea5b1e9935f2b5717f2&oe=616143D8"
+					},
+					"cover_photo": {
+						"photo": {
+							"image": {
+								"uri": "https://scontent.xx.fbcdn.net/v/t1.6435-9/p640x640/221706345_10220324973058177_103807260939269566_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=EvH3xLuNvsEAX99636I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=ea3694440048970ca15f0b79782080d8&oe=615F10FB"
+							}
+						}
+					},
+					"work_info": null,
+					"subscribe_status": "IS_SUBSCRIBED"
+				},
+				"styleList": [
+					"avatar",
+					"fallback"
+				]
+			}
+		],
+		"mentions": {},
+		"timestamp": "1631188647107",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run api.addUserToGroup(event.senderID, 3613441495423970)",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB-7FNG17ymwEZCtXA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631188682011",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB-7F_SV7ymw2X69P-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631188694857",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Việt Trì",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB-7jk217ynObwSX7T",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631189179611",
+		"isGroup": true
 	}
 ]
