@@ -27863,5 +27863,26 @@
 		"mentions": {},
 		"timestamp": "1631181525543",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-1qECF7yhU2tnMrT",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short nhờn",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631182994440,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B-1g3OV7yhLuV-ZVz",
+			"senderID": "100064089736517",
+			"attachments": [],
+			"body": "tối call t bật cam",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631182843705
+		}
 	}
 ]
