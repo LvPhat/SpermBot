@@ -27681,5 +27681,44 @@
 		"mentions": {},
 		"timestamp": "1631157221268",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/audio https://www.youtube.com/watch?v=wNh1vI6JGho",
+		"threadID": "4562470273774586",
+		"messageID": "mid.$gABA1iuP3c_qB-dqXbF7yJVUbNrTp",
+		"attachments": [
+			{
+				"type": "share",
+				"ID": "ee.mid.$gABA1iuP3c_qB-dqXbF7yJVUbNrTp",
+				"url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwNh1vI6JGho&h=AT1_6slZVNH4yynB3mCX70ihsiwUwYm2WuCWgGRYd-ojMjNXlYlHeDbPewQ2z8I-d_6eqKH2TUWGVpJqMFkkdpXOKdsrI6USQSobh2cD3_hbXNIsD4Z4U4ktS87QC1QlOKtOPS3361Ma5U8&s=1",
+				"title": "COVID NHANH ĐI ĐI - ICM TEAM | OFFICIAL AUDIO",
+				"description": "COVID NHANH ĐI ĐI - ICM TEAM | OFFICIAL AUDIO#Covidnhanhdidi #CNĐĐ #ICMTeamMột bài hát chúng mình mong muốn được tiếp thêm sức mạnh cho cộng đồng, cùng nhau ...",
+				"source": "youtube.com",
+				"image": "https://external.xx.fbcdn.net/safe_image.php?d=AQEdFwzEGo7gF-ws&w=960&h=540&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwNh1vI6JGho%2Fmaxresdefault.jpg&sx=0&sy=0&sw=1280&sh=720&_nc_oe=6ea57&_nc_sid=632586&ccb=3-5&_nc_hash=AQEvpGh5YcMmEsBi",
+				"width": 960,
+				"height": 540,
+				"playable": true,
+				"duration": 0,
+				"playableUrl": "https://www.youtube.com/embed/wNh1vI6JGho?autoplay=1",
+				"subattachments": [],
+				"properties": {
+					"width": "1280",
+					"height": "720"
+				},
+				"facebookUrl": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwNh1vI6JGho&h=AT1_6slZVNH4yynB3mCX70ihsiwUwYm2WuCWgGRYd-ojMjNXlYlHeDbPewQ2z8I-d_6eqKH2TUWGVpJqMFkkdpXOKdsrI6USQSobh2cD3_hbXNIsD4Z4U4ktS87QC1QlOKtOPS3361Ma5U8&s=1",
+				"target": {
+					"__typename": "ExternalUrl"
+				},
+				"styleList": [
+					"share",
+					"fallback"
+				]
+			}
+		],
+		"mentions": {},
+		"timestamp": "1631157833580",
+		"isGroup": true
 	}
 ]
