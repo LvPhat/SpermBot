@@ -1,4 +1,4 @@
-"use strict";
+ "use strict";
 var __importDefault =
   (this && this.__importDefault) ||
   function(mod) {
@@ -9,8 +9,10 @@ const subscribe_1 = __importDefault(require("../../events/subscribe"));
 const unsubscribe_1 = __importDefault(require("../../events/unsubscribe"));
 const fs_extra_1 = require("fs-extra");
 function default_1({ api, botData, event }) {
+  
   async function refresh() {
    let getData = botData.threads.find(item => item.id == event.threadID);
+    if(!getData) return;
     let {
       participantIDs: allMembers,
       threadName: nameThread
@@ -22,6 +24,7 @@ function default_1({ api, botData, event }) {
       JSON.stringify(botData, null, "\t")
     );
   }
+  
   return async function(event) {
     switch (event.logMessageType) {
       case "log:subscribe":
