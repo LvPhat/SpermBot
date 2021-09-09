@@ -28129,5 +28129,27 @@
 			"mentions": {},
 			"timestamp": 1631189836088
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Huyện Lương Tài",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB-9UqSF7yo_hgciI0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631191032392",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptim",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB-9b7ZV7ypGygR4hL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631191151461",
+		"isGroup": true
 	}
 ]
