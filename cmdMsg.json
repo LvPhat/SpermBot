@@ -28022,5 +28022,16 @@
 		"mentions": {},
 		"timestamp": "1631189179611",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Lương Tài",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB-7rgLl7ynWXAE21G",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631189309486",
+		"isGroup": true
 	}
 ]
