@@ -27571,5 +27571,16 @@
 			"mentions": {},
 			"timestamp": 1631147560185
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB-UOc-17x_5USzBcZ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631147939067",
+		"isGroup": false
 	}
 ]
