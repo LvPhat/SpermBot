@@ -24,7 +24,7 @@ async function default_1({ event, api, botID }) {
     });
     const resault = await speedTest.getSpeed();
     return api.sendMessage(
-      `${resault} mbps.`,
+      `${Math.floor(resault)} mbps.`,
       event.threadID,
       event.messageID
     );
