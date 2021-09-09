@@ -28492,5 +28492,139 @@
 		"mentions": {},
 		"timestamp": "1631203819359",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/adduser https://www.facebook.com/katie.altamura.9",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_JskJ17y1XbU0Uqs",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204006951",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load uid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_J3f217y1iXCHIFH",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204186075",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_J3oYV7y1ifpHzIa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204188257",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uid https://www.facebook.com/Admin.NaBbi0408",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_J5nQ17y1kej5pA_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204220739",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uid @Le Phuong Anh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_J50yV7y1kr-aUES",
+		"attachments": [],
+		"mentions": {
+			"100072444338884": "@Le Phuong Anh"
+		},
+		"timestamp": "1631204224201",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uid https://www.facebook.com/hungchodz99",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_J7LgV7y1mCyaIy8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204246401",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB_KIct17y1zTwQIMi",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204463799",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_KJwk17y10no6ZPa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204485267",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_KJ5XV7y10wlVgm9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204487517",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100018806512683",
+		"body": "/menu",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB_KLFMV7y112VeTJj",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204506929",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_KLezF7y12V3GAY6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204513484",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KB_KL3P17y12uR3Wfh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631204519743",
+		"isGroup": true
 	}
 ]

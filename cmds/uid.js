@@ -9,9 +9,10 @@ async function default_1({ event, api, getUserByLink }) {
   if (event.contentMsg.indexOf("@") !== -1) {
     let mentionIDs = Object.keys(event.mentions);
     return api.sendMessage(mentionIDs[0], event.threadID, event.messageID);
-  } else if (event.contentMsg) {
-    var uid = await getUserByLink(event.contentMsg);
+  } else {
+    var uid = "";
+    (event.contentMsg) ?  uid = await getUserByLink(event.contentMsg): uid = `${event.senderID}`
     api.sendMessage(uid, event.threadID, event.messageID);
-  } else api.sendMessage(`${event.senderID}`, event.threadID, event.messageID);
+  }
 }
 exports.default = default_1;
