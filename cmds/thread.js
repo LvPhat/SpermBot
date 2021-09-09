@@ -7,12 +7,8 @@ exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 function default_1({ event, botData, api, }) {
-  
-if(event.args[0]){
-var id = event.args[0]
-}
-else id = event.threadID;
-
+var id = "";
+(event.args[0]) ? id = event.args[0] : id = event.threadID;
 let getThread = botData.threads.find(item => item.id == id);
 getThread.ban.use ? getThread.ban.use = false : getThread.ban.use = true;
     fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));

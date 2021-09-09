@@ -20,8 +20,8 @@ async function default_1({ event, api, botID, getThread, getUserByLink }) {
       threadID,
       messageID
     );
-  if (msg.startsWith("https")) var id = await getUserByLink(msg);
-  else id = msg;
+  var id = "";
+  (msg.startsWith("https")) ? id = await getUserByLink(msg) : id = msg
   if (getThread.ban.users.some(e => e.id == id))
     return api.sendMessage(
       "Người dùng đã bị cấm vào nhóm.",
