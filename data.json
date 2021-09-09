@@ -4212,6 +4212,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100001389039078,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -6168,6 +6175,25 @@
 			"shortcut": [],
 			"allMem": [
 				"100067906909651",
+				"100069279893724"
+			],
+			"rule": []
+		},
+		{
+			"id": 100001389039078,
+			"name": null,
+			"warns": [],
+			"ban": {
+				"use": false,
+				"cmds": [],
+				"users": []
+			},
+			"nsfw": true,
+			"selfListen": false,
+			"admins": [],
+			"shortcut": [],
+			"allMem": [
+				"100001389039078",
 				"100069279893724"
 			],
 			"rule": []
