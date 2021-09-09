@@ -28415,5 +28415,60 @@
 		"mentions": {},
 		"timestamp": "1631202257088",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB_IccKl7y0HTeozbg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202694186",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB_IdNBl7y0IEUbfot",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202706694",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/video tướng quân",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB_IdrjV7y0Ii2n9G3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202714509",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB_IgliV7y0Lc3dKP8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202762121",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGB_IoPzF7y0THAZaaq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631202887628",
+		"isGroup": false
 	}
 ]
