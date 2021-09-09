@@ -4250,16 +4250,6 @@
 			"admins": [],
 			"shortcut": [
 				{
-					"sI": "rác",
-					"sO": "@Nguyễn Dung",
-					"mention": [
-						{
-							"tag": "@Nguyễn Dung",
-							"id": "100066515220201"
-						}
-					]
-				},
-				{
 					"sI": "nghiasaid",
 					"sO": "mid.$gABX4IF9A_r-B4UPO3V7r_5_h7Fwj"
 				},
@@ -4292,6 +4282,10 @@
 				{
 					"sI": "nhờn",
 					"sO": "mid.$gABX4IF9A_r-B-1g3OV7yhLuV-ZVz"
+				},
+				{
+					"sI": "a",
+					"sO": "mid.$gABX4IF9A_r-B-8LpOF7yn2f3aBEO"
 				}
 			],
 			"allMem": [

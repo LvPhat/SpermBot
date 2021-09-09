@@ -28033,5 +28033,101 @@
 		"mentions": {},
 		"timestamp": "1631189309486",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-8SMlV7yn9BtJxXr",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short a",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631189943445,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B-8LpOF7yn2f3aBEO",
+			"senderID": "100064089736517",
+			"attachments": [],
+			"body": "t bốc cứt chội vô mặt tanh😔💔",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631189836088
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short list",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-8Tu2V7yn-mqjTDM",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631189968601",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short del 1",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-8UcyF7yn_UlSqei",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631189980360",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100024654173680",
+		"body": "/short del 8",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-8VTbF7yoALOvv2r",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631189994348",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-8VmRl7yoAbxKCyt",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/unsend",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631189999174,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B-8Txxl7yn-o-pvtl",
+			"senderID": "100069279893724",
+			"attachments": [],
+			"body": "Shortcut của nhóm là:\n1. rác -> @Nguyễn Dung.\n2. nghiasaid -> Phản hồi một tin nhắn.\n3. rácc -> @Kiên.\n4. hăn ngu -> Phản hồi một tin nhắn.\n5. hăn -> Phản hồi một tin nhắn.\n6. đọc đi cho hiểu -> Phản hồi một tin nhắn.\n7. anh -> Phản hồi một tin nhắn.\n8. nhờn -> Phản hồi một tin nhắn.\n9. a -> Phản hồi một tin nhắn.",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631189969350
+		}
+	},
+	{
+		"type": "message_reply",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-B-8WeXl7yoBTtPYfn",
+		"senderID": "100000307487713",
+		"attachments": [],
+		"body": "/short a",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631190013534,
+		"messageReply": {
+			"threadID": "6183792431660735",
+			"messageID": "mid.$gABX4IF9A_r-B-8LpOF7yn2f3aBEO",
+			"senderID": "100064089736517",
+			"attachments": [],
+			"body": "t bốc cứt chội vô mặt tanh😔💔",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631189836088
+		}
 	}
 ]
