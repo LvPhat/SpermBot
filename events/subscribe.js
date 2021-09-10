@@ -8,9 +8,25 @@ const log_1 = __importDefault(require("../declare/modules/log"));
 const fs_extra_1 = require("fs-extra");
 exports.name = 'joinGroup';
 exports.location = __filename;
-async function default_1({ event, api, botData, refresh }) {
+async function default_1({ event, api, botData }) {
     let getThread = botData.threads.find(item => item.id == event.threadID);
-    (getThread) ? refresh() : "";
+  //Function
+  async function refresh() {
+   let getData = botData.threads.some(item => item.id == event.threadID);
+    if(!getData) return;
+    let {
+      participantIDs: allMembers,
+      threadName: nameThread
+    } = await api.getThreadInfo(event.threadID);
+    getData.allMem = allMembers,
+    getData.name = nameThread
+    return fs_extra_1.writeFileSync(
+      "./data.json",
+      JSON.stringify(botData, null, "\t")
+    );
+  }
+  
+   (getThread) ? refresh() : "";
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
        api.changeNickname("SpermBot", event.threadID, api.getCurrentUserID());
     }
