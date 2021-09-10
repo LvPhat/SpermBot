@@ -11,7 +11,7 @@ const fs_extra_1 = require("fs-extra");
 function default_1({ api, botData, event }) {
   
   async function refresh() {
-   let getData = botData.threads.find(item => item.id == event.threadID);
+   let getData = botData.threads.some(item => item.id == event.threadID);
     if(!getData) return;
     let {
       participantIDs: allMembers,

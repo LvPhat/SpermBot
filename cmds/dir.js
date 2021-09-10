@@ -17,8 +17,8 @@ async function default_1({ event, api }) {
     return api.sendMessage("Sai format.", threadID, messageID);
 
   if (args[0] == "data") {
-    fs.copySync("./data.json", "./newData.json");
-    var path = "./newData.json";
+    fs.copySync("./data.json", "./Data.json");
+    var path = "./Data.json";
     api.sendMessage(
       {
         attachment: fs.createReadStream(path),
@@ -31,8 +31,8 @@ async function default_1({ event, api }) {
   }
 
   if (args[0] == "appstate") {
-    fs.copySync("./account.json", "./newAppstate.json");
-    var pathh = "./newAppstate.json";
+    fs.copySync("./account.json", "./appstate.json");
+    var pathh = "./appstate.json";
     api.sendMessage(
       {
         attachment: fs.createReadStream(pathh),

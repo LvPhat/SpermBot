@@ -29048,5 +29048,104 @@
 		"mentions": {},
 		"timestamp": "1631243751795",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/all copy pết thì chết",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB_vygil7zbdXzrhK7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631243950218",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB_v2YpV7zbhQAZpQS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631244013733",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/adduser https://www.facebook.com/Username.VoDinhThanh.ProCoder",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB_v3Hbl7zbh-ssVdf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631244025710",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOB_v8y4V7zbnqDRMD5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631244118753",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/file appstate",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_v9UM17zboLYjNNz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631244127283",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_v9-lV7zbo11qyDe",
+		"senderID": "100023326875133",
+		"attachments": [],
+		"body": "/unsend",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631244138133,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yB_v9adV7zboO6YQEz",
+			"senderID": "100069279893724",
+			"attachments": [
+				{
+					"type": "file",
+					"filename": "appstate.json",
+					"ID": "582801939587889",
+					"url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fcdn.fbsbx.com%2Fv%2Ft59.2708-21%2F241664212_582801942921222_3675081700465744132_n.json%2Fappstate.json%3F_nc_cat%3D104%26ccb%3D1-5%26_nc_sid%3D0cab14%26_nc_ohc%3D_xZiU-JwJosAX9zy6nF%26_nc_ht%3Dcdn.fbsbx.com%26oh%3D8cea1d856f3854b5963856bd2174c0dd%26oe%3D613C4BC0%26dl%3D1&h=AT0t-piiSXEldYHosKSw9T47nfOI1ZGqRBfxGkzm1mYhsy9dT0JiARhEk7I_3-3sg6ar8LhyMwI4k5NkmzYE3LFKXqtwcvQ8VwgECNGxX3OPGeO-gfj_iaRln2NTPUTOA8mM3YM0-p3-dyN8ccoLiGplDOk&s=1",
+					"isMalicious": false,
+					"contentType": "attach:unknown",
+					"name": "appstate.json",
+					"mimeType": "",
+					"fileSize": -1
+				}
+			],
+			"body": "",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631244128885
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yB_wSOF17zb9FV_5GW",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631244469783",
+		"isGroup": true
 	}
 ]
