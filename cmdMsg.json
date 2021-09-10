@@ -29268,5 +29268,38 @@
 		"mentions": {},
 		"timestamp": "1631287845209",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KCAfaL_170LFDAdL2g",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631293883391",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCAfeNfV70LJEvr-_K",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631293949309",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCAffJdl70LKApvWPr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631293964662",
+		"isGroup": true
 	}
 ]
