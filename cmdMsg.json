@@ -30662,5 +30662,16 @@
 		"mentions": {},
 		"timestamp": "1631358443486",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCBdl1P171JQr-JPiy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631359085887",
+		"isGroup": true
 	}
 ]
