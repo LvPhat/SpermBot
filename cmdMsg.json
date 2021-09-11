@@ -29565,5 +29565,27 @@
 		"mentions": {},
 		"timestamp": "1631326484305",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCBAkq3170sPiFXyv0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631328658143",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCBAnnwF70sSfIIHQb",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631328706496",
+		"isGroup": false
 	}
 ]
