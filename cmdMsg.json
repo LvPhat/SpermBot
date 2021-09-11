@@ -29378,5 +29378,60 @@
 		"mentions": {},
 		"timestamp": "1631321308781",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/help",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCA5o0xF70lTsI-xVA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631321386180",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCA5rEt170lV70G18p",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631321423031",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCA5tLGF70lYCZZW4h",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631321457432",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/help",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCA5tXpV70lYO06B70",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631321460645",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptim",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCA5uCJ170lY5eXKdR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631321471527",
+		"isGroup": true
 	}
 ]
