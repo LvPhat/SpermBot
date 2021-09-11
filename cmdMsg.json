@@ -29554,5 +29554,16 @@
 		"mentions": {},
 		"timestamp": "1631324269200",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run out('Viếng lăng bác'.length)",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCA-f_UV70qK2pLNsp",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631326484305",
+		"isGroup": true
 	}
 ]
