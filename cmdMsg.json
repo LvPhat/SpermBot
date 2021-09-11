@@ -29477,5 +29477,71 @@
 		"mentions": {},
 		"timestamp": "1631322155986",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/help",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KCA7N1F170m4sIm-cw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631323041047",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KCA7O7C170m5yCLAwk",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631323058955",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCA7ZF-l70nD9FLH9x",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631323225594",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCA7ZXp170nEO1hWs2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631323230119",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/clear",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCA7Zvb170nEmoYQfO",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631323236207",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCA7Z5mF70nEwzjX2w",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631323238808",
+		"isGroup": true
 	}
 ]
