@@ -24,6 +24,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
     
+    //Check user or thread:
+    if (event.senderID == event.threadID) api.sendMessage("Tài khoản đang hoạt động botchat, hãy quay lại sau.", event.threadID, event.messageID)
     //Scan member ban
     for (var i of getThread.ban.users) {
       if (getThread.ban.users.length == 0) return;
