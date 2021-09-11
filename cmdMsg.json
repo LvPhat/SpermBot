@@ -29444,5 +29444,38 @@
 		"mentions": {},
 		"timestamp": "1631321873013",
 		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/help",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCA6T5pl70l-xBs2dO",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631322091942",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/help",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCA6URjl70l_IauMj1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631322098062",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/audio covid nhanh đi đi",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCA6Xz0l70mCrFgiOX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631322155986",
+		"isGroup": true
 	}
 ]
