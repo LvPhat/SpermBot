@@ -4310,6 +4310,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100069442592370,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
