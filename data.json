@@ -4268,6 +4268,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100026590723754,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
