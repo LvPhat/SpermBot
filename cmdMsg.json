@@ -29433,5 +29433,16 @@
 		"mentions": {},
 		"timestamp": "1631321471527",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "100023326875133",
+		"messageID": "mid.$cAAAB-08_lSGCA6GidV70lxZtbvsG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631321873013",
+		"isGroup": false
 	}
 ]
