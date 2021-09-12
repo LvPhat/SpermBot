@@ -53,7 +53,7 @@ async function default_1({
     mention.push({ id: randomID, tag: infoRanDom.name });
 
     var msg = {
-      body: `Chúc mừng\n${infoSender.name} đã được ghép đôi với ${infoRanDom.name}`,
+      body: `Chúc mừng !\n${infoSender.name} đã được ghép đôi với ${infoRanDom.name}`,
       mentions: mention,
       attachment: img
     };
@@ -97,7 +97,7 @@ async function default_1({
 
     var mentio = [];
     mentio.push({ id: event.senderID, tag: infoSender.name });
-    mentio.push({ id: mention, tag: event.mentions[mention] });
+    mentio.push({ id: mention, tag: event.mentions[mention].replace("@","") });
 
     var msg = {
       body: `Chúc mừng !\n${
