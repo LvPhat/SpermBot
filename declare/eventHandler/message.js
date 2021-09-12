@@ -54,7 +54,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     //Check user or thread:
     if (event.senderID == event.threadID)
       return api.sendMessage(
-        "Tài khoản này đang hoạt động botchat, hãy quay lại sau.",
+        "Tài khoản này đang hoạt động botchat, hãy quay lại sau.\n" + "Prefix "+ botData.prefix,
         event.threadID,
         event.messageID
       );
