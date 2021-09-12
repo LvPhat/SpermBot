@@ -32027,5 +32027,121 @@
 		"mentions": {},
 		"timestamp": "1631431170069",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCirhUF72OWYoCtgY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431530832",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCisFrl72OW88UuqT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431540142",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiskeF72OXbqBMIc",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631431548024",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiuZG172OZQqwzov",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431577883",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCi36ml72Oixv65VO",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431733914",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load user",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCi7rtF72Omi5Tdu0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431795636",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCi8AiF72Om32fQJq",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631431800968",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCi9dwl72OoVU4Bje",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431824834",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCi9tk172Ooku63TK",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631431828883",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCi-IcF72OpAAu_ow",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431835760",
+		"isGroup": true
 	}
 ]

@@ -92,9 +92,15 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     if (getThread.ban.use) return;
 
     //Block user use bot
-    if(event.command){
-      getUser.ban.use ? api.sendMessage("Bạn đã bị cấm.", event.threadID, event.mesageID)
-    };
+    if (event.command) {
+      if (getUser.ban.use == true)
+        return api.sendMessage(
+          "Bạn đã bị cấm.",
+          event.threadID,
+          event.messageID
+        );
+    }
+
     //Disable listen to self message if self listen is off
     if (
       !getThread.selfListen &&
