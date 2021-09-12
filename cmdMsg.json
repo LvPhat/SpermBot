@@ -30893,5 +30893,154 @@
 		"mentions": {},
 		"timestamp": "1631423371338",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCa6zfl72GlqxHSLA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423392638",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCa7ooF72Gmf4FFvw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423406240",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100067702680460",
+		"body": "/all cho em hỏi cái này mọi người ơi",
+		"threadID": "4180515895402920",
+		"messageID": "mid.$gAA7aKDTsYaiCCa9AVV72Gn3zIm3p",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423428693",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/paring",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCa9aVl72GoRo2QlB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423435350",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCa-krl72Gpb9v2km",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423454382",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Le Phuong Anh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCa-5Bl72GpwRLo_c",
+		"attachments": [],
+		"mentions": {
+			"100072444338884": "@Le Phuong Anh"
+		},
+		"timestamp": "1631423459590",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbAs7V72GrkFSXge",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423489261",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbBOil72GsFr-0-n",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631423497866",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbDjql72GubPYgWe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423536042",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbD-1172Gu1yI6wK",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423542999",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/project",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbES5172GvKJUtK_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423548135",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbVOql72HAFlNtSa",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631423825578",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Le Phuong Anh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCbft0F72HKki5m6d",
+		"attachments": [],
+		"mentions": {
+			"100072444338884": "@Le Phuong Anh"
+		},
+		"timestamp": "1631423997392",
+		"isGroup": true
 	}
 ]
