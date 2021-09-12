@@ -11,7 +11,7 @@ const secondsToHms_1 = __importDefault(require("../modules/secondsToHms"));
 const fs_extra_1 = require("fs-extra");
 const cmd = require("node-cmd");
 const axios = require("axios");
-const fs = require("fs")
+const fs = require("fs");
 function default_1({ api, loadedCmds, loadedEvents }) {
   const botID = api.getCurrentUserID();
   //Auto restart
@@ -23,37 +23,41 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     //Declare important variables
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
-    
+
     //creta data user form data box
-    for(let i of getThread.allMem){
-    if (!botData.users.some(item => item.id == i)) {
-          botData.users.push({
-            id: i,
-            ban: {
-              use: false,
-              cmds: []
-            }
-          });
-          fs_extra_1.writeFileSync(
-            "./data.json",
-            JSON.stringify(botData, null, "\t")
-          );
-        }
-    };
-   
+    for (let i of getThread.allMem) {
+      if (!botData.users.some(item => item.id == i)) {
+        botData.users.push({
+          id: i,
+          ban: {
+            use: false,
+            cmds: []
+          }
+        });
+        fs_extra_1.writeFileSync(
+          "./data.json",
+          JSON.stringify(botData, null, "\t")
+        );
+      }
+    }
+
     //create info of thread
-    if(!getThread.data){
-    	let { userInfo: bigData } = await api.getThreadInfo(event.threadID);
-    	getThread.data = bigData;
-    	  return fs_extra_1.writeFileSync(
+    if (!getThread.data) {
+      let { userInfo: bigData } = await api.getThreadInfo(event.threadID);
+      getThread.data = bigData;
+      return fs_extra_1.writeFileSync(
         "./data.json",
         JSON.stringify(botData, null, "\t")
       );
-
     }
 
     //Check user or thread:
-    if (event.senderID == event.threadID) return api.sendMessage("Tài khoản này đang hoạt động botchat, hãy quay lại sau.", event.threadID, event.messageID)
+    if (event.senderID == event.threadID)
+      return api.sendMessage(
+        "Tài khoản này đang hoạt động botchat, hãy quay lại sau.",
+        event.threadID,
+        event.messageID
+      );
     //Scan member ban
     for (var i of getThread.ban.users) {
       if (getThread.ban.users.length == 0) return;
@@ -67,7 +71,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         : "";
     }
     //Clear
-    if(event.command == 'clear'){
+    if (event.command == "clear") {
       const mp4 = fs_extra_1
         .readdirSync(__dirname)
         .filter(item => item.endsWith(".mp4"));
@@ -77,26 +81,19 @@ function default_1({ api, loadedCmds, loadedEvents }) {
       const jpeg = fs_extra_1
         .readdirSync(__dirname)
         .filter(item => item.endsWith(".jpeg"));
-      var arr = mp4.concat(jpg)
-      var bigArr = jpeg.concat(arr)
-      for(let i of bigArr){
-        fs.unlinkSync(__dirname + "/" +i)
+      var arr = mp4.concat(jpg);
+      var bigArr = jpeg.concat(arr);
+      for (let i of bigArr) {
+        fs.unlinkSync(__dirname + "/" + i);
       }
-     api.sendMessage('Đã dọn dẹp rác.', event.threadID, event.messageID)
+      api.sendMessage("Đã dọn dẹp rác.", event.threadID, event.messageID);
     }
     //Block thread use bot
     if (getThread.ban.use) return;
-    
+
     //Block user use bot
-    if (getUser.ban.use) return;
-   
-    //Block user use bot all
-    for(let i of getThread.allMem){
-      let getBan = botData.users.find(item => item.id == i);
-      const info = await getInfo(i)
-      if(getBan.ban.use) return api.sendMessage(`Nhóm có người dùng đã bị ban:\n@${info.name}`, event.threadID, () => api.removeUserFromGroup(botID, event.threadID))
-    };
-    
+    if (getUser.ban.use) return api.sendMessage("Bạn đã bị cấm.", event.threadID, event.mesageID)
+
     //Disable listen to self message if self listen is off
     if (
       !getThread.selfListen &&
@@ -274,14 +271,13 @@ function default_1({ api, loadedCmds, loadedEvents }) {
       } else id = vanity;
       return id;
     }
-     
 
     //Function get info user form data box
     async function getInfo(id) {
       if (!id) return;
       let getInfoUser = getThread.data.find(item => item.id == id);
       return getInfoUser;
-    };
+    }
 
     //refresh data of box
     async function refresh(id) {
@@ -296,7 +292,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
       let allMem = allMembers.filter(item => item !== botID);
       getData.allMem = allMem;
       getData.name = nameThread;
-      getData.data = bigData
+      getData.data = bigData;
       return fs_extra_1.writeFileSync(
         "./data.json",
         JSON.stringify(botData, null, "\t")
