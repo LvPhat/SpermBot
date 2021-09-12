@@ -24,6 +24,17 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
     
+    //create info of thread
+    if(!getThread.data){
+    	let { userInfo: bigData } = await api.getThreadInfo(event.threadID);
+    	getThread.data = bigData;
+    	  return fs_extra_1.writeFileSync(
+        "./data.json",
+        JSON.stringify(botData, null, "\t")
+      );
+
+    }
+
     //Check user or thread:
     if (event.senderID == event.threadID) return api.sendMessage("Tài khoản này đang hoạt động botchat, hãy quay lại sau.", event.threadID, event.messageID)
     //Scan member ban
@@ -237,6 +248,14 @@ function default_1({ api, loadedCmds, loadedEvents }) {
       } else id = vanity;
       return id;
     }
+     
+
+    //Function get info user form data box
+    async function getInfo(id) {
+      if (!id) return;
+      let getInfoUser = getThread.data.find(item => item.id == id);
+      return getInfoUser;
+    };
 
     //refresh data of box
     async function refresh(id) {
@@ -245,10 +264,13 @@ function default_1({ api, loadedCmds, loadedEvents }) {
       let getData = botData.threads.find(item => item.id == threadID);
       let {
         participantIDs: allMembers,
-        threadName: nameThread
+        threadName: nameThread,
+        userInfo: bigData
       } = await api.getThreadInfo(threadID);
-      getData.allMem = allMembers;
+      let allMem = allMembers.filter(item => item !== botID);
+      getData.allMem = allMem;
       getData.name = nameThread;
+      getData.data = bigData
       return fs_extra_1.writeFileSync(
         "./data.json",
         JSON.stringify(botData, null, "\t")
@@ -296,7 +318,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
                 audioData,
                 getUserByLink,
                 videoData,
-                refresh
+                refresh,
+                getInfo
               })
             : api.sendMessage(
                 "Quyền lồn biên giới.",
@@ -319,7 +342,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
                 audioData,
                 getUserByLink,
                 videoData,
-                refresh
+                refresh,
+                getInfo
               })
             : api.sendMessage(
                 "Quyền lồn biên giới.",
@@ -340,7 +364,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
           audioData,
           getUserByLink,
           videoData,
-          refresh
+          refresh,
+          getInfo
         });
       } catch (err) {
         return api.sendMessage(
