@@ -7,10 +7,8 @@ exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 function default_1({ event, botData, api }) {
-    var users = Object.keys(event.mentions);
-    if (users.length == 0)
-        return api.sendMessage('Chưa chỉ định người cần chặn.', event.threadID, event.messageID);
-    users.forEach(id => {
+       if(event.args.length == 0) return api.sendMessage("Sai format.", event.
+      
         var getVictim = botData.users.find(item => item.id == id);
         var name = event.mentions[id];
         getVictim.ban.use ? getVictim.ban.use = false : getVictim.ban.use = true;
@@ -18,7 +16,7 @@ function default_1({ event, botData, api }) {
             body: `Đã ${!getVictim.ban.use ? 'bỏ ' : ''}chặn: ${name}.`,
             mentions: [{ tag: name, id }]
         }, event.threadID, event.messageID);
-    });
+    
     return fs_extra_1.writeFileSync('./data.json', JSON.stringify(botData, null, '\t'));
 }
 exports.default = default_1;
