@@ -5830,18 +5830,16 @@
 			"allMem": [
 				"100022065882156",
 				"100022155319453",
+				"100023326875133",
 				"100025832563921",
 				"100031133572448",
 				"100037115165816",
 				"100045843127021",
 				"100052439117058",
 				"100061173783440",
-				"100064427343444",
 				"100065310745484",
-				"100069279893724",
 				"100069527042075",
 				"100070727704402",
-				"100071108918024",
 				"100072121188522"
 			],
 			"rule": [],
@@ -5979,15 +5977,6 @@
 					"isBirthday": false
 				},
 				{
-					"id": "100069279893724",
-					"name": "Hùng",
-					"vanity": "",
-					"thumbSrc": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.30497-1/cp0/p60x60/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=0WQY7j7zi_oAX8S__ht&_nc_ht=scontent-lga3-2.xx&oh=696792f90086e56c9a875806c2bcda86&oe=6164AB25",
-					"profileUrl": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.30497-1/cp0/p60x60/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=0WQY7j7zi_oAX8S__ht&_nc_ht=scontent-lga3-2.xx&oh=696792f90086e56c9a875806c2bcda86&oe=6164AB25",
-					"type": "ReducedMessagingActor",
-					"isBirthday": false
-				},
-				{
 					"id": "100069527042075",
 					"name": "Nguyễn Hải Linh",
 					"firstName": "Linh",
@@ -6009,14 +5998,6 @@
 					"gender": "FEMALE",
 					"type": "User",
 					"isFriend": true,
-					"isBirthday": false
-				},
-				{
-					"id": "100071108918024",
-					"name": "Người dùng Facebook",
-					"thumbSrc": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=12b3be&_nc_ohc=xum7jbIRvI8AX_5JAvG&_nc_ht=scontent-lga3-2.xx&oh=febadcacba3d9b5d6f81b4be16c3e8b3&oe=6163199A",
-					"profileUrl": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=12b3be&_nc_ohc=xum7jbIRvI8AX_5JAvG&_nc_ht=scontent-lga3-2.xx&oh=febadcacba3d9b5d6f81b4be16c3e8b3&oe=6163199A",
-					"type": "UnavailableMessagingActor",
 					"isBirthday": false
 				},
 				{

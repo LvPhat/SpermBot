@@ -31132,5 +31132,167 @@
 		"mentions": {},
 		"timestamp": "1631424715542",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCcUDpF72H-6wEb_W",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631424854948",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCcUdnF72H_UorVxu",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631424861596",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Nguyễn Phương Anh",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCcXTjV72ICKnq_PC",
+		"attachments": [],
+		"mentions": {
+			"100070727704402": "@Nguyễn Phương Anh"
+		},
+		"timestamp": "1631424908173",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCcbS5172IGJupyXt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631424973543",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Nguyễn Phương Anh",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCcbk8V72IGcIQBGx",
+		"attachments": [],
+		"mentions": {
+			"100070727704402": "@Nguyễn Phương Anh"
+		},
+		"timestamp": "1631424978161",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCceoeF72IJfqrc-7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425028216",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Nguyễn Phương Anh",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCce85F72IJ0HHPZx",
+		"attachments": [],
+		"mentions": {
+			"100070727704402": "@Nguyễn Phương Anh"
+		},
+		"timestamp": "1631425033444",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100052439117058",
+		"body": "/pairing",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCcmC8l72IQ12mXDD",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425149682",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100052439117058",
+		"body": "/pairing @Đỗ Ngọc Bảo Trinh",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCcoerF72ITRtUqZw",
+		"attachments": [],
+		"mentions": {
+			"100022065882156": "@Đỗ Ngọc Bảo Trinh"
+		},
+		"timestamp": "1631425189548",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCcv08172IasC1IJp",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425309939",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/paring",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCcwkiF72IbbpH0W3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425322120",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCcz2jl72IetlT7SU",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425375886",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd list 3",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCc0MXV72IfDkFRY7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425381469",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCCc4EN172Ii7ZTZeS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631425444919",
+		"isGroup": true
 	}
 ]

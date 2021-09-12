@@ -69,8 +69,7 @@ async function default_1({
       if (die.length > 0)
         return api.sendMessage(
           "Nhóm bạn đang có " +
-            die.length +
-            " người dùng facebook, vui lòng kick và thử lại sau.",
+            "người dùng facebook, vui lòng kick và thử lại sau.",
           event.threadID,
           event.messageID
         );
@@ -97,7 +96,7 @@ async function default_1({
 
     var mentio = [];
     mentio.push({ id: event.senderID, tag: infoSender.name });
-    mentio.push({ id: mention, tag: event.mentions[mention].replace("@","") });
+    mentio.push({ id: mention, tag: event.mentions[mention].replace("@", "") });
 
     var msg = {
       body: `Chúc mừng !\n${
@@ -117,8 +116,7 @@ async function default_1({
       if (die.length > 0)
         return api.sendMessage(
           "Nhóm bạn đang có " +
-            die.length +
-            " người dùng facebook, vui lòng kick và thử lại sau.",
+            "người dùng facebook, vui lòng kick và thử lại sau.",
           event.threadID,
           event.messageID
         );
