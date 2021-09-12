@@ -32143,5 +32143,40 @@
 		"mentions": {},
 		"timestamp": "1631431835760",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/usee @Võ Đình Thanh",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCjO0CF72O5rSe-yG",
+		"attachments": [],
+		"mentions": {
+			"100004456932666": "@Võ Đình Thanh"
+		},
+		"timestamp": "1631432109064",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100004456932666",
+		"body": "/hell",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCjPyv172O6mXaRxc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631432125119",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100004456932666",
+		"body": "/help",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCjQI4F72O68kz-7s",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631432130784",
+		"isGroup": true
 	}
 ]
