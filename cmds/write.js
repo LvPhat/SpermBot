@@ -20,18 +20,7 @@ async function default_1({
   getUserByLink,
   getInfo
 }) {
-  const handwritten = require('handwritten.js')
-  const rawtext = event.contentMsg;
-  handwritten(rawtext).then((converted) => {
-    converted.pipe(fs.createWriteStream(__dirname + "/ct.pdf"))
-    var img = [];
-    img.push(fs.createReadStream(__dirname + "/ct.pdf"));
-    var msg = {
-      body: ``,
-      attachment: img
-    };
-  api.sendMessage(msg, event.threadID)
-  });
+
 
 }
 
