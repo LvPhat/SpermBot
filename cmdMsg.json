@@ -34189,5 +34189,38 @@
 		"mentions": {},
 		"timestamp": "1631460046100",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDAp8OV72sUzXv86H",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631462962233",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load write",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDAxjUV72scahxFtT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631463086929",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/write",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDAxw0l72scoGnUcY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631463090386",
+		"isGroup": true
 	}
 ]

@@ -44,6 +44,12 @@ drawBackground()
 ctx.fillStyle = '#ff0000'
 ctx.fillRect(0, 0, half, half)
 encoder.addFrame(ctx)
+
+ 
+drawBackground()
+ctx.fillStyle = '#FFFF00'
+ctx.fillRect(0, 0, half, half)
+encoder.addFrame(ctx)
  
 drawBackground()
 ctx.fillStyle = '#00ff00'
@@ -68,7 +74,14 @@ writeFile(path.join(__dirname, 'beginner.gif'), buffer, error => {
   // gif drawn or error
   console.log(error)
 })
+ var img = [];
+    img.push(fs.createReadStream(__dirname + "/beginner.gif"));
 
+    var msg = {
+      body:"",
+      attachment: img
+    };
+  api.sendMessage(msg, event.threadID)
 }
 
 exports.default = default_1;
