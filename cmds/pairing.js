@@ -46,15 +46,14 @@ async function default_1({
     fs.writeFileSync(__dirname + "/avt2.png", Buffer.from(avt_2, "utf-8"));
     var mergeImg = require("merge-img")
  
-   mergeImg(['./4.jpg', './5.jpg'])
+   mergeImg([__dirname + "/avt.png", __dirname + "/avt2.png"])
   .then((img) => {
     // Save image as file
     img.write('out.png', () => console.log('done'));
   });
     
     var img = [];
-    img.push(fs.createReadStream(__dirname + "/avt.png"));
-    img.push(fs.createReadStream(__dirname + "/avt2.png"));
+    img.push(fs.createReadStream(__dirname + "/out.png"));
 
     var mention = [];
     mention.push({ id: event.senderID, tag: infoSender.name });

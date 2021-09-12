@@ -8819,6 +8819,7 @@
 			"allMem": [
 				"100000307487713",
 				"100023326875133",
+				"100064427343444",
 				"100072444338884"
 			],
 			"rule": [],
@@ -8840,8 +8841,8 @@
 					"name": "Đặng Văn Hùng",
 					"firstName": "Hùng",
 					"vanity": "hungchodz99",
-					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qThGuR49wVYAX8Ca2Yy&_nc_ht=scontent-lga3-1.xx&oh=966c708ebe259222e869e902c72d1f88&oe=6141EA22",
-					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qThGuR49wVYAX8Ca2Yy&_nc_ht=scontent-lga3-1.xx&oh=966c708ebe259222e869e902c72d1f88&oe=6141EA22",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qThGuR49wVYAX8Ca2Yy&_nc_oc=AQmQcPEeljGf12zd3AChTcV6LQIdDYIOp2UCK-CEmBVLHesdScWPhHbjzNU8-wsr34g&_nc_ht=scontent-lga3-1.xx&oh=e0123d361b5cce8b918ed4df87a90602&oe=6143E462",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qThGuR49wVYAX8Ca2Yy&_nc_oc=AQmQcPEeljGf12zd3AChTcV6LQIdDYIOp2UCK-CEmBVLHesdScWPhHbjzNU8-wsr34g&_nc_ht=scontent-lga3-1.xx&oh=e0123d361b5cce8b918ed4df87a90602&oe=6143E462",
 					"gender": "MALE",
 					"type": "User",
 					"isFriend": true,
@@ -8852,9 +8853,21 @@
 					"name": "Lê Cẩm Tú",
 					"firstName": "Cẩm Tú",
 					"vanity": "",
-					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=fVKc-w0tBcoAX8KDEpg&_nc_ht=scontent-lga3-1.xx&oh=612f7ab308f83392aa636ffe86681261&oe=6162F5EB",
-					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=fVKc-w0tBcoAX8KDEpg&_nc_ht=scontent-lga3-1.xx&oh=612f7ab308f83392aa636ffe86681261&oe=6162F5EB",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=d58ikfVz758AX8SOFsl&_nc_ht=scontent-lga3-1.xx&oh=c09d95a96fb2b5718ceaa712aa7f3ccf&oe=6162F5EB",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=d58ikfVz758AX8SOFsl&_nc_ht=scontent-lga3-1.xx&oh=c09d95a96fb2b5718ceaa712aa7f3ccf&oe=6162F5EB",
 					"gender": "FEMALE",
+					"type": "User",
+					"isFriend": true,
+					"isBirthday": false
+				},
+				{
+					"id": "100069279893724",
+					"name": "Hùng",
+					"firstName": "Hùng",
+					"vanity": "",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240973612_148911434094852_6808293713060563309_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qowzy-1qaHIAX_3_Qm2&_nc_ht=scontent-lga3-1.xx&oh=091f65de633bce31e0555189d0451f5c&oe=61655BEF",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240973612_148911434094852_6808293713060563309_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qowzy-1qaHIAX_3_Qm2&_nc_ht=scontent-lga3-1.xx&oh=091f65de633bce31e0555189d0451f5c&oe=61655BEF",
+					"gender": "MALE",
 					"type": "User",
 					"isFriend": false,
 					"isBirthday": false
@@ -8864,11 +8877,11 @@
 					"name": "Le Phuong Anh",
 					"firstName": "Phuong Anh",
 					"vanity": "",
-					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240504257_104999918591486_567852906125766127_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=zoLg24TLJSsAX_64o0G&_nc_ht=scontent-lga3-1.xx&oh=71bb5ab4121b71318d08a8234332e4c8&oe=6161A831",
-					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240504257_104999918591486_567852906125766127_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=zoLg24TLJSsAX_64o0G&_nc_ht=scontent-lga3-1.xx&oh=71bb5ab4121b71318d08a8234332e4c8&oe=6161A831",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240504257_104999918591486_567852906125766127_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=zoLg24TLJSsAX_64o0G&_nc_ht=scontent-lga3-1.xx&oh=d869448f20afc39f3ecc3f47330c9002&oe=61659CB1",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240504257_104999918591486_567852906125766127_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=zoLg24TLJSsAX_64o0G&_nc_ht=scontent-lga3-1.xx&oh=d869448f20afc39f3ecc3f47330c9002&oe=61659CB1",
 					"gender": "FEMALE",
 					"type": "User",
-					"isFriend": false,
+					"isFriend": true,
 					"isBirthday": false
 				}
 			]
