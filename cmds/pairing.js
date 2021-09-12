@@ -124,6 +124,7 @@ async function default_1({
 
     api.sendMessage(msg, event.threadID, event.messageID);
   }
+  else return api.sendMessage("Sai format.", event.threadID, event.messageID)
 }
 
 exports.default = default_1;
