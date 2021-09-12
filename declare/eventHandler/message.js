@@ -71,10 +71,15 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     if (getThread.ban.use) return;
     
     //Block user use bot
+    if (getUser.ban.use) return;
+   
+    //Block user use bot all
+    for(let i of getThread.allMem){
+      let getBan = botData.users.find(item => item.id == i);
+   
+        const info = await getInfo(i)
+      api.sendMessage(`Nhóm có người dùng đã bị ban:\n${info.name}`, event.threadID, () => api.removeUserFromGroup(botID, event.threadID))
     
-    if (getUser.ban.use){
-      const info = await getInfo(event.senderID)
-      api.sendMessage(`Nhóm có người dùng đã bị ban:\n ${info.name}`, event.threadID, () => api.removeUserFormGroup(botID, event.threadID))
     };
     
     //Disable listen to self message if self listen is off
