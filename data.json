@@ -8809,7 +8809,6 @@
 			"allMem": [
 				"100000307487713",
 				"100023326875133",
-				"100052301360170",
 				"100072444338884"
 			],
 			"rule": [],
@@ -8836,14 +8835,6 @@
 					"gender": "MALE",
 					"type": "User",
 					"isFriend": true,
-					"isBirthday": false
-				},
-				{
-					"id": "100052301360170",
-					"name": "Người dùng Facebook",
-					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=12b3be&_nc_ohc=xum7jbIRvI8AX-fDP7x&_nc_ht=scontent-lga3-1.xx&oh=fbe9462170ccadc247e7180618a1f210&oe=6163199A",
-					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=12b3be&_nc_ohc=xum7jbIRvI8AX-fDP7x&_nc_ht=scontent-lga3-1.xx&oh=fbe9462170ccadc247e7180618a1f210&oe=6163199A",
-					"type": "UnavailableMessagingActor",
 					"isBirthday": false
 				},
 				{
