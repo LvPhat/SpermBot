@@ -6,11 +6,13 @@ exports.name = 'user';
 exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
-function default_1({ event, botData, api }) {
-       if(event.args.length == 0) return api.sendMessage("Sai format.", event.
-      
+async function default_1({ event, botData, api}) {
+       if(event.args.length == 0) return api.sendMessage("Sai format.", event.threadID, event.messageID);
+       var id = "";
+       if(event.args[0].startsWith("@")) id = Object.keys(event.mentions)
+       else id = event.args[0]
         var getVictim = botData.users.find(item => item.id == id);
-        var name = event.mentions[id];
+        var name = event.mentions[id] || (await api.getUserInfo(id))[id].name
         getVictim.ban.use ? getVictim.ban.use = false : getVictim.ban.use = true;
         api.sendMessage({
             body: `Đã ${!getVictim.ban.use ? 'bỏ ' : ''}chặn: ${name}.`,

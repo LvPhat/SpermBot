@@ -31935,5 +31935,97 @@
 		},
 		"timestamp": "1631430625974",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load user",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiBd6l72NsVG9jUd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631430841834",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiByxl72NsqDJVvS",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631430847174",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiCPSl72NtGjlzNc",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631430854474",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user 100024654173680",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiCgRl72NtXk8B8g",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631430858822",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load user",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiNbZF72N4Ss-1W7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431037796",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiQtCF72N7kFq8SY",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431091464",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiR3FV72N8uZEiR9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431110421",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCiVgFV72OAXTcboQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631431170069",
+		"isGroup": true
 	}
 ]
