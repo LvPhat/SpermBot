@@ -9257,6 +9257,51 @@
 				"100071633917798"
 			],
 			"rule": []
+		},
+		{
+			"id": 100051910490361,
+			"name": null,
+			"warns": [],
+			"ban": {
+				"use": false,
+				"cmds": [],
+				"users": []
+			},
+			"nsfw": true,
+			"selfListen": false,
+			"admins": [],
+			"shortcut": [],
+			"allMem": [
+				"100051910490361",
+				"100064427343444"
+			],
+			"rule": [],
+			"data": [
+				{
+					"id": "100051910490361",
+					"name": "Nguyễn Vee",
+					"firstName": "Vee",
+					"vanity": "VEENGUYEN.TVT",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/211672452_323810746025939_6734241365811154858_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=zfM1VMB6VSYAX86GvYh&_nc_ht=scontent-lga3-1.xx&oh=a6aa941ba72a7940d397aa9165746409&oe=6162C00D",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/211672452_323810746025939_6734241365811154858_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=zfM1VMB6VSYAX86GvYh&_nc_ht=scontent-lga3-1.xx&oh=a6aa941ba72a7940d397aa9165746409&oe=6162C00D",
+					"gender": "FEMALE",
+					"type": "User",
+					"isFriend": true,
+					"isBirthday": false
+				},
+				{
+					"id": "100064427343444",
+					"name": "Lê Cẩm Tú",
+					"firstName": "Cẩm Tú",
+					"vanity": "",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=fVKc-w0tBcoAX8KDEpg&_nc_ht=scontent-lga3-1.xx&oh=612f7ab308f83392aa636ffe86681261&oe=6162F5EB",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=fVKc-w0tBcoAX8KDEpg&_nc_ht=scontent-lga3-1.xx&oh=612f7ab308f83392aa636ffe86681261&oe=6162F5EB",
+					"gender": "FEMALE",
+					"type": "User",
+					"isFriend": false,
+					"isBirthday": false
+				}
+			]
 		}
 	]
 }
