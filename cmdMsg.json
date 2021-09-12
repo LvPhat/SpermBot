@@ -30805,5 +30805,16 @@
 		"mentions": {},
 		"timestamp": "1631379478525",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCJpvOV71emsM5APP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631405287225",
+		"isGroup": true
 	}
 ]
