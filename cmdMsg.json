@@ -31696,5 +31696,51 @@
 		},
 		"timestamp": "1631427124527",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/help",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCei1Al72KNrgDJ6W",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631427194114",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/help",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCenu1l72KSlVzCvR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631427274454",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Nguyễn Phương Anh",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCfGMwl72KxEDi9NN",
+		"attachments": [],
+		"mentions": {
+			"100070727704402": "@Nguyễn Phương Anh"
+		},
+		"timestamp": "1631427773634",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCfMIgV72K2_3-Cir",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631427870849",
+		"isGroup": true
 	}
 ]
