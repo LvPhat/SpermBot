@@ -32334,5 +32334,51 @@
 		"mentions": {},
 		"timestamp": "1631442067196",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCtDDAF72Yt6Hy821",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631442402048",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Lê Cẩm Tú",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCtFw1V72YwoC9CoY",
+		"attachments": [],
+		"mentions": {
+			"100064427343444": "@Lê Cẩm Tú"
+		},
+		"timestamp": "1631442446549",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCtH8Ol72YyzaFHQB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631442482234",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCtM2f172Y3trRt9c",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631442562687",
+		"isGroup": true
 	}
 ]
