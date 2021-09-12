@@ -24,6 +24,23 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
     
+    //creta data user form data box
+    for(let i of getThread.allMem){
+    if (!botData.users.some(item => item.id == i)) {
+          botData.users.push({
+            id: i,
+            ban: {
+              use: false,
+              cmds: []
+            }
+          });
+          fs_extra_1.writeFileSync(
+            "./data.json",
+            JSON.stringify(botData, null, "\t")
+          );
+        }
+    };
+   
     //create info of thread
     if(!getThread.data){
     	let { userInfo: bigData } = await api.getThreadInfo(event.threadID);
@@ -76,10 +93,8 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     //Block user use bot all
     for(let i of getThread.allMem){
       let getBan = botData.users.find(item => item.id == i);
-   
-        const info = await getInfo(i)
-      api.sendMessage(`Nhóm có người dùng đã bị ban:\n${info.name}`, event.threadID, () => api.removeUserFromGroup(botID, event.threadID))
-    
+      const info = await getInfo(i)
+      if(getBan.ban.use) return api.sendMessage(`Nhóm có người dùng đã bị ban:\n@${info.name}`, event.threadID, () => api.removeUserFromGroup(botID, event.threadID))
     };
     
     //Disable listen to self message if self listen is off

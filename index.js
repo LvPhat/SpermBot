@@ -105,7 +105,7 @@ fca_unofficial_1.default(
       log_1.default(`Đăng nhập thất bại: ${JSON.stringify(error)}`, -1);
       return process.exit(0);
     }
-    api.setOptions({ listenEvents: true, selfListen: true });
+    api.setOptions({ listenEvents: true });
     log_1.loadingLog("Khởi tạo chương trình thành công.", "done");
     fs_extra_1.writeFileSync(
       "./account.json",

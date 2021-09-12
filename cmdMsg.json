@@ -31742,5 +31742,40 @@
 		"mentions": {},
 		"timestamp": "1631427870849",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCgN8r172L4zqVFwP",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631428949167",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run out(botData.users.length)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCCgRMwV72L8EFRMrs",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631429002433",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Trần Văn Sơn",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCCgjOcl72MOFuIrbK",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631429297778",
+		"isGroup": true
 	}
 ]
