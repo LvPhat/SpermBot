@@ -15,10 +15,13 @@ function default_1({ event, api, loadedEvents }) {
             for (let file of eventFiles) {
                 try {
                     delete require.cache[require.resolve(`${__dirname}/../events/${file}`)];
-                    const eventFile = require(`${__dirname}/../events/${file}`);
-                    loadedEvents.splice(loadedEvents.findIndex(item => item.name == eventFile.name), 1);
-                    if (!loadedEvents.some(item => item.name == eventFile.name))
-                        loadedEvents.push(eventFile);
+                     const event = require(`../events/${file}`);
+                     const eventName = event.name;
+                   console.log(eventName)
+                //  const eventFile = require(`${__dirname}/../events/${file}`);
+                    loadedEvents.splice(loadedEvents.findIndex(item => item.name == eventName), 1);
+                    if (!loadedEvents.some(item => item.name == eventName))
+                        loadedEvents.push(event);
                 }
                 catch (err) {
                     return console.log(`Không thể tải event "${file.replace('.js', '')}" vì đã có lỗi xảy ra:\n${err}`);
