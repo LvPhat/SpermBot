@@ -25,6 +25,16 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
 
+    //Push name for user
+    if(!getUser.name){
+      var data = await getInfo(event.senderID)
+      getUser.name = data.name
+       fs_extra_1.writeFileSync(
+          "./data.json",
+          JSON.stringify(botData, null, "\t")
+        );
+    }
+    
     //creta data user form data box
     for (let i of getThread.allMem) {
       if (!botData.users.some(item => item.id == i)) {
@@ -269,7 +279,7 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     }
 
     //Function get info user form data box
-    async function getInfo(id) {
+    function getInfo(id) {
       if (!id) return;
       let getInfoUser = getThread.data.find(item => item.id == id);
       return getInfoUser;

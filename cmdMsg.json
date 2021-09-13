@@ -37016,5 +37016,49 @@
 		"mentions": {},
 		"timestamp": "1631554362317",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run var data = await getInfo(event.threadID)\nconsole.log(data)",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEX26_174DhyLMKnR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554401023",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEX5-1V74Dk2FiCzp",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554451157",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run console.log(getInfo(event.senderID))",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEX8k4l74DncHhBNq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554493666",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run var d = getInfo(event.senderID)\nout(d.name)",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEYBPWl74DsGaXZMA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554570074",
+		"isGroup": true
 	}
 ]
