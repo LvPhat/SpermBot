@@ -12,6 +12,7 @@ const fs_extra_1 = require("fs-extra");
 const cmd = require("node-cmd");
 const axios = require("axios");
 const fs = require("fs");
+const path = require("path")
 function default_1({ api, loadedCmds, loadedEvents }) {
   const botID = api.getCurrentUserID();
   //Auto restart
@@ -133,29 +134,17 @@ function default_1({ api, loadedCmds, loadedEvents }) {
         getThread.shortcut.some(
           item =>
             item.sI.toLowerCase() == event.contentMsg.toLowerCase() &&
-            item.sO.includes("https")
+            item.sO.includes("/")
         )
       ) {
-        const getUrl = getThread.shortcut.find(
+        const getImg = getThread.shortcut.find(
           item => item.sI.toLowerCase() == event.contentMsg.toLowerCase()
         );
-        var random = Math.floor(
-          Math.random() * 99999999999999999999999999999999
-        );
-        var end = "";
-        if (getUrl.sO.includes("mp4")) var end = "mp4";
-        else var end = "jpg";
-        if (getUrl.sO.includes("audio")) var end = "m4a";
-        let content = (await axios.get(`${getUrl.sO}`, {
-          responseType: "arraybuffer"
-        })).data;
-        fs.writeFileSync(
-          __dirname + `/img${random}.${end}`,
-          Buffer.from(content, "utf-8")
-        );
-        var img = [];
-        img.push(fs.createReadStream(__dirname + `/img${random}.${end}`));
-        var msg = { body: "", attachment: img };
+        //test
+         var link_1 = path.join(__dirname, '../../')
+         var img = [];
+         img.push(fs.createReadStream(`${link_1}${getImg.sO}`))
+         var msg = { body: "", attachment: img };
         return api.sendMessage(msg, event.threadID, event.messageID);
       }
 

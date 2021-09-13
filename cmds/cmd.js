@@ -98,11 +98,11 @@ function default_1({ event, botData, api, getThread, loadedCmds }) {
           if (!loadedCmds.some(item => item.name == cmd.name))
             loadedCmds.push(cmd);
         } catch (err) {
-          return console.log(
+          return api.sendMessage(
             `Không thể tải lệnh "${file.replace(
               ".js",
               ""
-            )}" vì đã có lỗi xảy ra:\n${err}`
+            )}" vì đã có lỗi xảy ra:\n${err}`,event.threadID,event.messageID
           );
         }
       }
