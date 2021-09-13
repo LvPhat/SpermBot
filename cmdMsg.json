@@ -36504,5 +36504,82 @@
 		"mentions": {},
 		"timestamp": "1631542040021",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100040029407001",
+		"body": "/say thẩm không yêu nhi",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMF3Wl733wq1G4UA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542062938",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100061175143206",
+		"body": "/say tuấn anh đầu buồi rẻ rách",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMGBq1733w4jTqE7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542065579",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100040029407001",
+		"body": "/say bỏ hân",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMGwxl733xkMrBlt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542077638",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100040029407001",
+		"body": "/say tao độc thân cho lành",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMH2l1733yp1_kLy",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542095511",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100060811185594",
+		"body": "/say cường ngu hơn tuấn anh",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMLUYl73315Uczoj",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542152290",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100060811185594",
+		"body": "/say tuấn anh đẹp zai hơn cường",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMNKRF7333u-zo80",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542182468",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100060811185594",
+		"body": "/say cường tuổi lol",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CEMWYa1734A9YBKTM",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631542333547",
+		"isGroup": true
 	}
 ]
