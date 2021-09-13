@@ -63,7 +63,7 @@ async function default_1({ event, api, botData }) {
   }
 
   //Welcome message only in Mirai Community Group
-  if (event.threadID == 3720912944664252) {
+  if (event.threadID == 4298048533581708) {
     let threadInfo = await api.getThreadInfo(event.threadID);
     var mentions = [],
       nameArray = [],

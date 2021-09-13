@@ -34266,5 +34266,38 @@
 		"mentions": {},
 		"timestamp": "1631494709894",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run out(event.threadID)",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDfMFM173K28c6zsK",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631494978867",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/event load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDfNCLF73K35Zjuoc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631494994476",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/event load subscribe",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDfON7173K5FMdUoC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631495013871",
+		"isGroup": true
 	}
 ]
