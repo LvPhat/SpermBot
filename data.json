@@ -4829,6 +4829,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": "100047389367554",
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -9112,11 +9119,8 @@
 			],
 			"allMem": [
 				"100000307487713",
-				"100014150530873",
 				"100023326875133",
-				"100051360395679",
 				"100064427343444",
-				"100069279893724",
 				"100072444338884"
 			],
 			"rule": [],
@@ -9138,8 +9142,8 @@
 					"name": "Đặng Văn Hùng",
 					"firstName": "Hùng",
 					"vanity": "hungchodz99",
-					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qThGuR49wVYAX8Ca2Yy&_nc_oc=AQmQcPEeljGf12zd3AChTcV6LQIdDYIOp2UCK-CEmBVLHesdScWPhHbjzNU8-wsr34g&_nc_ht=scontent-lga3-1.xx&oh=e0123d361b5cce8b918ed4df87a90602&oe=6143E462",
-					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=qThGuR49wVYAX8Ca2Yy&_nc_oc=AQmQcPEeljGf12zd3AChTcV6LQIdDYIOp2UCK-CEmBVLHesdScWPhHbjzNU8-wsr34g&_nc_ht=scontent-lga3-1.xx&oh=e0123d361b5cce8b918ed4df87a90602&oe=6143E462",
+					"thumbSrc": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=ZCLchFVJ3UMAX_krnJP&_nc_oc=AQnby_TsnLQw3eB8-83G2PABs1EsJCEutkRK9mVZc2LmZWBvXa4DEhREaFEO1t0ZgkU&_nc_ht=scontent-lga3-1.xx&oh=2a1b282ba3725beb7eca1e859e083d3c&oe=6143E462",
+					"profileUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=ZCLchFVJ3UMAX_krnJP&_nc_oc=AQnby_TsnLQw3eB8-83G2PABs1EsJCEutkRK9mVZc2LmZWBvXa4DEhREaFEO1t0ZgkU&_nc_ht=scontent-lga3-1.xx&oh=2a1b282ba3725beb7eca1e859e083d3c&oe=6143E462",
 					"gender": "MALE",
 					"type": "User",
 					"isFriend": true,

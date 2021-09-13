@@ -14,11 +14,10 @@ function default_1({ event, api, loadedEvents }) {
             const eventFiles = fs_extra_1.readdirSync(`${__dirname}/../events`).filter(item => item.endsWith('.js') && !item.includes('test'));
             for (let file of eventFiles) {
                 try {
-                    delete require.cache[require.resolve(`${__dirname}/../events/${file}`)];
+                    delete require.cache[require.resolve(`../events/${file}`)];
                      const event = require(`../events/${file}`);
                      const eventName = event.name;
-                   console.log(eventName)
-                //  const eventFile = require(`${__dirname}/../events/${file}`);
+                  //  const eventFile = require(`${__dirname}/../events/${file}`);
                     loadedEvents.splice(loadedEvents.findIndex(item => item.name == eventName), 1);
                     if (!loadedEvents.some(item => item.name == eventName))
                         loadedEvents.push(event);
