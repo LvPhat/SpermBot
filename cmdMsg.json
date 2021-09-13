@@ -35921,5 +35921,27 @@
 		"mentions": {},
 		"timestamp": "1631529113393",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCEAkbN173sPSWoigg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631529980727",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/all gà",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCEAn7oF73sSyylUfR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631530038176",
+		"isGroup": true
 	}
 ]
