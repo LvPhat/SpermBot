@@ -34589,5 +34589,60 @@
 		},
 		"timestamp": "1631502291418",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDmKreV73R1jE78kt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502295929",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/uptime",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CDmSiHF73R9ZjHmvl",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502424604",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/pairing",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CDmS2aV73R9t910xk",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502429801",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime để làm mới dất",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDmU1ZV73R_spjlxf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502462309",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/weather Bắc Ninh",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CDmXbh173SCTC-4qx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502504839",
+		"isGroup": true
 	}
 ]
