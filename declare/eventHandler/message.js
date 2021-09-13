@@ -70,25 +70,25 @@ function default_1({ api, loadedCmds, loadedEvents }) {
           })()
         : "";
     }
-    //Clear
-    if (event.command == "clear") {
-      const mp4 = fs_extra_1
-        .readdirSync(__dirname)
-        .filter(item => item.endsWith(".mp4"));
-      const jpg = fs_extra_1
-        .readdirSync(__dirname)
-        .filter(item => item.endsWith(".jpg"));
-      const jpeg = fs_extra_1
-        .readdirSync(__dirname)
-        .filter(item => item.endsWith(".jpeg"));
-      var arr = mp4.concat(jpg);
-      var bigArr = jpeg.concat(arr);
-      for (let i of bigArr) {
-        fs.unlinkSync(__dirname + "/" + i);
-      }
-      api.sendMessage("Đã dọn dẹp rác.", event.threadID, event.messageID);
-    }
-    //Block thread use bot
+    // //Clear
+    // if (event.command == "clear") {
+    //   const mp4 = fs_extra_1
+    //     .readdirSync(__dirname)
+    //     .filter(item => item.endsWith(".mp4"));
+    //   const jpg = fs_extra_1
+    //     .readdirSync(__dirname)
+    //     .filter(item => item.endsWith(".jpg"));
+    //   const jpeg = fs_extra_1
+    //     .readdirSync(__dirname)
+    //     .filter(item => item.endsWith(".jpeg"));
+    //   var arr = mp4.concat(jpg);
+    //   var bigArr = jpeg.concat(arr);
+    //   for (let i of bigArr) {
+    //     fs.unlinkSync(__dirname + "/" + i);
+    //   }
+    //   api.sendMessage("Đã dọn dẹp rác.", event.threadID, event.messageID);
+    // }
+    // //Block thread use bot
     if (getThread.ban.use) return;
 
     //Block user use bot

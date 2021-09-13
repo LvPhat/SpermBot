@@ -44,16 +44,9 @@ async function default_1({
       { responseType: "arraybuffer" }
     )).data;
     fs.writeFileSync(__dirname + "/avt2.png", Buffer.from(avt_2, "utf-8"));
-    var mergeImg = require("merge-img")
- 
-   mergeImg([__dirname + "/avt.png", __dirname + "/avt2.png"])
-  .then((img) => {
-    // Save image as file
-    img.write('out.png', () => console.log('done'));
-  });
-    
     var img = [];
-    img.push(fs.createReadStream(__dirname + "/out.png"));
+    img.push(fs.createReadStream(__dirname + "/avt.png"));
+    img.push(fs.createReadStream(__dirname + "/avt2.png"));
 
     var mention = [];
     mention.push({ id: event.senderID, tag: infoSender.name });
@@ -130,8 +123,7 @@ async function default_1({
     }
 
     api.sendMessage(msg, event.threadID, event.messageID);
-  }
-  else return api.sendMessage("Sai format.", event.threadID, event.messageID)
+  } else return api.sendMessage("Sai format.", event.threadID, event.messageID);
 }
 
 exports.default = default_1;

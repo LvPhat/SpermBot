@@ -34453,5 +34453,60 @@
 		"mentions": {},
 		"timestamp": "1631499115516",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDlR30173Q8vGS8kV",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631501365203",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDlXE9F73RB8OLVsm",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631501450484",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDlXR2l73RCI8MAv5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631501453786",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDlX-Gl73RC1UZJRV",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631501465114",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/weather Bắc Ninh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDlbJB173RGAQ6I1Q",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631501517063",
+		"isGroup": true
 	}
 ]
