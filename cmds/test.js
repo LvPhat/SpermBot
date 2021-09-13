@@ -9,12 +9,13 @@ exports.location = exports.threadAdminRequired = exports.adminRequired = exports
 const axios_1 = __importDefault(require("axios"));
 const axios = require("axios")
 const cheerio_1 = __importDefault(require("cheerio"));
+const fs_extra_1 = require("fs")
 exports.name = "test";
 exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 async function default_1({ event, api }) {
-  var log = await axios.get("https://covid19.gov.vn/")
-  console.log(log)
+    const eventFiles = fs_extra_1.readdirSync(`${__dirname}/../events`).filter(item => item.endsWith('.js') && !item.includes('test'));
+         console.log(eventFiles) 
 }
 exports.default = default_1;
