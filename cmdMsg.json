@@ -34420,5 +34420,27 @@
 		"mentions": {},
 		"timestamp": "1631497733603",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/short list",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDiVZSV73OAQlJMxv",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631498277193",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/short del all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDinD_173OR7QfVam",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631498566655",
+		"isGroup": true
 	}
 ]
