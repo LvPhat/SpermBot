@@ -48,7 +48,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
       num = 0;
     for (let i in getThread.shortcut)
       msg += `\n${(num += 1)}. ${getThread.shortcut[i].sI} -> ${
-        getThread.shortcut[i].sO.indexOf("https") == 0
+        getThread.shortcut[i].sO.indexOf("/cmds") == 0
           ? "Một tệp đính kèm"
           : getThread.shortcut[i].sO.indexOf("mid.$") == 0
           ? "Phản hồi một tin nhắn"
