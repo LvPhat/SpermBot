@@ -25,15 +25,6 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     let getUser = botData.users.find(item => item.id == event.senderID);
     let getThread = botData.threads.find(item => item.id == event.threadID);
 
-    //Push name for user
-    if(!getUser.name){
-      var data = await getInfo(event.senderID)
-      getUser.name = data.name
-       fs_extra_1.writeFileSync(
-          "./data.json",
-          JSON.stringify(botData, null, "\t")
-        );
-    }
     
     //creta data user form data box
     for (let i of getThread.allMem) {
