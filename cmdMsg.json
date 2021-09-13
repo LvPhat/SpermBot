@@ -34508,5 +34508,86 @@
 		"mentions": {},
 		"timestamp": "1631501517063",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDl2Bc173Rg4qtBaz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631501957491",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Le Phuong Anh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDl2_el73Rh2Jl8XF",
+		"attachments": [],
+		"mentions": {
+			"100072444338884": "@Le Phuong Anh"
+		},
+		"timestamp": "1631501973370",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCDl57YF73RkyYAtL8",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502021472",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCDl6rIF73RlidDZZJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502033696",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCDl7G0V73Rl-AqTLh",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502040785",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/age 28/02/2006",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCDmJK0V73R0ByoieF",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631502271185",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Võ Đình Thanh",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCDmKZ2l73R1RL9P1N",
+		"attachments": [],
+		"mentions": {
+			"100004456932666": "@Võ Đình Thanh"
+		},
+		"timestamp": "1631502291418",
+		"isGroup": true
 	}
 ]
