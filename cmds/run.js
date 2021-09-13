@@ -5,7 +5,7 @@ exports.name = "run";
 exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
-async function default_1({ event, api, botID, getThread, botData, getUser }) {
+async function default_1({ event, api, botID, getThread, botData, getUser, getInfo }) {
   const { VM } = require("vm2");
   const cmd = require("node-cmd");
   var out = async a => api.sendMessage(`${a}`, event.threadID, event.messageID);
@@ -24,7 +24,8 @@ async function default_1({ event, api, botID, getThread, botData, getUser }) {
       botData,
       botID,
       cmd,
-      console
+      console,
+      getInfo
       
       
     }

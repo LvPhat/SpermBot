@@ -36891,5 +36891,130 @@
 		"mentions": {},
 		"timestamp": "1631552618811",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXNDDV74C36UHreo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631553714957",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXN9lV74C400rCvJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631553729941",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100004456932666",
+		"body": "/pairing",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXUai174C_KgJXd6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631553835659",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/user @Võ Đình Thanh",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXV87F74DA0GTFUt",
+		"attachments": [],
+		"mentions": {
+			"100004456932666": "@Võ Đình Thanh"
+		},
+		"timestamp": "1631553860844",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run out(botData.users.length)",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXW_Ll74DB2bBj8x",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631553877806",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100004456932666",
+		"body": "/pairing",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXYKjV74DC6PX49N",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631553897101",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing @Nguyễn Phương Anh",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXcMc174DHDiJ9FB",
+		"attachments": [],
+		"mentions": {
+			"100070727704402": "@Nguyễn Phương Anh"
+		},
+		"timestamp": "1631553963123",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run var i = {\"hi\"}\nout(i)",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXjCBF74DN5SIZrA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554075140",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXtxNl74DYoZaiCH",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554251062",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run getInfo(event.senderID)",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEXzff174DeWp08UR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554344831",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run out(getInfo(event.senderID))",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCEX0jzV74DfbD4-oG",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631554362317",
+		"isGroup": true
 	}
 ]
