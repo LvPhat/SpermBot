@@ -6,7 +6,7 @@ const fs = require("fs")
 const axios = require("axios")
 exports.name = "picshort";
 exports.adminRequired = false;
-exports.threadAdminRequired = false;
+exports.threadAdminRequired = true;
 exports.location = __filename;
 async function default_1({ event, botData, api, getThread, threadAdmins }) {
   if (event.type !== "message_reply")
