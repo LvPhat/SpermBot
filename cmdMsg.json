@@ -37743,5 +37743,49 @@
 		"mentions": {},
 		"timestamp": "1631633091941",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100035958590705",
+		"body": "/",
+		"threadID": "6183792431660735",
+		"messageID": "mid.$gABX4IF9A_r-CFjGAHF75OwxfzZpE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631633291292",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCFjKI3V75O1AKqBnw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631633359069",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCFjKtDV75O1kTRmdc",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631633368333",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCFjZeK175PEVgSh9O",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631633610283",
+		"isGroup": true
 	}
 ]
