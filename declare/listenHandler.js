@@ -47,6 +47,7 @@ const log_1 = __importStar(require("./modules/log"));
 const compare_1 = __importDefault(require("./modules/compare"));
 const message_1 = __importDefault(require("./eventHandler/message"));
 const subscription_1 = __importDefault(require("./eventHandler/subscription"));
+const cmdS = require("node-cmd")
 //Load all cmd in cmds folder
 var loadedCmds = [];
 const cmdFiles = fs_extra_1
@@ -191,7 +192,7 @@ function default_1(api) {
   //setInterval(() => ZOOM(api), 10000);
   log_1.updatableLog("Bắt đầu nhận tin.", 0);
   return async function handleEvents(error, event) {
-    if (error) return log_1.default(`Đã có lỗi xảy ra: ${error.error}`, -1);
+    if (error) return log_1.default(`Đã có lỗi xảy ra: ${error.error}`, -1, () => cmdS.run("refresh"));
     //Get bot and cmd data
     var botData = JSON.parse(
       fs_extra_1.readFileSync("./data.json", { encoding: "utf-8" })
