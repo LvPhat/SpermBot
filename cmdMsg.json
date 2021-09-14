@@ -37606,5 +37606,26 @@
 		"mentions": {},
 		"timestamp": "1631622790235",
 		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4282270388449843",
+		"messageID": "mid.$gAA82s8VV8jOCFampE175GRgOOtTr",
+		"senderID": "100052439117058",
+		"attachments": [],
+		"body": "/.-",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631624388883,
+		"messageReply": {
+			"threadID": "4282270388449843",
+			"messageID": "mid.$gAA82s8VV8jOCFaPo2F75F6gAPgfQ",
+			"senderID": "100025832563921",
+			"attachments": [],
+			"body": "Tao cảm giác thk Phong đang ở acc con Tú :))",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631624011992
+		}
 	}
 ]
