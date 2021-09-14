@@ -10062,7 +10062,6 @@
 				"100000307487713",
 				"100023326875133",
 				"100052301360170",
-				"100060965355995",
 				"100069279893724",
 				"100072444338884"
 			],
@@ -10102,14 +10101,6 @@
 					"gender": "MALE",
 					"type": "User",
 					"isFriend": false,
-					"isBirthday": false
-				},
-				{
-					"id": "100060965355995",
-					"name": "Người dùng Facebook",
-					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=12b3be&_nc_ohc=s_GgYAoQ0PQAX-rT8h5&_nc_ht=scontent-iad3-2.xx&oh=d695739e5a0854c9407803c47e66e2d0&oe=61670E1A",
-					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=12b3be&_nc_ohc=s_GgYAoQ0PQAX-rT8h5&_nc_ht=scontent-iad3-2.xx&oh=d695739e5a0854c9407803c47e66e2d0&oe=61670E1A",
-					"type": "UnavailableMessagingActor",
 					"isBirthday": false
 				},
 				{
