@@ -5830,6 +5830,20 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": 100012676755355,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
+		},
+		{
+			"id": 100022497825545,
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
