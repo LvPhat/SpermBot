@@ -37697,5 +37697,18 @@
 		},
 		"timestamp": "1631626043355",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/admin @Trần Văn Sơn",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCFdNxNF75I4oUvTvl",
+		"attachments": [],
+		"mentions": {
+			"100000307487713": "@Trần Văn Sơn"
+		},
+		"timestamp": "1631627127092",
+		"isGroup": true
 	}
 ]
