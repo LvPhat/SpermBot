@@ -108,12 +108,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
       );
     let sI = event.contentMsg.toLowerCase(),
       sO = event.messageReply.messageID;
-    if (getThread.shortcut.some(item => item.sI == sI))
-      return api.sendMessage(
-        "Shortcut này đã tồn tại.",
-        event.threadID,
-        event.messageID
-      );
+    
     getThread.shortcut.push({ sI, sO });
     api.sendMessage(`Đã thêm: ${sI}.`, event.threadID, event.messageID);
   } else {

@@ -37,7 +37,13 @@ async function default_1({ event, botData, api, getThread, threadAdmins }) {
           Buffer.from(content, "utf-8")
         );
         
-      var sO = `/cmds/img${random}.${end}`
+      if (getThread.shortcut.some(item => item.sI == sI))
+      return api.sendMessage(
+        "Shortcut này đã tồn tại.",
+        event.threadID,
+        event.messageID
+      );
+     var sO = `/cmds/img${random}.${end}`
    getThread.shortcut.push({ sI, sO });
   api.sendMessage(`Đã thêm: ${sI}.`, event.threadID, event.messageID);
 
