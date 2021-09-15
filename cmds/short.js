@@ -31,6 +31,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
           event.messageID
         );
       getThread.shortcut.splice(getThread.shortcut.indexOf(getShortcut), 1);
+      if(getShortcut.sO.includes("cmds")) fs_extra_1.unlink(getShortcut.sO.slice(6, getShortcut.sO.length))
       api.sendMessage(
         `Đã xóa: ${getShortcut.sI}.`,
         event.threadID,
