@@ -38098,5 +38098,16 @@
 		"mentions": {},
 		"timestamp": "1631696672917",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100055049886654",
+		"body": "/checktt all",
+		"threadID": "5995586437148654",
+		"messageID": "mid.$gABVM9D_Ob-6CGjeAkF76PI4yslru",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631700793488",
+		"isGroup": true
 	}
 ]
