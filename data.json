@@ -10154,52 +10154,7 @@
 			"admins": [
 				100000307487713
 			],
-			"shortcut": [
-				{
-					"sI": "a",
-					"sO": "/cmds/img834974061.jpg"
-				},
-				{
-					"sI": "b",
-					"sO": "/cmds/img223084829.jpg"
-				},
-				{
-					"sI": "tes",
-					"sO": "/cmds/img757768830.m4a"
-				},
-				{
-					"sI": "gov",
-					"sO": "/cmds/img265265391.m4a"
-				},
-				{
-					"sI": "c",
-					"sO": "/cmds/img119473712.jpg"
-				},
-				{
-					"sI": "d",
-					"sO": "/cmds/img506819885.jpg"
-				},
-				{
-					"sI": "v",
-					"sO": "/cmds/img378647541.jpg"
-				},
-				{
-					"sI": "cc",
-					"sO": "/cmds/img486332892.jpg"
-				},
-				{
-					"sI": "1",
-					"sO": "/cmds/img641837965.jpg"
-				},
-				{
-					"sI": "k",
-					"sO": "/cmds/img867936732.jpg"
-				},
-				{
-					"sI": "o",
-					"sO": "/cmds/img687229412.jpg"
-				}
-			],
+			"shortcut": [],
 			"allMem": [
 				"100000307487713",
 				"100023326875133",

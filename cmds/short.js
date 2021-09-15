@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;
 const fs_extra_1 = require("fs-extra");
+const fs = require("fs")
 exports.name = "short";
 exports.adminRequired = false;
 exports.threadAdminRequired = false;
@@ -30,8 +31,10 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
           event.threadID,
           event.messageID
         );
+      var path = getShortcut.sO.slice(6, getShortcut.sO.length)
+      if(getShortcut.sO.includes("cmds")) fs.unlink(`./${path}`, (err) => console.log(err))
+    
       getThread.shortcut.splice(getThread.shortcut.indexOf(getShortcut), 1);
-      if(getShortcut.sO.includes("cmds")) fs_extra_1.unlink(getShortcut.sO.slice(6, getShortcut.sO.length))
       api.sendMessage(
         `Đã xóa: ${getShortcut.sI}.`,
         event.threadID,
