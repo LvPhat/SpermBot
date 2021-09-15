@@ -38262,5 +38262,16 @@
 		"mentions": {},
 		"timestamp": "1631712607182",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCGx_kPV76dqj_jFEX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631716023357",
+		"isGroup": true
 	}
 ]
