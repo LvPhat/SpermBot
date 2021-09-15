@@ -38,7 +38,7 @@ async function default_1({ event, botData, api, getThread }) {
     if (seconds < 10) seconds = "0" + seconds;
   const ramF = 512 - byte2mb(pidusage.memory) 
   const diskF = byte2mb(free)
-  var msg = `🚀Project uptime: ${hours}:${minutes}:${seconds}\nFree ram: ${ramF}/500MB\n          Free disk: ${diskF}`
+  var msg = `Project uptime: ${hours}:${minutes}:${seconds}\nFree ram: ${ramF}/500MB\nFree disk: ${diskF}/200MB`
   if (event.args.length == 0)   
   return api.sendMessage(msg, event.threadID, event.messageID);
   
