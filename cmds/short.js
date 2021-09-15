@@ -5,7 +5,7 @@ const fs_extra_1 = require("fs-extra");
 const fs = require("fs")
 exports.name = "short";
 exports.adminRequired = false;
-exports.threadAdminRequired = false;
+exports.threadAdminRequired = true;
 exports.location = __filename;
 function default_1({ event, botData, api, getThread, threadAdmins }) {
   if (event.args[0] == "del") {
@@ -32,7 +32,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
           event.messageID
         );
       var path = getShortcut.sO.slice(6, getShortcut.sO.length)
-      if(getShortcut.sO.includes("cmds")) fs.unlink(`./${path}`, (err) => api.sendMessage(err, event.threadID, event.messageID));
+      if(getShortcut.sO.includes("cmds")) fs.unlink(`${__dirname}/${path}`, (err) => api.sendMessage(err, event.threadID, event.messageID));
     
       getThread.shortcut.splice(getThread.shortcut.indexOf(getShortcut), 1);
       api.sendMessage(

@@ -38763,5 +38763,184 @@
 		"mentions": {},
 		"timestamp": "1631718406514",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3Bg8V76isYEAVdz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721298161",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/short list",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3B5S176iswbHPQL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721304395",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3CjU176itaie0F2",
+		"senderID": "100023326875133",
+		"attachments": [],
+		"body": "/picshort a",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631721315155,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yCG3Ccx176itMGeJCj",
+			"senderID": "100023326875133",
+			"attachments": [
+				{
+					"type": "photo",
+					"ID": "1007489080049732",
+					"filename": "image-1007489080049732",
+					"thumbnailUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/cp0/s64x64/241860253_1007489086716398_2758552393789386180_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=1K87Rc1SvOEAX_JHZlB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=b5b9bde04f0ae430469069bb836d2554&oe=61699F70",
+					"previewUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p280x280/241860253_1007489086716398_2758552393789386180_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=1K87Rc1SvOEAX_JHZlB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=d8effaea52bd63df7a136841d20f7dc2&oe=61663A86",
+					"previewWidth": 562,
+					"previewHeight": 280,
+					"largePreviewUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p480x480/241860253_1007489086716398_2758552393789386180_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=1K87Rc1SvOEAX_JHZlB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6a66a0f6b8d27a2978d568cf57174df7&oe=61672817",
+					"largePreviewWidth": 963,
+					"largePreviewHeight": 480,
+					"url": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p480x480/241860253_1007489086716398_2758552393789386180_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=1K87Rc1SvOEAX_JHZlB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6a66a0f6b8d27a2978d568cf57174df7&oe=61672817",
+					"width": 1101,
+					"height": 549,
+					"name": "image-1007489080049732"
+				}
+			],
+			"body": "",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631721313479
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/short del 1",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3DK7F76iuCLr8nS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721325292",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3DmrV76iud2i2Zq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721332397",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3D_DF76iu2JEMgR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721338636",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3EsnF76ivjt24tf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721350300",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3GPmF76ixGsB0zr",
+		"senderID": "100023326875133",
+		"attachments": [],
+		"body": "/picshort a",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631721375640,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yCG0MFbF76f21ZB86n",
+			"senderID": "100064427343444",
+			"attachments": [
+				{
+					"type": "audio",
+					"filename": "audioclip-1631718324000-317138.mp4",
+					"ID": "AT3lju4IaTiPquz2zehC0kxxJZdSh7QuWZ2ijtjx6brPl4pMBAQN42sLw43HUDVqPfTomSwMyOY-tvUGVmqQlkboHlTXsQvS-RkyGfebJBeFAhLbEEzAu6eBFl9cq3GRZLeNUh70JVrBMiQx_P4DhDqDJ88",
+					"audioType": "VOICE_MESSAGE",
+					"duration": 317138,
+					"url": "https://cdn.fbsbx.com/v/t59.3654-21/217751461_299392035307049_2369344813664746837_n.mp4/audioclip-1631718324000-317138.mp4?_nc_cat=106&ccb=1-5&_nc_sid=7272a8&_nc_ohc=r2bs6W9v1NEAX__uh3m&_nc_ht=cdn.fbsbx.com&oh=ec52f0aaeef50086423f63fd672968ea&oe=61438F5F&dl=1",
+					"isVoiceMail": false
+				}
+			],
+			"body": "Thức Giấc - Da LAB (Official Music Video)",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631718325612
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3GvIF76ixmTeSR0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721383712",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3JTr176i0Ki3tAE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721425839",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/short del 1",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3J8X176i0znE1hg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721436255",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG3KMSl76i1DdLEQl",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631721440330",
+		"isGroup": true
 	}
 ]
