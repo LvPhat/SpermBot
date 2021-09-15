@@ -38021,5 +38021,27 @@
 		"mentions": {},
 		"timestamp": "1631665402798",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCGH25jF75zhws0ETo",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631671841164",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100000307487713",
+		"body": "/uid https://www.facebook.com/ne.ken.90475",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCGH_rX175zqF8UDvF",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631671984991",
+		"isGroup": true
 	}
 ]

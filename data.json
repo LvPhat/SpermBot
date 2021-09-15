@@ -5935,6 +5935,13 @@
 				"use": false,
 				"cmds": []
 			}
+		},
+		{
+			"id": "100063674483787",
+			"ban": {
+				"use": false,
+				"cmds": []
+			}
 		}
 	],
 	"threads": [
@@ -10212,8 +10219,8 @@
 					"name": "Nguyễn Thu Phương",
 					"firstName": "Phương",
 					"vanity": "son512.info",
-					"thumbSrc": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/241770256_392244502528925_9108828887953463901_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=OBM_moJ1aQYAX-GkH1d&_nc_ht=scontent-iad3-1.xx&oh=d0ee3a214833e0e703b6747f1124d796&oe=6164DC0E",
-					"profileUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/241770256_392244502528925_9108828887953463901_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=OBM_moJ1aQYAX-GkH1d&_nc_ht=scontent-iad3-1.xx&oh=d0ee3a214833e0e703b6747f1124d796&oe=6164DC0E",
+					"thumbSrc": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/241770256_392244502528925_9108828887953463901_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=OBM_moJ1aQYAX-GkH1d&_nc_ht=scontent-iad3-1.xx&oh=5ff28da24f0a9f98fbd7905f5f184383&oe=6168D08E",
+					"profileUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/241770256_392244502528925_9108828887953463901_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=OBM_moJ1aQYAX-GkH1d&_nc_ht=scontent-iad3-1.xx&oh=5ff28da24f0a9f98fbd7905f5f184383&oe=6168D08E",
 					"gender": "MALE",
 					"type": "User",
 					"isFriend": false,
@@ -12345,6 +12352,7 @@
 				"100062339582033",
 				"100063111167673",
 				"100063260045530",
+				"100063674483787",
 				"100064054971687",
 				"100064427343444",
 				"100064589904067",
