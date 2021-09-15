@@ -108,7 +108,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
       );
     let sI = event.contentMsg.toLowerCase(),
       sO = event.messageReply.messageID;
-    
+
     getThread.shortcut.push({ sI, sO });
     api.sendMessage(`Đã thêm: ${sI}.`, event.threadID, event.messageID);
   } else {
