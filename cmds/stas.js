@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 exports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;
 const fs_extra_1 = require("fs-extra");
-exports.name = "stas";
+exports.name = "status";
 exports.adminRequired = true;
 exports.threadAdminRequired = false;
 exports.location = __filename;
@@ -37,8 +37,8 @@ async function default_1({ event, botData, api, getThread }) {
     if (minutes < 10) minutes = "0" + minutes;
     if (seconds < 10) seconds = "0" + seconds;
   const ramF = 512 - byte2mb(pidusage.memory) 
-  const diskF = byte2mmb(free)
-  var msg = `🚀Project uptime: ${hours}:${minutes}:${seconds}\n         /\ Free ram: ${ramF}MB /\n          Free disk: ${diskF}`
+  const diskF = byte2mb(free)
+  var msg = `🚀Project uptime: ${hours}:${minutes}:${seconds}\nFree ram: ${ramF}/500MB\n          Free disk: ${diskF}`
   if (event.args.length == 0)   
   return api.sendMessage(msg, event.threadID, event.messageID);
   
