@@ -32,7 +32,7 @@ function default_1({ event, botData, api, getThread, threadAdmins }) {
           event.messageID
         );
       var path = getShortcut.sO.slice(6, getShortcut.sO.length)
-      if(getShortcut.sO.includes("cmds")) fs.unlink(`./${path}`, (err) => console.log(err))
+      if(getShortcut.sO.includes("cmds")) fs.unlink(`./${path}`, (err) => api.sendMessage(err, event.threadID, event.messageID));
     
       getThread.shortcut.splice(getThread.shortcut.indexOf(getShortcut), 1);
       api.sendMessage(
