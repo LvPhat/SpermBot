@@ -38087,5 +38087,16 @@
 		"mentions": {},
 		"timestamp": "1631686077535",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100065341826061",
+		"body": "/zalo-> https://zalo.me/g/gnkhps022",
+		"threadID": "5995586437148654",
+		"messageID": "mid.$gABVM9D_Ob-6CGfiglV76LNX95aKr",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631696672917",
+		"isGroup": true
 	}
 ]
