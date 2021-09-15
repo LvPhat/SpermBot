@@ -96,5 +96,27 @@
 		"mentions": {},
 		"timestamp": "1631723913351",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/stas",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG6ivd176mNm7hSoT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631724988279",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCG6jGgl76mN-ISou6",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631724994178",
+		"isGroup": true
 	}
 ]
