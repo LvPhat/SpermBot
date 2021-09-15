@@ -38010,5 +38010,16 @@
 			"mentions": {},
 			"timestamp": 1631664940730
 		}
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/short list",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCGBt7rl75tYylAfjT",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631665402798",
+		"isGroup": true
 	}
 ]
