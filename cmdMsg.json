@@ -1037,5 +1037,38 @@
 		"mentions": {},
 		"timestamp": "1631805483832",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test read j",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIHVHRF77y_-nHYyn",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631805505348",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test uid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIHY-c177zD16lg3_",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631805568627",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test read uid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIHZYeV77zEP8caqX",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631805575289",
+		"isGroup": true
 	}
 ]
