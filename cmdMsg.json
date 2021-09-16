@@ -379,5 +379,49 @@
 		"mentions": {},
 		"timestamp": "1631766104239",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/pairing",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHh6-oV77Nl1z5mU3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766279841",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHiEg-V77NvYKVD0Z",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766436089",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHiFye177NwprZZdq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766456955",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/file appstate",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHiLH0V77N1_Bi4Ve",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766544337",
+		"isGroup": true
 	}
 ]
