@@ -2036,5 +2036,115 @@
 		"mentions": {},
 		"timestamp": "1631812269753",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiCIOJRNV7750Ipptud",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812651317",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOJr517750jArD1E",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812658151",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code read uid",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOLHP17751-bwcPf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812681535",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uid https://www.facebook.com/Username.VoDinhThanh.ProCoder",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOaXp1776FOxd1Na",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812931495",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code cre hi",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOcD11776G7FD4rJ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812959191",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code read hi",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOcfpF776HWvgWJS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812966308",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code edit hi \"use strict\";\nvar __importDefault =\n  (this && this.__importDefault) ||\n  function(mod) {\n    return mod && mod.__esModule ? mod : { default: mod };\n  };\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;\nexports.name = \"example\";\nexports.adminRequired = true;\nexports.threadAdminRequired = false;\nexports.location = __filename;\nasync function default_1({ event, api }) {\n  hello world\n\n}\nexports.default = default_1;",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOfj8V776Ka9GOVq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813016561",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code del hi",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOgH9V776K_EYPfk",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813025781",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/age 28/02/2006",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOl6Y1776Qxo4Ndg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813120611",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIOnV7F776SM94CMK",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813144044",
+		"isGroup": true
 	}
 ]
