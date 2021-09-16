@@ -676,5 +676,16 @@
 		"mentions": {},
 		"timestamp": "1631801862924",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/audio thức giấc",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIEaNN177wFECNkdd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631802443063",
+		"isGroup": true
 	}
 ]

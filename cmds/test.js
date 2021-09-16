@@ -15,7 +15,6 @@ exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 async function default_1({ event, api }) {
-    const eventFiles = fs_extra_1.readdirSync(`${__dirname}/../events`).filter(item => item.endsWith('.js') && !item.includes('test'));
-         console.log(eventFiles) 
+  
 }
 exports.default = default_1;
