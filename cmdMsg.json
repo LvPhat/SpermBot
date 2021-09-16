@@ -346,5 +346,38 @@
 		"mentions": {},
 		"timestamp": "1631763414360",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/uptime",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHhu7PV77NZyWrZaU",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766082365",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHhveQl77NaVe21vL",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766091330",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCHhwQr177NbH3eg6b",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631766104239",
+		"isGroup": true
 	}
 ]
