@@ -2146,5 +2146,103 @@
 		"mentions": {},
 		"timestamp": "1631813144044",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/status",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIO1j5V776gbNm8iC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813376997",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.remoeUserFromGroup(botID, event.threadID)",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIO2ogF776hf0a-12",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813394560",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.removeUserFromGroup(botID, event.threadID)",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCIO3zFF776iqK0k1c",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813413652",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uptime",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCIO5vDl776kmTWauA",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813445390",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/pairing",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCIPEPTl776vGoiUWC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813617486",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/uid https://www.facebook.com/tuilatoanne1",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiCIPFmC1776wdd8lY7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813639691",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/ban 100070001477613",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGCIPK_C177611cVpkf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631813728011",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "5743961465676433",
+		"messageID": "mid.$gABRoGj7D4pGCIPL7Nl7762ybekgx",
+		"senderID": "100069279893724",
+		"attachments": [],
+		"body": "/unsend",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631813743414,
+		"messageReply": {
+			"threadID": "5743961465676433",
+			"messageID": "mid.$gABRoGj7D4pGCIPLEhV77617DiFWF",
+			"senderID": "100064427343444",
+			"attachments": [],
+			"body": "@Tôi Tên Toàn đã bị cấm vào nhóm này.",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631813729413
+		}
 	}
 ]
