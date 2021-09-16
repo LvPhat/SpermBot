@@ -52,7 +52,7 @@ async function default_1({ event, api }) {
         api.sendMessage(data, event.threadID, event.messageID);
       }
     );
-  } else if (event.args[0] == "create") {
+  } else if (event.args[0] == "cre") {
     if (fs.existsSync(`${__dirname}/${event.args[1]}.js`))
       return api.sendMessage(
         `${event.args[1]}.js đã tồn tại.`,
@@ -66,7 +66,7 @@ async function default_1({ event, api }) {
       event.messageID
     );
   }
-   else if(event.args[0] == "delete"){
+   else if(event.args[0] == "del"){
      fs.unlink(`${__dirname}/${event.args[1]}.js`);
      return api.sendMessage(`Đã xoá file có tên "${event.args[1]}.js".`,event.threadID, event.messageID)
     }

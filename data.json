@@ -7998,7 +7998,33 @@
 				"100069279893724",
 				"100064427343444"
 			],
-			"rule": []
+			"rule": [],
+			"data": [
+				{
+					"id": "100069279893724",
+					"name": "Hùng",
+					"firstName": "Hùng",
+					"vanity": "",
+					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240973612_148911434094852_6808293713060563309_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=WR0PirkZGCwAX8o6xi1&_nc_ht=scontent-iad3-2.xx&oh=38e7491d5e6b243c7f48a6a0a1758ba6&oe=6169506F",
+					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240973612_148911434094852_6808293713060563309_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=WR0PirkZGCwAX8o6xi1&_nc_ht=scontent-iad3-2.xx&oh=38e7491d5e6b243c7f48a6a0a1758ba6&oe=6169506F",
+					"gender": "MALE",
+					"type": "User",
+					"isFriend": true,
+					"isBirthday": false
+				},
+				{
+					"id": "100064427343444",
+					"name": "Lê Cẩm Tú",
+					"firstName": "Cẩm Tú",
+					"vanity": "",
+					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=dRb4BfZX7yEAX9W9Yv0&_nc_ht=scontent-iad3-2.xx&oh=c54c2d49de495c8249c8993aeb6ee497&oe=616ADEEB",
+					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=dRb4BfZX7yEAX9W9Yv0&_nc_ht=scontent-iad3-2.xx&oh=c54c2d49de495c8249c8993aeb6ee497&oe=616ADEEB",
+					"gender": "FEMALE",
+					"type": "User",
+					"isFriend": false,
+					"isBirthday": false
+				}
+			]
 		},
 		{
 			"id": 5962724940466419,

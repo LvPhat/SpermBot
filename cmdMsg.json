@@ -1772,5 +1772,82 @@
 		"mentions": {},
 		"timestamp": "1631809804192",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code delete hi",
+		"threadID": "4088159784538643",
+		"messageID": "mid.$gAA6GKN--EhOCILcp9F773HhLU7vd",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631809823220",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCILhDYl773L6uFE-v",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631809895266",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code read weathers",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCILnMJV773SDdQ1Xg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631809995813",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code read weather",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCILnqPF773ShrNS1p",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810003516",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code edit weather \"use strict\";\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;\r\nconst axios_1 = __importDefault(require(\"axios\"));\r\nexports.name = 'weather';\r\nexports.adminRequired = false;\r\nexports.threadAdminRequired = false;\r\nexports.location = __filename;\r\nasync function default_1({ event, api }) {\r\n    if (!event.contentMsg)\r\n        return api.sendMessage('Chưa nhập thành phố.', event.threadID, event.messageID);\r\n    try {\r\n        let { data } = await axios_1.default.get(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(event.contentMsg)}&appid=c60fccb7b772138838b88a0bb815d175&units=metric&lang=vi`);\r\n        if (data.cod == '200')\r\n            return api.sendMessage(`» Địa điểm: ${data.name} (${data.sys.country})\\n` +\r\n                `🔥 Nhiệt độ: ${data.main.temp}℃\\n` +\r\n                `🌡 Cảm giác: ${data.main.feels_like}℃\\n` +\r\n                `☁ Bầu trời: ${data.weather[0].description.replace(/(mây|bầu trời) /gi, '')}\\n` +\r\n                `💦Độ ẩm: ${data.main.humidity}%\\n` +\r\n                `💨Tốc độ gió: ${data.wind.speed}km/h`, event.threadID, event.messageID);\r\n        else\r\n            return api.sendMessage(`Không tìm thấy ${event.contentMsg}.`, event.threadID, event.messageID);\r\n    }\r\n    catch {\r\n        return api.sendMessage(`Không tìm thấy ${event.contentMsg}.`, event.threadID, event.messageID);\r\n    }\r\n}\r\nexports.default = default_1;",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIMCDV1773s6QOKRS",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810435927",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/weather Bắc Ninh",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIMC-vF773t2Cxhhz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810451132",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load weather",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIMDjW1773uam5GXe",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810460507",
+		"isGroup": true
 	}
 ]
