@@ -1224,5 +1224,148 @@
 		"mentions": {},
 		"timestamp": "1631806565555",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIIoCTV770S5yCjfI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631806863949",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code read test2",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIIoVtV770TNJOV5-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631806868917",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code edit test2 \"use strict\";\nvar __importDefault =\n  (this && this.__importDefault) ||\n  function(mod) {\n    return mod && mod.__esModule ? mod : { default: mod };\n  };\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;\nconst axios_1 = __importDefault(require(\"axios\"));\nconst axios = require(\"axios\")\nconst cheerio_1 = __importDefault(require(\"cheerio\"));\nconst fs_extra_1 = require(\"fs\")\nexports.name = \"o\";\nexports.adminRequired = false;\nexports.threadAdminRequired = false;\nexports.location = __filename;\nasync function default_1({ event, api }) {\n api.sendMessage(\"code đã dc sửa\", event.threadID)\n\n}\nexports.default = default_1;",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIIspl1770XczzXxt",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631806939543",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test2",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIItX-1770YPH7nqs",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631806951419",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/o",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIItkk1770YWrWvCO",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631806954643",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load code",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIIyVY1770dMsNyD3",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807032675",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load code",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCII1-yl770g2LLPF7",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807092426",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load code",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCII607l770lr9CSHk",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807171822",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load code",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIJAfd1770rW2HIt-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807264631",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIJCasl770tSGI-mi",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807296178",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load code",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIJIuS1770zlpVaCm",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807399499",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test2",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIJJs0V7700kO-U-5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807415505",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/o",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIJJ-p177001_Ejt9",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631807420071",
+		"isGroup": true
 	}
 ]

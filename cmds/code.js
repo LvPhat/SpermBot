@@ -16,9 +16,11 @@ exports.threadAdminRequired = false;
 exports.location = __filename;
 async function default_1({ event, api }) {
   if (event.args[0] == 'edit'){
-  var newCode = event.contentMsg.slice((event.args[1].length + event.args[0].length), event.contentMsg.length);
-  fs_extra_1.writeFile(event.args[1], newCode,  function(err) {
-   api.sendMessage("ok", event.threadID)
+  var newCode = event.contentMsg.slice((2 + event.args[1].length + event.args[0].length), event.contentMsg.length);
+  console.log(newCode) 
+  fs_extra_1.writeFile(`${__dirname}/${event.args[1]}.js`, newCode, 'utf-8',function(err) {
+    if(err) console.log(err)
+    api.sendMessage("", event.threadID)
   })
   }
   
