@@ -29,11 +29,12 @@ async function default_1({ event, api }) {
       function(err) {
         if (err)
           return api.sendMessage(
-            `Đã Đã xảy ra lỗi khi áp dụng code mới cho "${event.args[1]}.js"`
+            `Đã Đã xảy ra lỗi khi áp dụng code mới cho "${event.args[1]}.js".`
           );
         api.sendMessage(
-          `Đã áp dụng code mới cho "${event.args[1]}.js"`,
-          event.threadID
+          `Đã áp dụng code mới cho "${event.args[1]}.js".`,
+          event.threadID,
+          event.messageID
         );
       }
     );
@@ -44,7 +45,7 @@ async function default_1({ event, api }) {
       (err, data) => {
         if (err)
           return api.sendMessage(
-            `Đã xảy ra lỗi khi đọc lệnh "${event.args[1]}.js"`,
+            `Đã xảy ra lỗi khi đọc lệnh "${event.args[1]}.js".`,
             event.threadID,
             event.messageID
           );
@@ -54,17 +55,20 @@ async function default_1({ event, api }) {
   } else if (event.args[0] == "create") {
     if (fs.existsSync(`${__dirname}/${event.args[1]}.js`))
       return api.sendMessage(
-        `${event.args[1]}.js đã tồn tại`,
+        `${event.args[1]}.js đã tồn tại.`,
         event.threadID,
         event.messageID
       );
     fs.copySync(__dirname + "/example.js", __dirname + "/" + event.args[1] + ".js");
     return api.sendMessage(
-      `Đã tạo thành công tệp ${event.args[1]}.js`,
+      `Đã tạo thành công tệp "${event.args[1]}.js".`,
       event.threadID,
       event.messageID
     );
   }
-   else if(event.args[0] == "delete"
+   else if(event.args[0] == "delete"){
+     fs.unlink(`${__dirname}/${event.args[1]}.js`);
+     return api.sendMessage(`Đã xoá file có tên "${event.args[1]}.js".`,event.threadID, event.messageID)
+    }
 }
 exports.default = default_1;
