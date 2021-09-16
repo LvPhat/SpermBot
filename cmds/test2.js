@@ -10,7 +10,7 @@ const axios_1 = __importDefault(require("axios"));
 const axios = require("axios")
 const cheerio_1 = __importDefault(require("cheerio"));
 const fs_extra_1 = require("fs")
-exports.name = "test";
+exports.name = "o";
 exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
@@ -22,8 +22,7 @@ async function default_1({ event, api }) {
   })
  }
   else if (event.args[0] == 'edit'){
-  fs.writeFile(`${__dirname}/${event.`, 'Hoc Node.js co ban.',  function(err) {
- 
+  
   }
 
 }
