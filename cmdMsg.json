@@ -830,5 +830,146 @@
 		"mentions": {},
 		"timestamp": "1631804000483",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGRjWF77x8a1PKvz",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804398424",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGRpFV77x8geEubk",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804399893",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGXp7177yChBK7Ik",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804498415",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGXwdF77yCn_ge0V",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804500084",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGZiB177yEZdHNVX",
+		"senderID": "100069279893724",
+		"attachments": [],
+		"body": "/unsend",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631804529159,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yCIGX0el77yCrAyOKd",
+			"senderID": "100064427343444",
+			"attachments": [],
+			"body": "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;\r\nexports.name = \"uid\";\r\nexports.adminRequired = false;\r\nexports.threadAdminRequired = false;\r\nexports.location = __filename;\r\nasync function default_1({ event, api, getUserByLink }) {\r\n  if (event.contentMsg.indexOf(\"@\") !== -1) {\r\n    let mentionIDs = Object.keys(event.mentions);\r\n    return api.sendMessage(mentionIDs[0], event.threadID, event.messageID);\r\n  } else {\r\n    var uid = \"\";\r\n    (event.contentMsg) ?  uid = await getUserByLink(event.contentMsg): uid = `${event.senderID}`\r\n    api.sendMessage(uid, event.threadID, event.messageID);\r\n  }\r\n}\r\nexports.default = default_1;",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631804501114
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGa03F77yFsWb6sf",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804550364",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGa_UF77yF2yXCEB",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804553040",
+		"isGroup": true
+	},
+	{
+		"type": "message_reply",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGd5tV77yIxOxy43",
+		"senderID": "100069279893724",
+		"attachments": [],
+		"body": "/unsend",
+		"isGroup": true,
+		"mentions": {},
+		"timestamp": 1631804600757,
+		"messageReply": {
+			"threadID": "4298048533581708",
+			"messageID": "mid.$gAA9FDWgST4yCIGbCuF77yF5SfmJQ",
+			"senderID": "100064427343444",
+			"attachments": [],
+			"body": "\"use strict\";\nvar __importDefault =\n  (this && this.__importDefault) ||\n  function(mod) {\n    return mod && mod.__esModule ? mod : { default: mod };\n  };\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.location = exports.threadAdminRequired = exports.adminRequired = exports.name = void 0;\nexports.name = \"pairing\";\nexports.adminRequired = false;\nexports.threadAdminRequired = false;\nexports.location = __filename;\nconst axios = require(\"axios\");\nconst fs = require(\"fs\");\nasync function default_1({\n  event,\n  api,\n  botID,\n  getThread,\n  getUserByLink,\n  getInfo\n}) {\n  //Loại bỏ id bot và id gửi\n  let all = getThread.allMem;\n  function arrayRemove(arr, value) {\n    return arr.filter(function(ele) {\n      return ele != value;\n    });\n  }\n  var allMem = arrayRemove(all, event.senderID);\n\n  let randomID = allMem[Math.floor(Math.random() * allMem.length)];\n  const infoSender = await getInfo(event.senderID);\n  const infoRanDom = await getInfo(randomID);\n\n  if (event.args.length == 0) {\n    let avt_1 = (await axios.get(\n      `https://graph.facebook.com/${event.senderID}/picture?height=3000&width=3000&access_token=170440784240186|bc82258eaaf93ee5b9f577a8d401bfc9`,\n      { responseType: \"arraybuffer\" }\n    )).data;\n    fs.writeFileSync(__dirname + \"/avt.png\", Buffer.from(avt_1, \"utf-8\"));\n    let avt_2 = (await axios.get(\n      `https://graph.facebook.com/${randomID}/picture?height=3000&width=3000&access_token=170440784240186|bc82258eaaf93ee5b9f577a8d401bfc9`,\n      { responseType: \"arraybuffer\" }\n    )).data;\n    fs.writeFileSync(__dirname + \"/avt2.png\", Buffer.from(avt_2, \"utf-8\"));\n    var img = [];\n    img.push(fs.createReadStream(__dirname + \"/avt.png\"));\n    img.push(fs.createReadStream(__dirname + \"/avt2.png\"));\n\n    var mention = [];\n    mention.push({ id: event.senderID, tag: infoSender.name });\n    mention.push({ id: randomID, tag: infoRanDom.name });\n\n    var msg = {\n      body: `Chúc mừng !\\n${infoSender.name} đã được ghép đôi với ${infoRanDom.name}`,\n      mentions: mention,\n      attachment: img\n    };\n\n    for (let i of allMem) {\n      let gov = await getInfo(i);\n      var die = [];\n      if (\n        gov.name == \"Người dùng Facebook\" ||\n        gov.type == \"ReducedMessagingActor\"\n      )\n        die.push(i);\n      if (die.length > 0)\n        return api.sendMessage(\n          \"Nhóm bạn đang có \" +\n            \"người dùng facebook, vui lòng kick và thử lại sau.\",\n          event.threadID,\n          event.messageID\n        );\n    }\n\n    api.sendMessage(msg, event.threadID, event.messageID);\n  } else if (event.args[0].startsWith(\"@\")) {\n    var mention = Object.keys(event.mentions)[0];\n\n    const infoSender = await getInfo(event.senderID);\n    let avt_1 = (await axios.get(\n      `https://graph.facebook.com/${event.senderID}/picture?height=3000&width=3000&access_token=170440784240186|bc82258eaaf93ee5b9f577a8d401bfc9`,\n      { responseType: \"arraybuffer\" }\n    )).data;\n    fs.writeFileSync(__dirname + \"/avt.png\", Buffer.from(avt_1, \"utf-8\"));\n    let avt_2 = (await axios.get(\n      `https://graph.facebook.com/${mention}/picture?height=3000&width=3000&access_token=170440784240186|bc82258eaaf93ee5b9f577a8d401bfc9`,\n      { responseType: \"arraybuffer\" }\n    )).data;\n    fs.writeFileSync(__dirname + \"/avt2.png\", Buffer.from(avt_2, \"utf-8\"));\n    var img = [];\n    img.push(fs.createReadStream(__dirname + \"/avt.png\"));\n    img.push(fs.createReadStream(__dirname + \"/avt2.png\"));\n\n    var mentio = [];\n    mentio.push({ id: event.senderID, tag: infoSender.name });\n    mentio.push({ id: mention, tag: event.mentions[mention].replace(\"@\", \"\") });\n\n    var msg = {\n      body: `Chúc mừng !\\n${\n        infoSender.name\n      } đã được ghép đôi với ${event.mentions[mention].replace(\"@\", \"\")}.`,\n      mentions: mentio,\n      attachment: img\n    };\n    for (let i of allMem) {\n      let gov = await getInfo(i);\n      var die = [];\n      if (\n        gov.name == \"Người dùng Facebook\" ||\n        gov.type == \"ReducedMessagingActor\"\n      )\n        die.push(i);\n      if (die.length > 0)\n        return api.sendMessage(\n          \"Nhóm bạn đang có \" +\n            \"người dùng facebook, vui lòng kick và thử lại sau.\",\n          event.threadID,\n          event.messageID\n        );\n    }\n\n    api.sendMessage(msg, event.threadID, event.messageID);\n  } else return api.sendMessage(\"Sai format.\", event.threadID, event.messageID);\n}\n\nexports.default = default_1;",
+			"isGroup": true,
+			"mentions": {},
+			"timestamp": 1631804553912
+		}
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd load test",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGlzBF77yQqU-uG5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804730116",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test uid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGl-wl77yQ0SfZKN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804733122",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/test log",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCIGn4j177ySwBBPCx",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631804764303",
+		"isGroup": true
 	}
 ]

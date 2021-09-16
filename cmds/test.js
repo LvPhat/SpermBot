@@ -15,9 +15,9 @@ exports.adminRequired = false;
 exports.threadAdminRequired = false;
 exports.location = __filename;
 async function default_1({ event, api }) {
-  var data =  await fs_extra_1.readFile(`${__dirname}/uid.js`,(err, data) => {
+  var data =  await fs_extra_1.readFile(`${__dirname}/${event.args[0]}.js`,'utf-8',(err, data) => {
  if(err) console.log(err);
-    console.log(data)
+    api.sendMessage(data, event.threadID)
   })
   
 }
