@@ -10220,13 +10220,10 @@
 				{
 					"id": "100023326875133",
 					"name": "Đặng Văn Hùng",
-					"firstName": "Hùng",
 					"vanity": "hungchodz99",
-					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Ugg3iavtIuAAX_biCS7&_nc_ht=scontent-iad3-2.xx&oh=cb43c7ac318b20445118dd4bb3efe66b&oe=6147D8E2",
-					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/cp0/p60x60/214102031_957676471686573_1128713168486016864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Ugg3iavtIuAAX_biCS7&_nc_ht=scontent-iad3-2.xx&oh=cb43c7ac318b20445118dd4bb3efe66b&oe=6147D8E2",
-					"gender": "MALE",
-					"type": "User",
-					"isFriend": true,
+					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/cp0/p60x60/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=3YCurt1IZskAX_3M6PE&_nc_ht=scontent-iad3-2.xx&oh=9da485e310d435dbab633ebf45770741&oe=61689FA5",
+					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/cp0/p60x60/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=3YCurt1IZskAX_3M6PE&_nc_ht=scontent-iad3-2.xx&oh=9da485e310d435dbab633ebf45770741&oe=61689FA5",
+					"type": "ReducedMessagingActor",
 					"isBirthday": false
 				},
 				{
