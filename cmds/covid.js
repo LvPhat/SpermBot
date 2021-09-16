@@ -14,7 +14,7 @@ exports.location = __filename;
 async function default_1({ event, api }) {
   //@procoder mew
   var { data } = await axios.get(
-    "https://meewmeew.info/covid?apikey=Meew_UwbZldigKMeCrqWMiw7UbIPDOfDqOB"
+    "https://meewmeew.info/covid?apikey=Meew_xJd3Z9L5wH9dqxk9CpjFjt1ckvBBsK"
   );
   if (data.success == false) return api.sendMessage(data.error, event.threadID);
   var world = data.world,

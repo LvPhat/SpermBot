@@ -599,5 +599,38 @@
 		"mentions": {},
 		"timestamp": "1631791173365",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCH6PpS177l6gj4GaR",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631791784267",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/covid",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCH6PxVF77l6ogDNx0",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631791786324",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/system",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCH6VgWl77mAXb9oD-",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631791880282",
+		"isGroup": true
 	}
 ]
