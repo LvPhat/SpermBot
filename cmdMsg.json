@@ -566,5 +566,27 @@
 		"mentions": {},
 		"timestamp": "1631790294161",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCH46rKF77kliRaax5",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631790392104",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/status",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCH475PF77kmwV5kdQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631790412092",
+		"isGroup": true
 	}
 ]
