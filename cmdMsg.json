@@ -1981,5 +1981,60 @@
 		"mentions": {},
 		"timestamp": "1631811837580",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCINZTVV775EKiZeNE",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631811865429",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run api.removeUserFromGroup(botID, event.threadID)",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCINciHF775HZKgBcw",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631811918364",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/cmd count",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCINtcb1775YTjTd4Z",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812195439",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100028025838066",
+		"body": "/help",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCINww1F775boEmpp2",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812249812",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/short hi => hi",
+		"threadID": "4563174340369177",
+		"messageID": "mid.$gABA2LtGbGxmCINx-uV775c1xeufN",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631812269753",
+		"isGroup": true
 	}
 ]
