@@ -555,5 +555,16 @@
 		"mentions": {},
 		"timestamp": "1631769043384",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100023326875133",
+		"body": "/cmd load all",
+		"threadID": "4298048533581708",
+		"messageID": "mid.$gAA9FDWgST4yCH40skV77kfjqJxwq",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631790294161",
+		"isGroup": true
 	}
 ]
