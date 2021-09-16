@@ -1849,5 +1849,82 @@
 		"mentions": {},
 		"timestamp": "1631810460507",
 		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiCIMMRXV7733IfD1KQ",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810603357",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/run cmd.run(\"refresh\")",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KCIMRnaV7738ednVqC",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810690921",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/project",
+		"threadID": "3613441495423970",
+		"messageID": "mid.$gAAzWZ-jAW-KCIMahoF774FYzivgI",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810836896",
+		"isGroup": true
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiCIMa0KV774FrfOh69",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631810841641",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100070727704402",
+		"body": "/help",
+		"threadID": "100070727704402",
+		"messageID": "mid.$cAAAAAZiIIQaCIMpCr1774T6A9cQ1",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631811074735",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/help",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiCIMswSF774XnvQc-q",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631811135560",
+		"isGroup": false
+	},
+	{
+		"type": "message",
+		"senderID": "100069279893724",
+		"body": "/code read code",
+		"threadID": "100069279893724",
+		"messageID": "mid.$cAAAAASFE9oiCIMtDel774X63cPZg",
+		"attachments": [],
+		"mentions": {},
+		"timestamp": "1631811140474",
+		"isGroup": false
 	}
 ]

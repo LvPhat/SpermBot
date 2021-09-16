@@ -54,12 +54,15 @@ function default_1({ api, loadedCmds, loadedEvents }) {
     }
 
     //Check user or thread:
+    if(!botData.admins.includes(event.senderID)){
     if (event.senderID == event.threadID)
       return api.sendMessage(
         "Tài khoản này đang hoạt động botchat, hãy quay lại sau.\n" + "Prefix "+ botData.prefix,
         event.threadID,
         event.messageID
       );
+    };
+    
     //Scan member ban
     for (var i of getThread.ban.users) {
       if (getThread.ban.users.length == 0) return;

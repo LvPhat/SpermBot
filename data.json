@@ -1,7 +1,6 @@
 {
 	"prefix": "/",
 	"admins": [
-		100070727704402,
 		100069279893724,
 		100023326875133
 	],
@@ -7970,7 +7969,33 @@
 				"100070727704402",
 				"100071675553001"
 			],
-			"rule": []
+			"rule": [],
+			"data": [
+				{
+					"id": "100070727704402",
+					"name": "Nguyễn Phương Anh",
+					"firstName": "Phương Anh",
+					"vanity": "",
+					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/241182071_128856736148583_444942400367179534_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=fqVYSSdZWwsAX-pOvl5&_nc_ht=scontent-iad3-2.xx&oh=4b18f85ad6bdec7ae3f682bdbd366dbb&oe=61675A08",
+					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/241182071_128856736148583_444942400367179534_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=fqVYSSdZWwsAX-pOvl5&_nc_ht=scontent-iad3-2.xx&oh=4b18f85ad6bdec7ae3f682bdbd366dbb&oe=61675A08",
+					"gender": "FEMALE",
+					"type": "User",
+					"isFriend": true,
+					"isBirthday": false
+				},
+				{
+					"id": "100064427343444",
+					"name": "Lê Cẩm Tú",
+					"firstName": "Cẩm Tú",
+					"vanity": "",
+					"thumbSrc": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=dRb4BfZX7yEAX9W9Yv0&_nc_ht=scontent-iad3-2.xx&oh=c54c2d49de495c8249c8993aeb6ee497&oe=616ADEEB",
+					"profileUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/cp0/p60x60/240630322_214259020731675_5655839338819435987_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=dRb4BfZX7yEAX9W9Yv0&_nc_ht=scontent-iad3-2.xx&oh=c54c2d49de495c8249c8993aeb6ee497&oe=616ADEEB",
+					"gender": "FEMALE",
+					"type": "User",
+					"isFriend": false,
+					"isBirthday": false
+				}
+			]
 		},
 		{
 			"id": 100069279893724,
@@ -7995,8 +8020,7 @@
 				}
 			],
 			"allMem": [
-				"100069279893724",
-				"100064427343444"
+				"100069279893724"
 			],
 			"rule": [],
 			"data": [
