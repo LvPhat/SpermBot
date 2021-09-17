@@ -79,7 +79,7 @@ if (!fs_extra_1.existsSync("./audio.json"))
   fs_extra_1.writeFileSync("./audio.json", JSON.stringify([]));
 if (!fs_extra_1.existsSync("./data.json")) {
   let botData = {
-    prefix: "/",
+    prefix: "~",
     admins: [100070727704402],
     uptime: [],
     eventLog: false,
